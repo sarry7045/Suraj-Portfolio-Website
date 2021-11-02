@@ -257,6 +257,44 @@ body {
   display: none;
 }
 
+
+.Feedback{
+  /* background-color: #000; */
+  /* height: -10vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Feedback label{
+  position: relative;
+
+}
+.Feedback input[type="text"], input[placeholder="Give Feedback"]{
+  border: 2px solid #9da4c4;
+  width: 350px;
+  height: 48px;
+  padding: 0 15px;
+   
+}
+.Feedback input[placeholder="Give Feedback"]{
+font-size: 1.1rem;
+}
+
+.Feedback button{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2d46b9;
+  color: white;
+  padding: 0 15px;
+  letter-spacing: 1.5px;
+  border:none;
+  cursor: pointer;
+
+}
+
 @media (max-width: 765px) {
   .container {
     width: 100%;
