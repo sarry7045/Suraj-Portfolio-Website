@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import {
   FaFacebookF,
@@ -8,17 +8,23 @@ import {
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const About = () => {
-  // const form = useRef();
+  const notify = () => {
+    toast.success("Message Sent!", {
+      position: toast.POSITION.TOP_CENTER,
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "portfolioemails",
-        "portfolioemails",
+        "service_5jq6l6i",
+        "template_axubwul",
         e.target,
         "user_ppSiiPMQXzcx5D7p3Hj6D"
       )
@@ -130,19 +136,22 @@ const About = () => {
               </div>
             </Zoom>
           </div>
-          <div className="Feedback">
-            <form onSubmit={sendEmail}>
-              <label>
-                <strong>
-                  <input type="text" name="name" placeholder="Give Feedback" />
-                </strong>
-                <button onClick={sendEmail} style={{ fontSize: "1rem" }} type="submit">
-                  {" "}
-                  Submit
-                </button>
-              </label>
-            </form>
-          </div>
+
+          <form className="Feedback" onSubmit={sendEmail}>
+            <label>
+              <strong>
+                <input type="text" name="message" placeholder="Give Feedback" />
+              </strong>
+              <button
+                onClick={notify}
+                style={{ fontSize: "1rem" }}
+                type="submit"
+              >
+                Submit
+              </button>
+              <ToastContainer />
+            </label>
+          </form>
         </div>
       </div>
     </>
