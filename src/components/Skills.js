@@ -22,17 +22,18 @@ function Skills() {
             <h1 className="mainHeader">{header.subHeading}</h1>
             <div className="commonBorder"></div>
           </div>
-          <div class="Skill-Container">
+          <div className="Skill-Container">
             <Zoom>
               {" "}
               <ul>
-                <li class="React">React</li>
-                <li class="Redux">Redux</li>
-                <li class="Nodejs">Node.js</li>
-                <li class="API">API's Integration</li>
-                <li class="MongoDB">Mongo DB</li>
-                <li class="HTML">HTML</li>
-                <li class="CSS">CSS</li>
+                <li className="React">React</li>
+                <li className="Redux">Redux</li>
+                <li className="Formik">React Formik</li>
+                <li className="Nodejs">Node.js</li>
+                <li className="API">API's Integration</li>
+                <li className="MongoDB">Mongo DB</li>
+                <li className="HTML">HTML</li>
+                <li className="CSS">CSS</li>
               </ul>
             </Zoom>
           </div>
@@ -40,14 +41,14 @@ function Skills() {
             <h1 className="mainHeader">{secondheader.subHeading}</h1>
             <div className="commonBorder"></div>
           </div>
-          <div class="Skill-Container">
+          <div className="Skill-Container">
             <Zoom>
               <ul>
-                <li class="SEO">SEO</li>
-                <li class="SEM">SEM</li>
-                <li class="SMO">SMO</li>
-                <li class="SMM">SMM</li>
-                <li class="Google">Google Analytics</li>
+                <li className="SEO">SEO</li>
+                <li className="SEM">SEM</li>
+                <li className="SMO">SMO</li>
+                <li className="SMM">SMM</li>
+                <li className="Google">Google Analytics</li>
               </ul>
             </Zoom>
           </div>
@@ -55,15 +56,15 @@ function Skills() {
             <h1 className="mainHeader">{thirdheader.subHeading}</h1>
             <div className="commonBorder"></div>
           </div>
-          <div class="Skill-Container">
+          <div className="Skill-Container">
             <Zoom>
               <ul>
-                <li class="Word">Microsoft Word (Certified)</li>
-                <li class="Excel">Microsoft Excel (Certified)</li>
-                <li class="Powerpoint">Microsoft Powerpoint (Certified)</li>
-                <li class="Typing">Typing-40WPM (Certified)</li>
-                <li class="Canva">Canva</li>
-                <li class="Photoshop">Photoshop</li>
+                <li className="Word">Microsoft Word (Certified)</li>
+                <li className="Excel">Microsoft Excel (Certified)</li>
+                <li className="Powerpoint">Microsoft Powerpoint (Certified)</li>
+                <li className="Typing">Typing-40WPM (Certified)</li>
+                <li className="Canva">Canva</li>
+                <li className="Photoshop">Photoshop</li>
               </ul>
             </Zoom>
           </div>

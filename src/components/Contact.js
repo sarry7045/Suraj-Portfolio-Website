@@ -10,8 +10,31 @@ import { AiFillMail } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as yup from "yup";
 
 const About = () => {
+  const initialValues = {
+    fullname: "",
+    email: "",
+    phone: "",
+    feedback: "",
+  };
+
+  const validationSchema = yup.object().shape({
+    fullname: yup.string().required("Name is Required!"),
+    email: yup
+      .string()
+      .required("Email is Required!")
+      .email("Please Enter Valid Email"),
+    phone: yup.number().required("Phone is Required!"),
+    feedback: yup.string().required("Feedback is Required!").min(15).max(100),
+  });
+
+  const handleSubmit = (values) => {
+    console.log("Values", values);
+  };
+
   const notify = () => {
     toast.success("Message Sent!", {
       position: toast.POSITION.TOP_CENTER,
@@ -137,7 +160,7 @@ const About = () => {
             </Zoom>
           </div>
 
-          <form className="Feedback" onSubmit={sendEmail}>
+          {/* <form className="Feedback" onSubmit={sendEmail}>
             <label>
               <strong>
                 <input type="text" name="message" placeholder="Give Feedback" />
@@ -151,7 +174,60 @@ const About = () => {
               </button>
               <ToastContainer />
             </label>
-          </form>
+          </form> */}
+
+          <div className="wrapper">
+            <div className="title">Let's Connect</div>
+            <Formik
+              initialValues={initialValues}
+              validationSchema={validationSchema}
+              onSubmit={(values) => handleSubmit(values)}
+            >
+              <Form onSubmit={sendEmail}>
+                <div className="form">
+                  <div className="inputfield">
+                    <label>Full Name:</label>
+                    <Field type="text" name="fullname" className="input" />
+                    <br />
+                    <p style={{ color: "red" }}>
+                      <ErrorMessage name="fullname" />
+                    </p>
+                  </div>
+                  <div className="inputfield">
+                    <label>Email Address:</label>
+                    <Field type="text" name="email" className="input" />
+                    <p style={{ color: "red" }}>
+                      <ErrorMessage name="email" />
+                    </p>
+                  </div>
+                  <div className="inputfield">
+                    <label>Phone Number:</label>
+                    <Field type="text" name="phone" className="input" />
+                    <p style={{ color: "red" }}>
+                      <ErrorMessage name="phone" />
+                    </p>
+                  </div>
+                  <div className="inputfield">
+                    <label>Feedback:</label>
+                    <Field type="text" className="textarea" name="feedback" />
+                    <p style={{ color: "red" }}>
+                      <ErrorMessage name="feedback" />
+                    </p>
+                  </div>
+
+                  <div className="inputfield">
+                    <input
+                      onClick={notify}
+                      type="submit"
+                      value="Register"
+                      className="btn"
+                    />
+                  </div>
+                  <ToastContainer />
+                </div>
+              </Form>
+            </Formik>
+          </div>
         </div>
       </div>
     </>
