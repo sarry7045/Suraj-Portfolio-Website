@@ -28,6 +28,7 @@ function Skills() {
               <ul>
                 <li class="React">React</li>
                 <li class="Redux">Redux</li>
+                <li class="Formik">React Formik</li>
                 <li class="Nodejs">Node.js</li>
                 <li class="API">API's Integration</li>
                 <li class="MongoDB">Mongo DB</li>

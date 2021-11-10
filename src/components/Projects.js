@@ -10,16 +10,16 @@ const Services = () => {
     {
       id: 1,
       icon: <FaReact className="commonIcons" />,
-      heading: "React Website",
-      text: "In this Project i developing one of the best Animated website using React.",
-      href: "https://react-practice-website.netlify.app/",
+      heading: "FORM Validation Frontend",
+      text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
+      href: "https://mern-client-side.netlify.app/",
     },
     {
       id: 2,
       icon: <FaReact className="commonIcons" />,
-      heading: "FORM Validation Frontend",
-      text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
-      href: "https://mern-client-side.netlify.app/",
+      heading: "React-Formik",
+      text: "In this Project i Validate Some Types of Forms Using React Formik..",
+      href: "https://reactt-formik.netlify.app/",
     },
     {
       id: 3,
@@ -62,6 +62,13 @@ const Services = () => {
       heading: "React Features",
       text: "In this Project i Implement all the used-full and best packages of React.",
       href: "https://react-featuress.netlify.app/",
+    },
+    {
+      id: 9,
+      icon: <FaReact className="commonIcons" />,
+      heading: "React Website",
+      text: "In this Project i developing one of the best Animated website using React.",
+      href: "https://react-practice-website.netlify.app/",
     },
   ]);
   return (

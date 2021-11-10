@@ -70,6 +70,16 @@
   }
 }
 
+.Skill-Container li.Formik:after {
+  animation-name: Formik;
+}
+
+@keyframes Formik {
+  to {
+    width: 80%;
+  }
+}
+
 .Skill-Container li.Nodejs:after {
   animation-name: Nodejs;
 }
