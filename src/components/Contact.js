@@ -219,7 +219,7 @@ const About = () => {
                     <input
                       onClick={notify}
                       type="submit"
-                      value="Register"
+                      value="Send Details"
                       className="btn"
                     />
                   </div>

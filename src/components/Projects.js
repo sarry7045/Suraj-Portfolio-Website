@@ -18,7 +18,7 @@ const Services = () => {
       id: 2,
       icon: <FaReact className="commonIcons" />,
       heading: "React-Formik",
-      text: "In this Project i Validate Some Types Of Forms Using React Formik...",
+      text: "In this Project i Validate Some Types of Forms Using React Formik..",
       href: "https://reactt-formik.netlify.app/",
     },
     {

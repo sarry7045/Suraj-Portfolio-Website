@@ -26,14 +26,14 @@ function Skills() {
             <Zoom>
               {" "}
               <ul>
-                <li className="React">React</li>
-                <li className="Redux">Redux</li>
-                <li className="Formik">React Formik</li>
-                <li className="Nodejs">Node.js</li>
-                <li className="API">API's Integration</li>
-                <li className="MongoDB">Mongo DB</li>
-                <li className="HTML">HTML</li>
-                <li className="CSS">CSS</li>
+                <li class="React">React</li>
+                <li class="Redux">Redux</li>
+                <li class="Formik">React Formik</li>
+                <li class="Nodejs">Node.js</li>
+                <li class="API">API's Integration</li>
+                <li class="MongoDB">Mongo DB</li>
+                <li class="HTML">HTML</li>
+                <li class="CSS">CSS</li>
               </ul>
             </Zoom>
           </div>
