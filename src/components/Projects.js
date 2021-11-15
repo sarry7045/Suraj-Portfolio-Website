@@ -38,16 +38,16 @@ const Services = () => {
     {
       id: 5,
       icon: <FaReact className="commonIcons" />,
-      heading: "React Todo-List",
-      text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
-      href: "https://basic-reactt-todo-list.netlify.app/",
+      heading: "React Features",
+      text: "In this Project i Implement all the used-full and best packages of React.",
+      href: "https://react-featuress.netlify.app/",
     },
     {
       id: 6,
       icon: <FaReact className="commonIcons" />,
-      heading: "Redux Todo-List",
-      text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
-      href: "https://reduxx-todo-list.netlify.app/",
+      heading: "React Todo-List",
+      text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
+      href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
       id: 7,
@@ -59,10 +59,11 @@ const Services = () => {
     {
       id: 8,
       icon: <FaReact className="commonIcons" />,
-      heading: "React Features",
-      text: "In this Project i Implement all the used-full and best packages of React.",
-      href: "https://react-featuress.netlify.app/",
+      heading: "Redux Todo-List",
+      text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
+      href: "https://reduxx-todo-list.netlify.app/",
     },
+
     {
       id: 9,
       icon: <FaReact className="commonIcons" />,
