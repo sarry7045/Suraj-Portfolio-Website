@@ -31,33 +31,40 @@ const Services = () => {
     {
       id: 4,
       icon: <FaReact className="commonIcons" />,
+      heading: "Weather App",
+      text: "In this Project i created one Weather Checking app using Weather API.",
+      href: "https://react-weatther-app.netlify.app/",
+    },
+    {
+      id: 5,
+      icon: <FaReact className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       icon: <FaReact className="commonIcons" />,
       heading: "React Features",
       text: "In this Project i Implement all the used-full and best packages of React.",
       href: "https://react-featuress.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       icon: <FaReact className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
-      id: 7,
+      id: 8,
       icon: <FaReact className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
       href: "https://redux-shopping-store.netlify.app/",
     },
     {
-      id: 8,
+      id: 9,
       icon: <FaReact className="commonIcons" />,
       heading: "Redux Todo-List",
       text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
@@ -65,7 +72,7 @@ const Services = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       icon: <FaReact className="commonIcons" />,
       heading: "React Website",
       text: "In this Project i developing one of the best Animated website using React.",
