@@ -25,7 +25,7 @@ nav ul {
 nav ul li {
   margin: 0 8px;
 }
-nav ul li .navv {
+nav ul li a {
   color: #f2f2f2;
   text-decoration: none;
   font-size: 16.5px;
@@ -74,24 +74,24 @@ input[type="checkbox"] {
     width: 100%;
     margin: 35px 0;
   }
-  nav ul li .navv {
+  nav ul li a {
     width: 100%;
     margin-left: -100%;
     display: block;
     font-size: 20px;
   }
-  #click:checked ~ ul li .navv {
+  #click:checked ~ ul li a {
     margin-left: 0px;
   }
 
-  nav ul li .navv:hover {
+  nav ul li a:hover {
     background: none;
     color: #2d46b9;
   }
   nav .logo {
     font-size: 1.8rem;
   }
-  nav ul li .navv {
+  nav ul li a {
     font-size: 1.2rem;
   }
 }
