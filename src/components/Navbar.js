@@ -13,21 +13,29 @@ const Nav = () => {
         </label>
         <ul>
           <li>
-            <a className="active" href="/">
+            <Link className="active navv" to="/">
               About Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/skills">Skills</a>
+            <Link className="navv" to="/skills">
+              Skills
+            </Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link className="navv" to="/projects">
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="/experience">Experience</a>
+            <Link className="navv" to="/experience">
+              Experience
+            </Link>
           </li>
           <li>
-            <a href="/about">Contact Me</a>
+            <Link className="navv" to="/about">
+              Contact Me
+            </Link>
           </li>
         </ul>
       </nav>
