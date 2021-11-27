@@ -10,7 +10,7 @@ const Services = () => {
     {
       id: 1,
       icon: <FaReact className="commonIcons" />,
-      heading: "FORM Validation Frontend",
+      heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
       href: "https://mern-client-side.netlify.app/",
     },
@@ -75,7 +75,7 @@ const Services = () => {
       id: 10,
       icon: <FaReact className="commonIcons" />,
       heading: "React Website",
-      text: "In this Project i developing one of the best Animated website using React.",
+      text: "In this Project i trying to developing one of the best Animated website using React.",
       href: "https://react-practice-website.netlify.app/",
     },
   ]);
