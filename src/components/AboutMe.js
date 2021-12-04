@@ -26,7 +26,7 @@ const AboutMe = () => {
   return (
     <>
       <Helmet>
-        <title>About Me</title>
+        <title>Suraj Yadav | Software Development | Digital Marketing</title>
 
         <meta
           name="description"

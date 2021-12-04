@@ -18,7 +18,7 @@ function Skills() {
   return (
     <>
       <Helmet>
-        <title>My Skills</title>
+        <title>Programming and Digital Marketing Skills</title>
 
         <meta
           name="description"
@@ -27,7 +27,7 @@ function Skills() {
         <meta
           name="keywords"
           content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
-        /> 
+        />
       </Helmet>
       <div>
         <div className="skillscontainer">

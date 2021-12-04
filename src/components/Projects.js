@@ -83,7 +83,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>My Projects</title>
+        <title>Projects</title>
 
         <meta
           name="description"
