@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import Zoom from "react-reveal/Zoom";
+import Helmet from "react-helmet";
 
 const Services = () => {
   const [header] = React.useState({
@@ -80,46 +81,60 @@ const Services = () => {
     },
   ]);
   return (
-    <div className="services">
-      <div className="container">
-        <div className="services__header">
-          <div className="common">
-            <h1 className="mainHeader">{header.subHeading}</h1>
+    <>
+      <Helmet>
+        <title>My Projects</title>
 
-            <div className="commonBorder"></div>
-          </div>
+        <meta
+          name="description"
+          content="My all Completed and Ongoing Projects"
+        />
+        <meta
+          name="keywords"
+          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+        />
+      </Helmet>
+      <div className="services">
+        <div className="container">
+          <div className="services__header">
+            <div className="common">
+              <h1 className="mainHeader">{header.subHeading}</h1>
 
-          <div className="row bgMain">
-            {state.map((info) => (
-              <div className="col-4 bgMain">
-                <Zoom>
-                  <div className="services__box">
-                    {info.icon}
-                    <div className="services__box-header">{info.heading}</div>
-                    <div className="">{info.text}</div>
-                  </div>
-                </Zoom>
-                <Zoom>
-                  {" "}
-                  <div
-                    style={{ margin: "3rem 0 3rem 2.3rem" }}
-                    className="header_buttons"
-                  >
-                    <a
-                      href={info.href}
-                      target="_blank"
-                      className="btn btn-outline"
+              <div className="commonBorder"></div>
+            </div>
+
+            <div className="row bgMain">
+              {state.map((info) => (
+                <div className="col-4 bgMain">
+                  <Zoom>
+                    <div className="services__box">
+                      {info.icon}
+                      <div className="services__box-header">{info.heading}</div>
+                      <div className="">{info.text}</div>
+                    </div>
+                  </Zoom>
+                  <Zoom>
+                    {" "}
+                    <div
+                      style={{ margin: "3rem 0 3rem 2.3rem" }}
+                      className="header_buttons"
                     >
-                      View Project
-                    </a>
-                  </div>
-                </Zoom>
-              </div>
-            ))}
+                      <a
+                        href={info.href}
+                        target="_blank"
+                        className="btn btn-outline"
+                      >
+                        View Project
+                      </a>
+                    </div>
+                  </Zoom>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

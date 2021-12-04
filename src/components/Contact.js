@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import emailjs from "emailjs-com";
 import {
   FaFacebookF,
@@ -12,6 +12,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
+import Helmet from "react-helmet";
 
 const About = () => {
   const initialValues = {
@@ -69,6 +70,18 @@ const About = () => {
   ]);
   return (
     <>
+      <Helmet>
+        <title>Contact Me</title>
+
+        <meta
+          name="description"
+          content="Contact Me For Website Development , Software Development, or Digital Marketing Like SEO, PCC, SMO etc."
+        />
+        <meta
+          name="keywords"
+          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+        />
+      </Helmet>
       <div className="about">
         <div className="container">
           {/* <div className="common"></div> */}
