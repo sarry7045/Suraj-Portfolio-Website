@@ -99,7 +99,7 @@ const About = () => {
                 <div className="about__info">
                   <h1>Let's Connect</h1>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    "I am an innovative ReactJs Developer With 1 + Year Of
+                    "I am an innovative ReactJs Developer With Multiple Years Of
                     experience in Web Development, Software Development and
                     Digital Marketing.
                   </div>
@@ -124,15 +124,14 @@ const About = () => {
                             />
                           </li>
                         </a>
-                        <a href="mailto: sarry7045@gmail.com">
+                        <a href="https://github.com/sarry7045" target="_blank">
                           <li>
-                            <AiFillMail
-                              className="headerIcon"
+                            <FaGithub
+                              className="headerIconGit"
                               style={{ color: "#FFF" }}
                             />
                           </li>
                         </a>
-
                         <a
                           href="https://www.instagram.com/suraj.28_11/"
                           target="_blank"
@@ -145,14 +144,6 @@ const About = () => {
                             />
                           </li>
                         </a>
-                        <a href="https://github.com/sarry7045" target="_blank">
-                          <li>
-                            <FaGithub
-                              className="headerIconGit"
-                              style={{ color: "#FFF" }}
-                            />
-                          </li>
-                        </a>
                         <a
                           href="https://www.facebook.com/profile.php?id=100010635822203"
                           target="_blank"
@@ -160,6 +151,14 @@ const About = () => {
                           {" "}
                           <li>
                             <FaFacebookF
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                        <a href="mailto: sarry7045@gmail.com">
+                          <li>
+                            <AiFillMail
                               className="headerIcon"
                               style={{ color: "#FFF" }}
                             />

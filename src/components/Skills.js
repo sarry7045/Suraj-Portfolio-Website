@@ -61,8 +61,8 @@ function Skills() {
                   <li className="SEO">SEO</li>
                   <li className="SEM">SEM</li>
                   <li className="SMO">SMO</li>
-                  <li className="SMM">SMM</li>
-                  <li className="Google">Google Analytics</li>
+                  <li className="SMM">PPC</li>
+                  <li className="Google">Google Adds</li>
                 </ul>
               </Zoom>
             </div>

@@ -6,20 +6,14 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
-import jsPDF from "jspdf";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
+import pdf from "./Suraj Resume.pdf";
 
 const AboutMe = () => {
-  const pdfGenerate = () => {
-    var doc = new jsPDF("landscape", "px", "a4", "false");
-    doc.addImage("/images/Suraj-Resume.jpg", "JPG", 50, 0, 450, 480);
-    doc.save("Suraj-Yadav-Resume.pdf");
-  };
-
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an innovative ReactJs Developer With 1 + Year Of experience in Web Development, Software Development and Digital Marketing.",
+    text: "I am an innovative ReactJs Developer With Multiple Years Of experience in Web Development, Software Development and Digital Marketing.",
     image: "/images/Avatar.png",
   });
 
@@ -58,16 +52,14 @@ const AboutMe = () => {
                             />
                           </li>
                         </a>
-                        <a href="mailto: sarry7045@gmail.com">
-                          {" "}
+                        <a href="https://github.com/sarry7045" target="_blank">
                           <li>
-                            <AiFillMail
-                              className="headerIcon"
+                            <FaGithub
+                              className="headerIconGit"
                               style={{ color: "#FFF" }}
                             />
                           </li>
                         </a>
-
                         <a
                           href="https://www.instagram.com/suraj.28_11/"
                           target="_blank"
@@ -76,14 +68,6 @@ const AboutMe = () => {
                           <li>
                             <FaInstagram
                               className="headerIcon"
-                              style={{ color: "#FFF" }}
-                            />
-                          </li>
-                        </a>
-                        <a href="https://github.com/sarry7045" target="_blank">
-                          <li>
-                            <FaGithub
-                              className="headerIconGit"
                               style={{ color: "#FFF" }}
                             />
                           </li>
@@ -100,15 +84,21 @@ const AboutMe = () => {
                             />
                           </li>
                         </a>
+
+                        <a href="mailto: sarry7045@gmail.com">
+                          {" "}
+                          <li>
+                            <AiFillMail
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
                       </ul>
                       <h1>{state.title}</h1>
                       <p>{state.text}</p>
                       <div className="header_buttons">
-                        <a
-                          href="/"
-                          className="btn btn-outline"
-                          onClick={pdfGenerate}
-                        >
+                        <a href={pdf} className="btn btn-outline">
                           Download Resume
                         </a>
                       </div>
