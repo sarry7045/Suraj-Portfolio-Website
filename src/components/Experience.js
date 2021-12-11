@@ -86,14 +86,17 @@ const About = () => {
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
                     Integrating API's, Working on all the Front-End part of
-                    M-TRANSACT, TAKA-PAISA (Online Payment Software).
-                  </div>
+                    M-TRANSACT, TAKA-PAISA (White Label Online Payment Software).
+                  
+                  </div>  <a className="Website-link" href="https://cmob.paymentz.com/index/login?walletOwnerId=1"   target="_blank">cmob.paymentz.com</a>
                   <div className="info__contacts">
                     <div className="row">
                       {statee.map((infoo) => (
                         <div className="col-6">
                           <strong>{infoo.title}</strong>
+                         
                           <p>{infoo.text}</p>
+                        
                         </div>
                       ))}
                     </div>
