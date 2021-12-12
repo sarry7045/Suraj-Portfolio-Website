@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e810a66daaf15914315155821e052144",
+    "revision": "d49678333913275b0cf5625810ef9074",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.a63ca25f.chunk.css"
   },
   {
-    "revision": "58c59668e609cbd78694",
+    "revision": "2ab9f4527bd50a9e4ef5",
     "url": "/static/css/main.4153e198.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0a9be831.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58c59668e609cbd78694",
-    "url": "/static/js/main.db6345a6.chunk.js"
+    "revision": "2ab9f4527bd50a9e4ef5",
+    "url": "/static/js/main.2652ff8a.chunk.js"
   },
   {
     "revision": "1422f143402fd369506c",
     "url": "/static/js/runtime-main.c4c9f97b.js"
   },
   {
-    "revision": "a7b8c26f76c483a1465af58e761b4d02",
-    "url": "/static/media/Suraj Resume.a7b8c26f.pdf"
+    "revision": "68fc279df50a2596fec6620d4e9ead7b",
+    "url": "/static/media/Suraj Resume.68fc279d.pdf"
   }
 ]);
