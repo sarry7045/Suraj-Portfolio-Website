@@ -98,7 +98,11 @@ const AboutMe = () => {
                       <h1>{state.title}</h1>
                       <p>{state.text}</p>
                       <div className="header_buttons">
-                        <a href={pdf} className="btn btn-outline" target="_blank">
+                        <a
+                          href={pdf}
+                          className="btn btn-outline"
+                          target="_blank"
+                        >
                           Download Resume
                         </a>
                       </div>
