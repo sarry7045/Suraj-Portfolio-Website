@@ -64,13 +64,13 @@ const Services = () => {
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
       href: "https://redux-shopping-store.netlify.app/",
     },
-    {
-      id: 9,
-      icon: <FaReact className="commonIcons" />,
-      heading: "Redux Todo-List",
-      text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
-      href: "https://reduxx-todo-list.netlify.app/",
-    },
+    // {
+    //   id: 9,
+    //   icon: <FaReact className="commonIcons" />,
+    //   heading: "Redux Todo-List",
+    //   text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
+    //   href: "https://reduxx-todo-list.netlify.app/",
+    // },
 
     {
       id: 10,
