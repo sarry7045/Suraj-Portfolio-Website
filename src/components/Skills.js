@@ -48,7 +48,7 @@ function Skills() {
                   <li class="MongoDB">Mongo DB</li>
                   <li class="Tailwind">Tailwind-CSS</li>
                   <li class="HTML">HTML</li>
-                  <li class="CSS">CSS</li>
+                  <li class="CSS">SCSS</li>
                 </ul>
               </Zoom>
             </div>
