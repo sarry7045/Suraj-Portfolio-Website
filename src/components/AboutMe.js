@@ -13,7 +13,7 @@ import pdf from "./Suraj Resume.pdf";
 const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an innovative ReactJs Developer With Multiple Years Of experience in Web Development, Software Development and Digital Marketing.",
+    text: "I am an innovative ReactJs Developer With 2 Years Of experience in Web Development, Software Development and Digital Marketing.",
     image: "/images/Avatar.png",
   });
 

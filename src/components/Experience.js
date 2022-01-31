@@ -52,9 +52,9 @@ const About = () => {
                   <h1>IXAR Robotic Solutions Pvt. Ltd.</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Working as Front-end Web-Developer and Build Beautiful,
-                    animated website using Reactjs, Nodejs, MongoDB, HTML and
-                    CSS.
+                    Worked as a Front-End Web Developer and build beautiful
+                    Responsive website using ReactJs, NodeJs, Material-UI,
+                    Formik etc.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
                     Also Performed SEO (Search Engine Optimization) for website,
@@ -85,9 +85,8 @@ const About = () => {
                     Working as ReactJs Developer
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Integrating API's, Working on all the Front-End part of
-                    M-TRANSACT, TAKA-PAISA (Online Payment
-                    Software) (White Lable Solution).
+                    Working on API’s, and all the Front-end part of M-TRANSACT
+                    (Online Payment Software) and MY-SOCIETY.
                   </div>{" "}
                   <a
                     className="Website-link"
