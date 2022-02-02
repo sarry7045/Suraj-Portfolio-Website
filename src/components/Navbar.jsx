@@ -2,10 +2,11 @@ import React from "react";
 import "../Components/CSS/Navbar.css";
 
 const Nav = () => {
+  const Portfolio = "<PortFolio/>"
   return (
     <>
       <nav>
-        <div className="logo">Port-Folio</div>
+        <div className="logo">{Portfolio}</div>
         <input type="checkbox" id="click" />
         <label for="click" className="menu-btn">
           <i className="fa fa-bars"></i>
