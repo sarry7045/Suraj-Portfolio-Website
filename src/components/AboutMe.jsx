@@ -8,7 +8,7 @@ import {
 import { AiFillMail } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
-import pdf from "./Suraj Resume.pdf";
+import pdf from "../PDF/Suraj Resume.pdf";
 
 const AboutMe = () => {
   const [state] = React.useState({

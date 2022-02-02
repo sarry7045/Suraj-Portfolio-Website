@@ -1,13 +1,12 @@
 import React from "react";
-import "./App.css";
-
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import AboutMe from "./components/AboutMe";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Navbar from "./components/Navbar";
+import "../src/Components/CSS/App.css";
+import Projects from "./Components/Projects.jsx";
+import Contact from "./Components/Contact.jsx";
+import AboutMe from "./Components/AboutMe.jsx";
+import Skills from "./Components/Skills.jsx";
+import Experience from "./Components/Experience.jsx";
+import Navbar from "./Components/Navbar.jsx";
 
 function App() {
   return (
