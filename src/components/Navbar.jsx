@@ -4,7 +4,9 @@ import "../Components/CSS/Navbar.css";
 const Nav = () => {
   const Portfolio = "<PortFolio/>";
   return (
-    <>  
+    <> 
+    
+     
       <nav>
         <a href="/" className="logo">{Portfolio}</a>
         <input type="checkbox" id="click" />
