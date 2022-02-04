@@ -17,6 +17,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^3.4.3",
     "react-toastify": "^8.1.0",
+    "typewriter-effect": "^2.18.2",
     "yup": "^0.32.11"
   },
   "scripts": {

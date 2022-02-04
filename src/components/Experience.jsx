@@ -30,9 +30,9 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>My Working Experience</title>
+        <title>Working Experience</title>
 
-        <meta name="description" content="My Working Experience" />
+        <meta name="description" content="Working Experience" />
         <meta
           name="keywords"
           content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "

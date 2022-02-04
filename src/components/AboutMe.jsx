@@ -9,6 +9,7 @@ import { AiFillMail } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import pdf from "../PDF/Suraj Resume.pdf";
+import Typewriter from "typewriter-effect";
 
 const AboutMe = () => {
   const [state] = React.useState({
@@ -95,7 +96,22 @@ const AboutMe = () => {
                           </li>
                         </a>
                       </ul>
-                      <h1>{state.title}</h1>
+                      {/* <h1>{state.title}</h1> */}
+                      <h1>
+                        <Typewriter
+                          onInit={(typewriter) => {
+                            typewriter
+                              .typeString("Suraj Anil Yadav")
+                              .pauseFor(500)
+                              .deleteAll()
+                              .typeString("ReactJs Developer")
+                              .pauseFor(500)
+                              .start()
+                              .deleteAll()
+                              .typeString("Suraj Anil Yadav");
+                          }}
+                        />
+                      </h1>
                       <p>{state.text}</p>
                       <div className="header_buttons">
                         <a

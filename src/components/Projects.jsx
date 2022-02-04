@@ -1,5 +1,15 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
+import {
+  MdAppRegistration,
+  MdOutlineCoronavirus,
+  MdOutlineFoodBank,
+} from "react-icons/md";
+import { AiOutlineForm, AiOutlineShoppingCart } from "react-icons/ai";
+import { RiVideoChatLine } from "react-icons/ri";
+import { TiWeatherCloudy } from "react-icons/ti";
+import { GiNotebook } from "react-icons/gi";
+import { BsTextareaT } from "react-icons/bs";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 
@@ -10,35 +20,35 @@ const Services = () => {
   const [state] = React.useState([
     {
       id: 1,
-      icon: <FaReact className="commonIcons" />,
+      icon: <MdAppRegistration className="commonIcons" />,
       heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
       href: "https://mern-client-side.netlify.app/",
     },
     {
       id: 2,
-      icon: <FaReact className="commonIcons" />,
+      icon: <AiOutlineForm className="commonIcons" />,
       heading: "React-Formik",
-      text: "In this Project i Validate Some Types of Forms Using React Formik.",
+      text: "In this Project i Created 4 Registration Forms Using React Formik.",
       href: "https://reactt-formik.netlify.app/",
     },
     {
       id: 3,
-      icon: <FaReact className="commonIcons" />,
+      icon: <RiVideoChatLine className="commonIcons" />,
       heading: "Video Chat App",
       text: "In this Project i created one Video Chat app using Socket.IO and Material-UI.",
       href: "https://videeo-chatt-app.netlify.app/",
     },
     {
       id: 4,
-      icon: <FaReact className="commonIcons" />,
+      icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "React Add-To-Cart",
       text: "In this Project i created one Add to Cart aap With Some Funcationality.",
       href: "https://shoppingg-caart.netlify.app/",
     },
     {
       id: 5,
-      icon: <FaReact className="commonIcons" />,
+      icon: <MdOutlineCoronavirus className="commonIcons" />,
       heading: "Covid19 Tracker",
       text: "In this Project i created one Covid 19 Cases Tracker App with Graph Representation.",
       href: "https://coviid19-tracker.netlify.app/",
@@ -46,21 +56,21 @@ const Services = () => {
 
     {
       id: 6,
-      icon: <FaReact className="commonIcons" />,
+      icon: <MdOutlineFoodBank className="commonIcons" />,
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
     },
     {
       id: 7,
-      icon: <FaReact className="commonIcons" />,
+      icon: <TiWeatherCloudy className="commonIcons" />,
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
     },
     {
       id: 8,
-      icon: <FaReact className="commonIcons" />,
+      icon: <BsTextareaT className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
@@ -74,14 +84,14 @@ const Services = () => {
     },
     {
       id: 10,
-      icon: <FaReact className="commonIcons" />,
+      icon: <GiNotebook className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
       id: 11,
-      icon: <FaReact className="commonIcons" />,
+      icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
       href: "https://redux-shopping-store.netlify.app/",
@@ -138,7 +148,7 @@ const Services = () => {
                   <Zoom>
                     {" "}
                     <div
-                      style={{ margin: "3rem 0 3rem 2.3rem" }}
+                      style={{ margin: "2.5rem 0 4rem 2rem" }}
                       className="header_buttons"
                     >
                       <a
