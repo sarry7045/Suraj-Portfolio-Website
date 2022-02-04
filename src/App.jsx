@@ -10,6 +10,7 @@ import Navbar from "./Components/Navbar.jsx";
 
 function App() {
   return (
+    
     <div>
       <Router>
         <Navbar />
