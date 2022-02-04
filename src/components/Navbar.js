@@ -4,11 +4,11 @@ import "../Components/CSS/Navbar.css";
 const Nav = () => {
   const Portfolio = "<PortFolio/>";
   return (
-    <> 
-    
-     
+    <>
       <nav>
-        <a href="/" className="logo">{Portfolio}</a>
+        <a href="/" className="logo">
+          {Portfolio}
+        </a>
         <input type="checkbox" id="click" />
         <label for="click" className="menu-btn">
           <i className="fa fa-bars"></i>
