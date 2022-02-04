@@ -158,7 +158,6 @@ const Services = () => {
                       >
                         View Project
                       </a>
-                      
                     </div>
                   </Zoom>
                 </div>

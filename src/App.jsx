@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../src/components/css/App.css";
-import Projects from "./components/Projects.js";
-import Contact from "./components/Contact.js";
-import AboutMe from "./components/AboutMe.js";
-import Skills from "./components/Skills.js";
-import Experience from "./components/Experience.js";
-import Navbar from "./components/Navbar.js";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import Skills from "./components/Skills.jsx";
+import Experience from "./components/Experience.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <div>
-<Router>
+      <Router>
         <Navbar />
 
-      <Route exact path="/">
+        <Route exact path="/">
           <AboutMe />
         </Route>
 
