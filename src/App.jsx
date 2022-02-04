@@ -11,7 +11,7 @@ import Navbar from "./Components/Navbar.jsx";
 function App() {
   return (
     <div>
-    <Router>
+      <Router>
         <Navbar />
 
         <Route exact path="/">
