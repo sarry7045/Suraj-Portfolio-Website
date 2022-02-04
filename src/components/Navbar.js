@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/CSS/Navbar.css";
+import "../components/css/Navbar.css";
 
 const Nav = () => {
   const Portfolio = "<PortFolio/>";

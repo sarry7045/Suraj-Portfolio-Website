@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/CSS/Skills.css";
+import "../components/css/Skills.css";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 
