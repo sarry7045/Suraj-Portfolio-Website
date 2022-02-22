@@ -28,9 +28,9 @@ const Services = () => {
     {
       id: 2,
       icon: <AiOutlineForm className="commonIcons" />,
-      heading: "React-Formik",
-      text: "In this Project i Created 4 Registration Forms Using React Formik.",
-      href: "https://reactt-formik.netlify.app/",
+      heading: "Multi-Step Form",
+      text: "In this Project i Created Multistep Form Using Formik and Some Functionality.",
+      href: "https://multistepp-form.netlify.app/",
     },
     {
       id: 3,
@@ -53,44 +53,50 @@ const Services = () => {
       text: "In this Project i created one Covid 19 Cases Tracker App with Graph Representation.",
       href: "https://coviid19-tracker.netlify.app/",
     },
-
     {
       id: 6,
+      icon: <AiOutlineForm className="commonIcons" />,
+      heading: "React-Formik",
+      text: "In this Project i Created 4 Registration Forms Using React Formik.",
+      href: "https://reactt-formik.netlify.app/",
+    },
+    {
+      id: 7,
       icon: <MdOutlineFoodBank className="commonIcons" />,
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
     },
     {
-      id: 7,
+      id: 8,
       icon: <TiWeatherCloudy className="commonIcons" />,
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
     },
     {
-      id: 8,
+      id: 9,
       icon: <BsTextareaT className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
     },
     {
-      id: 9,
+      id: 10,
       icon: <FaReact className="commonIcons" />,
       heading: "React Features",
       text: "In this Project i Implement all the used-full and best packages of React.",
       href: "https://react-featuress.netlify.app/",
     },
     {
-      id: 10,
+      id: 11,
       icon: <GiNotebook className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
-      id: 11,
+      id: 12,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
@@ -105,7 +111,7 @@ const Services = () => {
     // },
 
     {
-      id: 12,
+      id: 13,
       icon: <FaReact className="commonIcons" />,
       heading: "React Website",
       text: "In this Project i trying to developing one of the best Animated website using React.",
