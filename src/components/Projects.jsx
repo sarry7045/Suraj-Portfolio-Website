@@ -81,13 +81,13 @@ const Services = () => {
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
     },
-    {
-      id: 10,
-      icon: <FaReact className="commonIcons" />,
-      heading: "React Features",
-      text: "In this Project i Implement all the used-full and best packages of React.",
-      href: "https://react-featuress.netlify.app/",
-    },
+    // {
+    //   id: 10,
+    //   icon: <FaReact className="commonIcons" />,
+    //   heading: "React Features",
+    //   text: "In this Project i Implement all the used-full and best packages of React.",
+    //   href: "https://react-featuress.netlify.app/",
+    // },
     {
       id: 11,
       icon: <GiNotebook className="commonIcons" />,
@@ -110,13 +110,13 @@ const Services = () => {
     //   href: "https://reduxx-todo-list.netlify.app/",
     // },
 
-    {
-      id: 13,
-      icon: <FaReact className="commonIcons" />,
-      heading: "React Website",
-      text: "In this Project i trying to developing one of the best Animated website using React.",
-      href: "https://react-practice-website.netlify.app/",
-    },
+    // {
+    //   id: 13,
+    //   icon: <FaReact className="commonIcons" />,
+    //   heading: "React Website",
+    //   text: "In this Project i trying to developing one of the best Animated website using React.",
+    //   href: "https://react-practice-website.netlify.app/",
+    // },
   ]);
   return (
     <>
