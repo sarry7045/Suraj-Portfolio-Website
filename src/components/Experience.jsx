@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 const About = () => {
   const [state] = React.useState([
     { id: 1, title: "Company Website:", text: "www.ixarrobotic.com" },
-    { id: 2, title: "Role:", text: "Web Developer, Digital Marketing" },
+    { id: 2, title: "Role:", text: "Web Developer, SEO Expert" },
     {
       id: 3,
       title: "Working Duration:",
@@ -52,13 +52,13 @@ const About = () => {
                   <h1>IXAR Robotic Solutions Pvt. Ltd.</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Worked as a Front-End Web Developer and build beautiful
-                    Responsive website using ReactJs, NodeJs, Material-UI,
+                    Worked as a Front-end Web Developer and build beautiful
+                    Responsive Website using ReactJs, NodeJs, Material-UI,
                     Formik etc.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Also Performed SEO (Search Engine Optimization) for website,
-                    in-order to rank them on Google Search Engine.
+                    Also Performed SEO for Website,
+                    in-order to Rank them on Google Search Engine.
                   </div>
                   <div className="info__contacts">
                     <div className="row">

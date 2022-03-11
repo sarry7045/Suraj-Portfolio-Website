@@ -98,7 +98,7 @@ body {
   font-size: 26px;
   font-weight: 300;
   line-height: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .btn {
@@ -388,7 +388,7 @@ input[placeholder="Give Feedback"] {
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   .common {
     width: 100%;
