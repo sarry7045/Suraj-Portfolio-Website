@@ -13,6 +13,7 @@ import { BsTextareaT } from "react-icons/bs";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
+import { FaRupeeSign } from "react-icons/fa";
 
 const Services = () => {
   const [header] = React.useState({
@@ -63,27 +64,34 @@ const Services = () => {
     },
     {
       id: 7,
+      icon: <FaRupeeSign className="commonIcons" />,
+      heading: "Expense Tracker",
+      text: "In this Project i created one Basic Expense Calculater Using Material UI",
+      href: "https://expense-trracker.netlify.app/",
+    },
+    {
+      id: 8,
       icon: <AiOutlineForm className="commonIcons" />,
       heading: "React-Formik",
       text: "In this Project i Created 4 Registration Forms Using React Formik.",
       href: "https://reactt-formik.netlify.app/",
     },
     {
-      id: 8,
+      id: 9,
       icon: <MdOutlineFoodBank className="commonIcons" />,
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
     },
     {
-      id: 9,
+      id: 10,
       icon: <TiWeatherCloudy className="commonIcons" />,
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
     },
     {
-      id: 10,
+      id: 11,
       icon: <BsTextareaT className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
@@ -97,14 +105,14 @@ const Services = () => {
     //   href: "https://react-featuress.netlify.app/",
     // },
     {
-      id: 11,
+      id: 12,
       icon: <GiNotebook className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
-      id: 12,
+      id: 13,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
