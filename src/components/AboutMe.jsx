@@ -15,7 +15,7 @@ const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
     text: "I am an innovative ReactJs Developer With 2 Years Of experience in Web Development, Software Development and SEO.",
-    textt:"Also Learning: Next.js and React Native",
+    textt: "Also Learning: Next.js and React Native",
     image: "/images/Avatar.png",
   });
 
@@ -114,10 +114,9 @@ const AboutMe = () => {
                         />
                       </h1>
                       <p>{state.text}</p>
-                      <p style={{paddingBottom:"20px"}}>{state.textt}</p>
+                      <p style={{ paddingBottom: "20px" }}>{state.textt}</p>
                       <div className="header_buttons">
-                        <a
-                          href={pdf}
+                        <a href={pdf}
                           className="btn btn-outline"
                           target="_blank"
                         >
