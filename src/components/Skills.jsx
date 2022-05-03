@@ -40,13 +40,13 @@ function Skills() {
               <Zoom>
                 {" "}
                 <ul>
-                  <li class="React">React</li>
-                  <li class="Redux">Redux</li>
-                  <li class="Formik">API's</li>
-                  <li class="Nodejs">Node.js</li>
-                  <li class="API">Tailwind CSS</li>
-                  <li class="MongoDB">Material-UI</li>
-                  <li class="Tailwind">Formik</li>
+                  <li class="React">React.Js</li>
+                  <li class="Redux">Next.Js</li>
+                  <li class="Formik">Redux</li>
+                  <li class="Nodejs">Rest-API's</li>
+                  <li class="API">Material-UI</li>
+                  <li class="MongoDB">Node.Js</li>
+                  <li class="Tailwind">ECMA-Script</li>
                   <li class="HTML">HTML, SCSS</li>
                   {/* <li class="CSS">SCSS</li> */}
                 </ul>

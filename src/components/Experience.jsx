@@ -57,8 +57,8 @@ const About = () => {
                     Formik etc.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Also Performed SEO for Website,
-                    in-order to Rank them on Google Search Engine.
+                    Also Performed SEO for Website, In order to Rank them on
+                    Google Search Engine.
                   </div>
                   <div className="info__contacts">
                     <div className="row">
@@ -85,8 +85,8 @@ const About = () => {
                     Working as ReactJs Developer
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Working on API’s, and all the Front-end part of M-TRANSACT
-                    (Online Payment Software) and MY-SOCIETY.
+                    Working on Integrating API’s and all the Front-end part of
+                    M-TRANSACT (Online Payment Software) and MY-SOCIETY.
                   </div>{" "}
                   <a
                     className="Website-link"
