@@ -49,17 +49,19 @@ const About = () => {
                 className="col-6"
               >
                 <div className="about__info__Experience">
-                  <h1>IXAR Robotic Solutions Pvt. Ltd.</h1>
+                  <h1>IXAR Robotic Solutions</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Worked as a Front-end Web Developer and build beautiful
-                    Responsive Website using ReactJs, NodeJs, Material-UI,
+                    Worked as a Front-end Developer and build beautiful
+                    Responsive Website using HTML, CSS, ReactJs, Material-UI,
                     Formik etc.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Also Performed SEO for Website, In order to Rank them on
-                    Google Search Engine.
+                    Fixed bug in existing website and also reduced the size of
+                    code and Improve website performance. Also Performed SEO for
+                    Website, In order to Rank them on Google Search Engine.
                   </div>
+
                   <div className="info__contacts">
                     <div className="row">
                       {state.map((info) => (
@@ -79,22 +81,26 @@ const About = () => {
                 className="col-6"
               >
                 <div className="about__info__Experience">
-                  <h1>Payment Gateway Solutions Pvt. Ltd.</h1>
+                  <h1>Payments Gateway Solutions</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Working as ReactJs Developer
+                    Develop and maintain pages to match client requirements.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Working on Integrating API’s and all the Front-end part of
-                    M-TRANSACT (Online Payment Software) and MY-SOCIETY.
+                    Working on Integrating API’s using Redux and all the
+                    Frontend part of M-TRANSACT (Online Payment Software).
                   </div>{" "}
-                  <a
+                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                    Tools we are using: Redux, Material UI, React-Bootstrap,
+                    Formik, Chart.js, Axios, i18 next, Babel, Webpack, GIT etc.
+                  </div>{" "}
+                  {/* <a
                     className="Website-link"
                     href="https://cmob.paymentz.com/index/login?walletOwnerId=1"
                     target="_blank"
                   >
                     cmob.paymentz.com
-                  </a>
+                  </a> */}
                   <div className="info__contacts">
                     <div className="row">
                       {statee.map((infoo) => (

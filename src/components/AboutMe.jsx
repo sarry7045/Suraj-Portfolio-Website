@@ -8,7 +8,7 @@ import {
 import { AiFillMail } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
-import pdf from "../PDF/Suraj Resume.pdf";
+import pdf from "../PDF/Suraj Yadav Resume.pdf";
 import Typewriter from "typewriter-effect";
 
 const AboutMe = () => {

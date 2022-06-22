@@ -37,6 +37,13 @@ const Services = () => {
     {
       id: 3,
       icon: <AiOutlineForm className="commonIcons" />,
+      heading: "Programing News",
+      text: "In this Project i Created one basic News Website for Programming things.",
+      href: "https://programming-news.netlify.app/",
+    },
+    {
+      id: 3,
+      icon: <AiOutlineForm className="commonIcons" />,
       heading: "Multi-Step Form",
       text: "In this Project i Created Multistep Form Using Formik and Some Functionality.",
       href: "https://multistepp-form.netlify.app/",
