@@ -14,6 +14,10 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { FaRupeeSign } from "react-icons/fa";
+import { BsNewspaper } from "react-icons/bs";
+import { AiOutlineHome } from "react-icons/ai";
+import { MdLocalMovies } from "react-icons/md";
+import { FaCity } from "react-icons/fa";
 
 const Services = () => {
   const [header] = React.useState({
@@ -27,119 +31,120 @@ const Services = () => {
       text: "In this Project i created one Basic Google clone with some search Functionality using Rapid API.",
       href: "https://google-clonee.netlify.app/",
     },
+
     {
       id: 2,
+      icon: <AiOutlineHome className="commonIcons" />,
+      heading: "Rental Next-App",
+      text: "Rental Homes for everyone, we can serach and find easily the information about any Hotels.",
+      href: "https://rentall.vercel.app/",
+    },
+
+    {
+      id: 3,
       icon: <MdAppRegistration className="commonIcons" />,
       heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
       href: "https://mern-client-side.netlify.app/",
     },
     {
-      id: 3,
-      icon: <AiOutlineForm className="commonIcons" />,
+      id: 4,
+      icon: <BsNewspaper className="commonIcons" />,
       heading: "Programing News",
       text: "In this Project i Created one basic News Website for Programming things.",
       href: "https://programming-news.netlify.app/",
     },
     {
-      id: 3,
+      id: 5,
+      icon: <FaCity className="commonIcons" />,
+      heading: "All About All Countries",
+      text: "In this Project i Created Informative website like we can find all the  details about any countries.",
+      href: "https://all-about-all-countries.vercel.app/",
+    },
+    {
+      id: 6,
       icon: <AiOutlineForm className="commonIcons" />,
       heading: "Multi-Step Form",
       text: "In this Project i Created Multistep Form Using Formik and Some Functionality.",
       href: "https://multistepp-form.netlify.app/",
     },
     {
-      id: 4,
+      id: 7,
       icon: <RiVideoChatLine className="commonIcons" />,
       heading: "Video Chat App",
       text: "In this Project i created one Video Chat app using Socket.IO and Material-UI.",
       href: "https://videeo-chatt-app.netlify.app/",
     },
     {
-      id: 5,
+      id: 8,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "React Add-To-Cart",
       text: "In this Project i created one Add to Cart aap With Some Funcationality.",
       href: "https://shoppingg-caart.netlify.app/",
     },
     {
-      id: 6,
+      id: 9,
       icon: <MdOutlineCoronavirus className="commonIcons" />,
       heading: "Covid19 Tracker",
       text: "In this Project i created one Covid 19 Cases Tracker App with Graph Representation.",
       href: "https://coviid19-tracker.netlify.app/",
     },
     {
-      id: 7,
+      id: 10,
       icon: <FaRupeeSign className="commonIcons" />,
       heading: "Expense Tracker",
       text: "In this Project i created one Basic Expense Calculater Using Material UI",
       href: "https://expense-trracker.netlify.app/",
     },
     {
-      id: 8,
+      id: 11,
       icon: <AiOutlineForm className="commonIcons" />,
       heading: "React-Formik",
       text: "In this Project i Created 4 Registration Forms Using React Formik.",
       href: "https://reactt-formik.netlify.app/",
     },
     {
-      id: 9,
+      id: 12,
       icon: <MdOutlineFoodBank className="commonIcons" />,
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
     },
     {
-      id: 10,
+      id: 13,
       icon: <TiWeatherCloudy className="commonIcons" />,
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
     },
     {
-      id: 11,
+      id: 14,
+      icon: <MdLocalMovies className="commonIcons" />,
+      heading: "Movies Search App",
+      text: "In this Project i created one Movies Searchable app, we can search any hollywood movies.",
+      href: "https://search-fav-movies.netlify.app/",
+    },
+    {
+      id: 15,
       icon: <BsTextareaT className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
     },
-    // {
-    //   id: 10,
-    //   icon: <FaReact className="commonIcons" />,
-    //   heading: "React Features",
-    //   text: "In this Project i Implement all the used-full and best packages of React.",
-    //   href: "https://react-featuress.netlify.app/",
-    // },
     {
-      id: 12,
+      id: 16,
       icon: <GiNotebook className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
-      id: 13,
+      id: 17,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",
       href: "https://redux-shopping-store.netlify.app/",
     },
-    // {
-    //   id: 9,
-    //   icon: <FaReact className="commonIcons" />,
-    //   heading: "Redux Todo-List",
-    //   text: "In this Project i created a best Todo-list using Redux and Fake JSON Server API's.",
-    //   href: "https://reduxx-todo-list.netlify.app/",
-    // },
-
-    // {
-    //   id: 13,
-    //   icon: <FaReact className="commonIcons" />,
-    //   heading: "React Website",
-    //   text: "In this Project i trying to developing one of the best Animated website using React.",
-    //   href: "https://react-practice-website.netlify.app/",
-    // },
   ]);
   return (
     <>
