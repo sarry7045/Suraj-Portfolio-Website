@@ -18,6 +18,7 @@ import { BsNewspaper } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdLocalMovies } from "react-icons/md";
 import { FaCity } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Services = () => {
   const [header] = React.useState({
@@ -171,17 +172,26 @@ const Services = () => {
 
             <div className="row bgMain">
               {state.map((info) => (
-                <div className="col-4 bgMain">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 1 }}
+                  className="col-4 bgMain"
+                >
                   <Zoom>
                     <div className="services__box">
                       {info.icon}
                       <div className="services__box-header">{info.heading}</div>
                       <div className="">{info.text}</div>
                     </div>
-                  </Zoom>
-                  <Zoom>
-                    {" "}
-                    <div
+                    {/* </Zoom>
+                  <Zoom> */}{" "}
+                    <motion.div
+                      whileHover={{
+                        scale: 1.1,
+                        originX: 0,
+                      }}
+                      transition={{ type: "spring", stiffness: 1000 }}
                       style={{ margin: "2.5rem 0 4rem 2rem" }}
                       className="header_buttons"
                     >
@@ -192,9 +202,9 @@ const Services = () => {
                       >
                         View Project
                       </a>
-                    </div>
+                    </motion.div>
                   </Zoom>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>

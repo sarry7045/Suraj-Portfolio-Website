@@ -2,6 +2,7 @@ import React from "react";
 import "../components/css/Skills.css";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
+import { motion } from "framer-motion";
 
 function Skills() {
   const [header] = React.useState({
@@ -36,22 +37,26 @@ function Skills() {
               <h1 className="mainHeader">{header.subHeading}</h1>
               <div className="commonBorder"></div>
             </div>
-            <div className="Skill-Container">
-              <Zoom>
-                {" "}
-                <ul>
-                  <li class="React">React.Js</li>
-                  <li class="Redux">Next.Js</li>
-                  <li class="Formik">Redux</li>
-                  <li class="Nodejs">Rest-API's</li>
-                  <li class="API">Material-UI</li>
-                  <li class="MongoDB">Node.Js</li>
-                  <li class="Tailwind">ECMA-Script</li>
-                  <li class="HTML">HTML, SCSS</li>
-                  {/* <li class="CSS">SCSS</li> */}
-                </ul>
-              </Zoom>
-            </div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
+              className="Skill-Container"
+            >
+              {/* <Zoom> */}{" "}
+              <ul>
+                <li class="React">React.Js</li>
+                <li class="Redux">Next.Js</li>
+                <li class="Formik">Redux</li>
+                <li class="Nodejs">Rest-API's</li>
+                <li class="API">Material-UI</li>
+                <li class="MongoDB">Node.Js</li>
+                <li class="Tailwind">ECMA-Script</li>
+                <li class="HTML">HTML, SCSS</li>
+                {/* <li class="CSS">SCSS</li> */}
+              </ul>
+              {/* </Zoom> */}
+            </motion.div>
             <div className="common">
               <h1 className="mainHeader">{secondheader.subHeading}</h1>
               <div className="commonBorder"></div>
