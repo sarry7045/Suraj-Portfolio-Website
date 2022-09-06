@@ -1,8 +1,8 @@
 import React from "react";
-import "../components/css/Skills.css";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
+import "../components/css/Skills.css";
 
 function Skills() {
   const [header] = React.useState({
@@ -43,19 +43,17 @@ function Skills() {
               transition={{ delay: 0.5, duration: 1 }}
               className="Skill-Container"
             >
-              {/* <Zoom> */}{" "}
               <ul>
                 <li class="React">React.Js</li>
                 <li class="Redux">Next.Js</li>
+                <li class="Formik">TypeScript</li>
                 <li class="Formik">Redux</li>
                 <li class="Nodejs">Rest-API's</li>
                 <li class="API">Material-UI</li>
                 <li class="MongoDB">Node.Js</li>
                 <li class="Tailwind">ECMA-Script</li>
                 <li class="HTML">HTML, SCSS</li>
-                {/* <li class="CSS">SCSS</li> */}
               </ul>
-              {/* </Zoom> */}
             </motion.div>
             <div className="common">
               <h1 className="mainHeader">{secondheader.subHeading}</h1>

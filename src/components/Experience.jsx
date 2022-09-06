@@ -1,11 +1,22 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
 
 const About = () => {
   const [state] = React.useState([
-    { id: 1, title: "Company Website:", text: "www.ixarrobotic.com" },
+    {
+      id: 1,
+      title: "Company Website:",
+      text: (
+        <a
+          style={{ color: "white", textDecoration: "none" }}
+          href="http://ixarrobotic.com/#/"
+          target="_blank"
+        >
+          www.ixarrobotic.com
+        </a>
+      ),
+    },
     { id: 2, title: "Role:", text: "Web Developer, SEO Expert" },
     {
       id: 3,
@@ -19,13 +30,56 @@ const About = () => {
     },
   ]);
   const [statee] = React.useState([
-    { id: 1, title: "Company Website:", text: "www.paymentz.com" },
+    {
+      id: 1,
+      title: "Company Website:",
+      text: (
+        <a
+          style={{ color: "white", textDecoration: "none" }}
+          href="https://paymentz.com/"
+          target="_blank"
+        >
+          www.paymentz.com
+        </a>
+      ),
+    },
     { id: 2, title: "Role:", text: "ReactJs Developer" },
-    { id: 3, title: "Working Duration:", text: "September-2021 - Present" },
+    {
+      id: 3,
+      title: "Working Duration:",
+      text: "September-2021 - September-2022",
+    },
     {
       id: 4,
       title: "Address:",
       text: "Aditya Industrial Estate, Mindspace, Malad(W) Mumbai 400064",
+    },
+  ]);
+
+  const [stateee] = React.useState([
+    {
+      id: 1,
+      title: "Company Website:",
+      text: (
+        <a
+          style={{ color: "white", textDecoration: "none" }}
+          href="https://wealthdesk.in/"
+          target="_blank"
+        >
+          www.wealthdesk.in
+        </a>
+      ),
+    },
+    { id: 2, title: "Role:", text: "ReactJs Developer" },
+    {
+      id: 3,
+      title: "Working Duration:",
+      text: "September-2022 - Present",
+    },
+    {
+      id: 4,
+      title: "Address:",
+      text: "WeWork Raheja Platinum, Andheri (East) Mumbai 400059",
     },
   ]);
   return (
@@ -41,14 +95,12 @@ const About = () => {
       </Helmet>
       <div className="about">
         <div className="container">
-          {/* <div className="common"></div> */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             className="row  h-650 alignCenter"
           >
-            {/* <Zoom> */}{" "}
             <div
               style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
               className="col-6"
@@ -78,8 +130,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* </Zoom>
-            <Zoom> */}
             <div
               style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
               className="col-6"
@@ -97,14 +147,7 @@ const About = () => {
                 <div className="about__info-p2" style={{ fontSize: "1rem" }}>
                   Tools we are using: Redux, Material UI, React-Bootstrap,
                   Formik, Chart.js, Axios, i18 next, Babel, Webpack, GIT etc.
-                </div>{" "}
-                {/* <a
-                    className="Website-link"
-                    href="https://cmob.paymentz.com/index/login?walletOwnerId=1"
-                    target="_blank"
-                  >
-                    cmob.paymentz.com
-                  </a> */}
+                </div>
                 <div className="info__contacts">
                   <div className="row">
                     {statee.map((infoo) => (
@@ -118,7 +161,38 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* </Zoom> */}
+
+            <div
+              style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
+              className="col-6"
+            >
+              <div className="about__info__Experience">
+                <h1>WealthDesk</h1>
+                <div className="commonBorderExp"></div>
+                <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                  Develop and maintain pages to match business requirements.
+                </div>
+                <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  Working on Integrating API’s, Logics and all the Frontend part
+                  of WealthBasket's (ETF Portfolios from Experts).
+                </div>{" "}
+                <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  Tools we are using: Axios, Typescript, Crypto-JS, Material UI,
+                  Sass, Formik, Chart.js, Babel, Webpack, GIT, BitBucket etc.
+                </div>
+                <div className="info__contacts">
+                  <div className="row">
+                    {stateee.map((infoo) => (
+                      <div className="col-6">
+                        <strong>{infoo.title}</strong>
+
+                        <p>{infoo.text}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

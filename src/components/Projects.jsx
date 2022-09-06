@@ -1,5 +1,4 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
 import {
   MdAppRegistration,
   MdOutlineCoronavirus,
@@ -184,8 +183,6 @@ const Services = () => {
                       <div className="services__box-header">{info.heading}</div>
                       <div className="">{info.text}</div>
                     </div>
-                    {/* </Zoom>
-                  <Zoom> */}{" "}
                     <motion.div
                       whileHover={{
                         scale: 1.1,
@@ -199,6 +196,7 @@ const Services = () => {
                         href={info.href}
                         target="_blank"
                         className="btn btn-outline"
+                        rel="noreferrer"
                       >
                         View Project
                       </a>

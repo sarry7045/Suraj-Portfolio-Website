@@ -85,21 +85,17 @@ const About = () => {
       </Helmet>
       <div className="about">
         <div className="container">
-          {/* <div className="common"></div> */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             className="row  h-650 alignCenter"
           >
-            {/* <Zoom> */}
             <div className="col-6">
               <div className="about__img">
                 <img src="/images/Avatar.png" alt="man" />
               </div>
             </div>
-            {/* </Zoom> */}
-            {/* <Zoom> */}{" "}
             <div className="col-6">
               <div className="about__info">
                 <h1>Let's Connect</h1>
@@ -120,6 +116,7 @@ const About = () => {
                       <a
                         href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <li>
                           <FaLinkedinIn
@@ -128,7 +125,11 @@ const About = () => {
                           />
                         </li>
                       </a>
-                      <a href="https://github.com/sarry7045" target="_blank">
+                      <a
+                        href="https://github.com/sarry7045"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <li>
                           <FaGithub
                             className="headerIconGit"
@@ -139,6 +140,7 @@ const About = () => {
                       <a
                         href="https://www.instagram.com/suraj.28_11/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <li>
@@ -151,6 +153,7 @@ const About = () => {
                       <a
                         href="https://www.facebook.com/profile.php?id=100010635822203"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <li>
@@ -173,24 +176,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* </Zoom> */}
           </motion.div>
-
-          {/* <form className="Feedback" onSubmit={sendEmail}>
-            <label>
-              <strong>
-                <input type="text" name="message" placeholder="Give Feedback" />
-              </strong>
-              <button
-                onClick={notify}
-                style={{ fontSize: "1rem" }}
-                type="submit"
-              >
-                Submit
-              </button>
-              <ToastContainer />
-            </label>
-          </form> */}
 
           <div className="wrapper">
             <Zoom>

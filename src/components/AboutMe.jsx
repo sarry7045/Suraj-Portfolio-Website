@@ -6,7 +6,6 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
-import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import pdf from "../PDF/Suraj Yadav Resume.pdf";
 import Typewriter from "typewriter-effect";
@@ -43,7 +42,6 @@ const AboutMe = () => {
               transition={{ delay: 0.5, duration: 1 }}
               className="row"
             >
-              {/* <Zoom> */}{" "}
               <div className="col-6">
                 <div className="header__content">
                   <div className="header__section">
@@ -51,6 +49,7 @@ const AboutMe = () => {
                       <a
                         href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <li>
                           <FaLinkedinIn
@@ -59,7 +58,11 @@ const AboutMe = () => {
                           />
                         </li>
                       </a>
-                      <a href="https://github.com/sarry7045" target="_blank">
+                      <a
+                        href="https://github.com/sarry7045"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <li>
                           <FaGithub
                             className="headerIconGit"
@@ -70,6 +73,7 @@ const AboutMe = () => {
                       <a
                         href="https://www.instagram.com/suraj.28_11/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <li>
@@ -82,6 +86,7 @@ const AboutMe = () => {
                       <a
                         href="https://www.facebook.com/profile.php?id=100010635822203"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <li>
@@ -102,7 +107,7 @@ const AboutMe = () => {
                         </li>
                       </a>
                     </ul>
-                    {/* <h1>{state.title}</h1> */}
+
                     <h1>
                       <Typewriter
                         onInit={(typewriter) => {
@@ -128,21 +133,23 @@ const AboutMe = () => {
                       transition={{ type: "spring", stiffness: 1000 }}
                       className="header_buttons"
                     >
-                      <a href={pdf} className="btn btn-outline" target="_blank">
+                      <a
+                        href={pdf}
+                        className="btn btn-outline"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         Download Resume
                       </a>
                     </motion.div>
                   </div>
                 </div>
               </div>
-              {/* </Zoom> */}
-              {/* <Zoom> */}{" "}
               <div className="col-6">
                 <div className="banner__img">
                   <img src={state.image} alt="man" />
                 </div>
               </div>
-              {/* </Zoom> */}
             </motion.div>
           </div>
         </div>
