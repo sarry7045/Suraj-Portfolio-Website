@@ -1,0 +1,71 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.6.0_x64__8wekyb3d8bbwe;C:\Program Files\Zulu\zulu-17\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\MR.Yadav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\MR.Yadav\AppData\Local\Programs\Python\Python39;C:\Users\MR.Yadav\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Git\cmd;C:\Users\MR.Yadav\AppData\Local\Microsoft\WindowsApps;C:\Users\MR.Yadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\MR.Yadav\AppData\Roaming\npm;C:\adb;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\src\flutter\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\MR.Yadav\AppData\Local\Microsoft\WindowsApps;C:\Users\MR.Yadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\xampp\php;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\MR.Yadav\AppData\Roaming\npm;C:\Users\MR.Yadav\spicetify-cli;C:\src\flutter\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\MR.Yadav\AppData\Local\Yarn\Cache\v6\npm-react-icons-4.4.0-a13a8a20c254854e1ec9aecef28a95cdf24ef703-integrity\node_modules\react-icons\gi\index.esm.js' -> 'C:\Users\MR.Yadav\Desktop\Suraj Codeing\Portfolio\node_modules\react-icons\gi\index.esm.js'
+
+npm manifest: 
+  {
+    "name": "react-protfolio",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "@tippy.js/react": "^3.1.1",
+      "emailjs-com": "^3.2.0",
+      "formik": "^2.2.9",
+      "framer-motion": "^7.0.0",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-helmet": "^6.1.0",
+      "react-icons": "^4.3.1",
+      "react-reveal": "^1.2.2",
+      "react-router-dom": "^5.3.0",
+      "react-scripts": "^5.0.0",
+      "react-toastify": "^8.1.0",
+      "typewriter-effect": "^2.18.2",
+      "yarn": "^1.22.17",
+      "yup": "^0.32.11"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

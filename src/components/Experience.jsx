@@ -12,6 +12,7 @@ const About = () => {
           style={{ color: "white", textDecoration: "none" }}
           href="http://ixarrobotic.com/#/"
           target="_blank"
+          rel="noreferrer"
         >
           www.ixarrobotic.com
         </a>
@@ -38,6 +39,7 @@ const About = () => {
           style={{ color: "white", textDecoration: "none" }}
           href="https://paymentz.com/"
           target="_blank"
+          rel="noreferrer"
         >
           www.paymentz.com
         </a>
@@ -65,6 +67,7 @@ const About = () => {
           style={{ color: "white", textDecoration: "none" }}
           href="https://wealthdesk.in/"
           target="_blank"
+          rel="noreferrer"
         >
           www.wealthdesk.in
         </a>
