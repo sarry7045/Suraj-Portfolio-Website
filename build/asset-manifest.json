@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.365d5719.css",
-    "main.js": "/static/js/main.800e26a2.js",
-    "static/media/Suraj Resume.pdf": "/static/media/Suraj Resume.50500fd5544a5163557e.pdf",
+    "main.css": "/static/css/main.d95064fe.css",
+    "main.js": "/static/js/main.a5d5c8ef.js",
+    "static/media/Suraj Yadav Resume.pdf": "/static/media/Suraj Yadav Resume.67edea98534e3cee2830.pdf",
     "index.html": "/index.html",
-    "main.365d5719.css.map": "/static/css/main.365d5719.css.map",
-    "main.800e26a2.js.map": "/static/js/main.800e26a2.js.map"
+    "main.d95064fe.css.map": "/static/css/main.d95064fe.css.map",
+    "main.a5d5c8ef.js.map": "/static/js/main.a5d5c8ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.365d5719.css",
-    "static/js/main.800e26a2.js"
+    "static/css/main.d95064fe.css",
+    "static/js/main.a5d5c8ef.js"
   ]
 }
