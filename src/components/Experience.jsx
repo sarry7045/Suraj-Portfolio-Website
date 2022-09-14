@@ -170,14 +170,15 @@ const About = () => {
               className="col-6"
             >
               <div className="about__info__Experience">
-                <h1>WealthDesk</h1>
+                <h1>PhonePe-WealthDesk</h1>
                 <div className="commonBorderExp"></div>
                 <div className="about__info-p1" style={{ fontSize: "1rem" }}>
                   Develop and maintain pages to match business requirements.
                 </div>
                 <div className="about__info-p2" style={{ fontSize: "1rem" }}>
                   Working on Integrating API’s, Logics and all the Frontend part
-                  of WealthBasket's (ETF Portfolios from Experts).
+                  of WealthBasket's (ETF Portfolios from Experts) and EWG
+                  (Embedded WealthDesk Gateway) .
                 </div>{" "}
                 <div className="about__info-p2" style={{ fontSize: "1rem" }}>
                   Tools we are using: Axios, Typescript, Crypto-JS, Material UI,

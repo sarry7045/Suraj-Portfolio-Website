@@ -19,7 +19,7 @@ function Skills() {
   return (
     <>
       <Helmet>
-        <title>Programming and Digital Marketing Skills</title>
+        <title>Programming and SEO Skills</title>
 
         <meta
           name="description"

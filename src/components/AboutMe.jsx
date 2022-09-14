@@ -14,19 +14,19 @@ import { motion } from "framer-motion";
 const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an innovative ReactJs Developer With 2 Years Of experience in Web Development, Software Development and SEO.",
-    textt: "Also Learning: Next.js and React Native",
+    text: "I am an innovative ReactJs Developer With Multiple Years Of experience in Web Development, Software Development and SEO.",
+    textt: "Learning: React Native",
     image: "/images/Avatar.png",
   });
 
   return (
     <>
       <Helmet>
-        <title>Suraj Yadav | Software Development | Digital Marketing</title>
+        <title>Suraj Yadav | Software Development | SEO Expert</title>
 
         <meta
           name="description"
-          content="I am an innovative ReactJs Developer With 1 + Year Of experience in Web Development, Software Development and SEO."
+          content="I am an innovative ReactJs Developer With Multiple Years Of experience in Web Development, Software Development and SEO."
         />
         <meta
           name="keywords"
