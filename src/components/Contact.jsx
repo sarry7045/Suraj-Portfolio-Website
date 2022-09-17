@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 import Helmet from "react-helmet";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const About = () => {
   const initialValues = {
@@ -85,98 +85,102 @@ const About = () => {
       </Helmet>
       <div className="about">
         <div className="container">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             className="row  h-650 alignCenter"
-          >
-            <div className="col-6">
-              <div className="about__img">
-                <img src="/images/Avatar.png" alt="man" />
-              </div>
-            </div>
-            <div className="col-6">
-              <div className="about__info">
-                <h1>Let's Connect</h1>
-                <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                  "I am an innovative ReactJs Developer With Multiple Years Of
-                  experience in Web Development, Software Development and SEO.
+          > */}
+          <Zoom>
+            <div className="row  h-650 alignCenter">
+              <div className="col-6">
+                <div className="about__img">
+                  <img src="/images/Avatar.png" alt="man" />
                 </div>
+              </div>
+              <div className="col-6">
+                <div className="about__info">
+                  <h1>Let's Connect</h1>
+                  <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                    "I am an innovative ReactJs Developer With Multiple Years Of
+                    experience in Web Development, Software Development and SEO.
+                  </div>
 
-                <div className="info__contacts">
-                  <div className="row">
-                    {state.map((info) => (
-                      <div className="col-6">
-                        <strong>{info.title}</strong>
-                        <p>{info.text}</p>
-                      </div>
-                    ))}
-                    <ul className="contact__header__ul">
-                      <a
-                        href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <li>
-                          <FaLinkedinIn
-                            className="headerIcon"
-                            style={{ color: "#FFF" }}
-                          />
-                        </li>
-                      </a>
-                      <a
-                        href="https://github.com/sarry7045"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <li>
-                          <FaGithub
-                            className="headerIconGit"
-                            style={{ color: "#FFF" }}
-                          />
-                        </li>
-                      </a>
-                      <a
-                        href="https://www.instagram.com/suraj.28_11/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {" "}
-                        <li>
-                          <FaInstagram
-                            className="headerIcon"
-                            style={{ color: "#FFF" }}
-                          />
-                        </li>
-                      </a>
-                      <a
-                        href="https://www.facebook.com/profile.php?id=100010635822203"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {" "}
-                        <li>
-                          <FaFacebookF
-                            className="headerIcon"
-                            style={{ color: "#FFF" }}
-                          />
-                        </li>
-                      </a>
-                      <a href="mailto: sarry7045@gmail.com">
-                        <li>
-                          <AiFillMail
-                            className="headerIcon"
-                            style={{ color: "#FFF" }}
-                          />
-                        </li>
-                      </a>
-                    </ul>
+                  <div className="info__contacts">
+                    <div className="row">
+                      {state.map((info) => (
+                        <div className="col-6">
+                          <strong>{info.title}</strong>
+                          <p>{info.text}</p>
+                        </div>
+                      ))}
+                      <ul className="contact__header__ul">
+                        <a
+                          href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <li>
+                            <FaLinkedinIn
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                        <a
+                          href="https://github.com/sarry7045"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <li>
+                            <FaGithub
+                              className="headerIconGit"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                        <a
+                          href="https://www.instagram.com/suraj.28_11/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {" "}
+                          <li>
+                            <FaInstagram
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100010635822203"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {" "}
+                          <li>
+                            <FaFacebookF
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                        <a href="mailto: sarry7045@gmail.com">
+                          <li>
+                            <AiFillMail
+                              className="headerIcon"
+                              style={{ color: "#FFF" }}
+                            />
+                          </li>
+                        </a>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
+              {/* </motion.div> */}
             </div>
-          </motion.div>
+          </Zoom>
 
           <div className="wrapper">
             <Zoom>

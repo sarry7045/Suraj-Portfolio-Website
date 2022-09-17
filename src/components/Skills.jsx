@@ -1,7 +1,7 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "../components/css/Skills.css";
 
 function Skills() {
@@ -37,28 +37,30 @@ function Skills() {
               <h1 className="mainHeader">{header.subHeading}</h1>
               <div className="commonBorder"></div>
             </div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 1 }}
-              className="Skill-Container"
-            >
-              <ul>
-                <li class="React">React.Js</li>
-                <li class="Redux">Next.Js</li>
-                <li class="Formik">TypeScript</li>
-                <li class="Formik">Redux</li>
-                <li class="Nodejs">Rest-API's</li>
-                <li class="API">Material-UI</li>
-                <li class="MongoDB">Node.Js</li>
-                <li class="Tailwind">ECMA-Script</li>
-                <li class="HTML">HTML, SCSS</li>
-              </ul>
-            </motion.div>
-            <div className="common">
-              <h1 className="mainHeader">{secondheader.subHeading}</h1>
-              <div className="commonBorder"></div>
-            </div>
+            <Zoom>
+              <div
+                // initial={{ opacity: 0 }}
+                // animate={{ opacity: 1 }}
+                // transition={{ delay: 0.5, duration: 1 }}
+                className="Skill-Container"
+              >
+                <ul>
+                  <li class="React">React.Js</li>
+                  <li class="Redux">Next.Js</li>
+                  <li class="Formik">TypeScript</li>
+                  <li class="Formik">Redux</li>
+                  <li class="Nodejs">Rest-API's</li>
+                  <li class="API">Material-UI</li>
+                  <li class="MongoDB">Node.Js</li>
+                  <li class="Tailwind">ECMA-Script</li>
+                  <li class="HTML">HTML, SCSS</li>
+                </ul>
+              </div>
+              <div className="common">
+                <h1 className="mainHeader">{secondheader.subHeading}</h1>
+                <div className="commonBorder"></div>
+              </div>
+            </Zoom>
             <div className="Skill-Container">
               <Zoom>
                 <ul>
