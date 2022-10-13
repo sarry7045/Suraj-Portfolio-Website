@@ -17,6 +17,8 @@ import { BsNewspaper } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdLocalMovies } from "react-icons/md";
 import { FaCity } from "react-icons/fa";
+import { CgGym } from "react-icons/cg";
+import { MdQuiz } from "react-icons/md";
 // import { motion } from "framer-motion";
 
 const Services = () => {
@@ -39,6 +41,14 @@ const Services = () => {
       text: "Rental Homes for everyone, we can serach and find easily the information about any Hotels.",
       href: "https://rentall.vercel.app/",
     },
+    {
+      id: 2,
+      icon: <CgGym className="commonIcons" />,
+      heading: "Gym-Holic",
+      text: "We can search any types of workouts with some good quality videos.",
+      href: "https://gymholic.netlify.app/",
+    },
+   
 
     {
       id: 3,
@@ -46,6 +56,14 @@ const Services = () => {
       heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
       href: "https://mern-client-side.netlify.app/",
+    },
+
+    {
+      id: 3,
+      icon: <MdQuiz className="commonIcons" />,
+      heading: "Quiz-App",
+      text: "Multiple Choice Questions, we have to choose right answers, and at the end it will show final Results.",
+      href: "https://quizzzzzz-app.netlify.app/",
     },
     {
       id: 4,

@@ -45,9 +45,11 @@ function Skills() {
                 className="Skill-Container"
               >
                 <ul>
+                <li class="React">JavaScript</li>
                   <li class="React">React.Js</li>
                   <li class="Redux">Next.Js</li>
                   <li class="Formik">TypeScript</li>
+                  <li class="Formik">React-Native</li>
                   <li class="Formik">Redux</li>
                   <li class="Nodejs">Rest-API's</li>
                   <li class="API">Material-UI</li>

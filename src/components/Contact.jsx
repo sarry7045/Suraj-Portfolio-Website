@@ -102,7 +102,7 @@ const About = () => {
                 <div className="about__info">
                   <h1>Let's Connect</h1>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    "I am an innovative ReactJs Developer With Multiple Years Of
+                    "I am an innovative Front-End Developer With Multiple Years Of
                     experience in Web Development, Software Development and SEO.
                   </div>
 

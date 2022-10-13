@@ -74,7 +74,7 @@ const About = () => {
         </a>
       ),
     },
-    { id: 2, title: "Role:", text: "ReactJs Developer" },
+    { id: 2, title: "Role:", text: "Front-End Developer" },
     {
       id: 3,
       title: "Working Duration:",
