@@ -19,6 +19,8 @@ import { MdLocalMovies } from "react-icons/md";
 import { FaCity } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { MdQuiz } from "react-icons/md";
+import { AiFillMobile } from "react-icons/ai";
+import apk from "../PDF/EduVert.apk";
 // import { motion } from "framer-motion";
 
 const Services = () => {
@@ -48,7 +50,6 @@ const Services = () => {
       text: "We can search any types of workouts with some good quality videos.",
       href: "https://gymholic.netlify.app/",
     },
-   
 
     {
       id: 3,
@@ -188,6 +189,42 @@ const Services = () => {
             </div>
 
             <div className="row bgMain">
+              <div
+                // initial={{ opacity: 0 }}
+                // animate={{ opacity: 1 }}
+                // transition={{ delay: 0.5, duration: 1 }}
+                className="col-4 bgMain"
+              >
+                <Zoom>
+                  <div className="services__box">
+                    <AiFillMobile className="commonIcons" />
+                    <div className="services__box-header">Edu Vert</div>
+                    <div className="">
+                      In this Project i created one Basic Mobile App for Learn
+                      Programming Languages.{" "}
+                    </div>
+                  </div>
+                  <div
+                    // whileHover={{
+                    //   scale: 1.1,
+                    //   originX: 0,
+                    // }}
+                    // transition={{ type: "spring", stiffness: 1000 }}
+                    style={{ margin: "2.5rem 0 4rem 2rem" }}
+                    className="header_buttons"
+                  >
+                    <a
+                      href={apk}
+                      download="EduVert"
+                      // target="_blank"
+                      className="btn btn-outline"
+                      rel="noreferrer"
+                    >
+                      Download APK
+                    </a>
+                  </div>
+                </Zoom>
+              </div>
               {state.map((info) => (
                 <div
                   // initial={{ opacity: 0 }}
