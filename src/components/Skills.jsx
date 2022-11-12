@@ -45,7 +45,7 @@ function Skills() {
                 className="Skill-Container"
               >
                 <ul>
-                <li class="React">JavaScript</li>
+                  <li class="React">JavaScript</li>
                   <li class="React">React.Js</li>
                   <li class="Redux">Next.Js</li>
                   <li class="Formik">TypeScript</li>
@@ -54,8 +54,8 @@ function Skills() {
                   <li class="Nodejs">Rest-API's</li>
                   <li class="API">Material-UI</li>
                   <li class="MongoDB">Node.Js</li>
-                  <li class="Tailwind">ECMA-Script</li>
-                  <li class="HTML">HTML, SCSS</li>
+                  {/* <li class="Tailwind">ECMA-Script</li>
+                  <li class="HTML">HTML, SCSS</li> */}
                 </ul>
               </div>
               <div className="common">
@@ -69,12 +69,12 @@ function Skills() {
                   <li className="SEO">SEO</li>
                   <li className="SEM">SEM</li>
                   <li className="SMO">SMO</li>
-                  <li className="SMM">PPC</li>
-                  <li className="Google">Google Adds</li>
+                  {/* <li className="SMM">PPC</li>
+                  <li className="Google">Google Adds</li> */}
                 </ul>
               </Zoom>
             </div>
-            <div className="common">
+            {/* <div className="common">
               <h1 className="mainHeader">{thirdheader.subHeading}</h1>
               <div className="commonBorder"></div>
             </div>
@@ -91,7 +91,7 @@ function Skills() {
                   <li className="Photoshop">Photoshop</li>
                 </ul>
               </Zoom>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

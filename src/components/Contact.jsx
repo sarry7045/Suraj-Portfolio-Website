@@ -100,11 +100,13 @@ const About = () => {
               </div>
               <div className="col-6">
                 <div className="about__info">
-                  <h1>Let's Connect</h1>
-                  <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    "I am an innovative Front-End Developer With Multiple Years Of
-                    experience in Web Development, Software Development and SEO.
-                  </div>
+                  {/* <h1>Let's Connect</h1> */}
+                  <h1>Empowering your web identity</h1>
+                  {/* <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                    "I am an innovative Front-End Developer With Multiple Years
+                    Of experience in Web Development, Software Development and
+                    SEO.
+                  </div> */}
 
                   <div className="info__contacts">
                     <div className="row">
@@ -215,7 +217,7 @@ const About = () => {
                       </p>
                     </div>
                     <div className="inputfield">
-                      <label>Feedback:</label>
+                      <label>Message:</label>
                       <Field type="text" className="textarea" name="feedback" />
                       <p style={{ color: "red" }}>
                         <ErrorMessage name="feedback" />
