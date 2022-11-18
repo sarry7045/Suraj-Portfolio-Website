@@ -12,9 +12,9 @@ function Skills() {
     subHeading: "Digital Marketing Skills",
   });
 
-  const [thirdheader] = React.useState({
-    subHeading: "Computer Proficiency",
-  });
+  // const [thirdheader] = React.useState({
+  //   subHeading: "Computer Proficiency",
+  // });
 
   return (
     <>

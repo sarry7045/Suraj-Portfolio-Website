@@ -20,6 +20,7 @@ import { FaCity } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { MdQuiz } from "react-icons/md";
 import { AiFillMobile } from "react-icons/ai";
+import { FaShoppingCart } from "react-icons/fa";  
 import apk from "../PDF/EduVert.apk";
 // import { motion } from "framer-motion";
 
@@ -30,6 +31,13 @@ const Services = () => {
   const [state] = React.useState([
     {
       id: 1,
+      icon: <FaShoppingCart className="commonIcons" />,
+      heading: "Shop-Mart",
+      text: "In this Project i created one E-Commerce App, with almost all e-commerce app functionality.",
+      href: "https://shopp-mart.netlify.app/",
+    },
+    {
+      id: 2,
       icon: <AiFillGoogleCircle className="commonIcons" />,
       heading: "Google Clone",
       text: "In this Project i created one Basic Google clone with some search Functionality using Rapid API.",
@@ -37,14 +45,14 @@ const Services = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       icon: <AiOutlineHome className="commonIcons" />,
       heading: "Rental Next-App",
-      text: "Rental Homes for everyone, we can serach and find easily the information about any Hotels.",
+      text: "Rental Homes for everyone, we can search and find easily the information about any Hotels.",
       href: "https://rentall.vercel.app/",
     },
     {
-      id: 2,
+      id: 4,
       icon: <CgGym className="commonIcons" />,
       heading: "Gym-Holic",
       text: "We can search any types of workouts with some good quality videos.",
@@ -52,7 +60,7 @@ const Services = () => {
     },
 
     {
-      id: 3,
+      id: 5,
       icon: <MdAppRegistration className="commonIcons" />,
       heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
@@ -60,105 +68,105 @@ const Services = () => {
     },
 
     {
-      id: 3,
+      id: 6,
       icon: <MdQuiz className="commonIcons" />,
       heading: "Quiz-App",
       text: "Multiple Choice Questions, we have to choose right answers, and at the end it will show final Results.",
       href: "https://quizzzzzz-app.netlify.app/",
     },
     {
-      id: 4,
+      id: 7,
       icon: <BsNewspaper className="commonIcons" />,
       heading: "Programing News",
       text: "In this Project i Created one basic News Website for Programming things.",
       href: "https://programming-news.netlify.app/",
     },
     {
-      id: 5,
+      id: 8,
       icon: <FaCity className="commonIcons" />,
       heading: "All About All Countries",
       text: "In this Project i Created Informative website like we can find all the  details about any countries.",
       href: "https://all-about-all-countries.vercel.app/",
     },
     {
-      id: 6,
+      id: 9,
       icon: <AiOutlineForm className="commonIcons" />,
       heading: "Multi-Step Form",
       text: "In this Project i Created Multistep Form Using Formik and Some Functionality.",
       href: "https://multistepp-form.netlify.app/",
     },
     {
-      id: 7,
+      id: 10,
       icon: <RiVideoChatLine className="commonIcons" />,
       heading: "Video Chat App",
       text: "In this Project i created one Video Chat app using Socket.IO and Material-UI.",
       href: "https://videeo-chatt-app.netlify.app/",
     },
     {
-      id: 8,
+      id: 11,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "React Add-To-Cart",
       text: "In this Project i created one Add to Cart aap With Some Funcationality.",
       href: "https://shoppingg-caart.netlify.app/",
     },
     {
-      id: 9,
+      id: 12,
       icon: <MdOutlineCoronavirus className="commonIcons" />,
       heading: "Covid19 Tracker",
       text: "In this Project i created one Covid 19 Cases Tracker App with Graph Representation.",
       href: "https://coviid19-tracker.netlify.app/",
     },
     {
-      id: 10,
+      id: 13,
       icon: <FaRupeeSign className="commonIcons" />,
       heading: "Expense Tracker",
       text: "In this Project i created one Basic Expense Calculater Using Material UI",
       href: "https://expense-trracker.netlify.app/",
     },
     {
-      id: 11,
+      id: 14,
       icon: <AiOutlineForm className="commonIcons" />,
       heading: "React-Formik",
       text: "In this Project i Created 4 Registration Forms Using React Formik.",
       href: "https://reactt-formik.netlify.app/",
     },
     {
-      id: 12,
+      id: 15,
       icon: <MdOutlineFoodBank className="commonIcons" />,
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
     },
     {
-      id: 13,
+      id: 16,
       icon: <TiWeatherCloudy className="commonIcons" />,
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
     },
     {
-      id: 14,
+      id: 17,
       icon: <MdLocalMovies className="commonIcons" />,
       heading: "Movies Search App",
       text: "In this Project i created one Movies Searchable app, we can search any hollywood movies.",
       href: "https://search-fav-movies.netlify.app/",
     },
     {
-      id: 15,
+      id: 18,
       icon: <BsTextareaT className="commonIcons" />,
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
     },
     {
-      id: 16,
+      id: 19,
       icon: <GiNotebook className="commonIcons" />,
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
     },
     {
-      id: 17,
+      id: 20,
       icon: <AiOutlineShoppingCart className="commonIcons" />,
       heading: "Redux Shopping-Store",
       text: "In this Project i created one fake shopping store using Redux and fake store API's.",

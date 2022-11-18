@@ -27,7 +27,7 @@ const AboutMe = () => {
 
         <meta
           name="description"
-          content="I am an innovative ReactJs Developer With Multiple Years Of experience in Web Development, Software Development and SEO."
+          content="I am an innovative Frontend-End Developer With Multiple Years Of experience in Web Development, Software Development and SEO."
         />
         <meta
           name="keywords"
