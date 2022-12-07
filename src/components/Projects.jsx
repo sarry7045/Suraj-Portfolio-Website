@@ -16,7 +16,7 @@ import { FaRupeeSign } from "react-icons/fa";
 import { BsNewspaper } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdLocalMovies } from "react-icons/md";
-import { FaCity } from "react-icons/fa";
+// import { FaCity } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { MdQuiz } from "react-icons/md";
 import { AiFillMobile } from "react-icons/ai";
@@ -81,13 +81,13 @@ const Services = () => {
       text: "In this Project i Created one basic News Website for Programming things.",
       href: "https://programming-news.netlify.app/",
     },
-    {
-      id: 8,
-      icon: <FaCity className="commonIcons" />,
-      heading: "All About All Countries",
-      text: "In this Project i Created Informative website like we can find all the  details about any countries.",
-      href: "https://all-about-all-countries.vercel.app/",
-    },
+    // {
+    //   id: 8,
+    //   icon: <FaCity className="commonIcons" />,
+    //   heading: "All About All Countries",
+    //   text: "In this Project i Created Informative website like we can find all the  details about any countries.",
+    //   href: "https://all-about-all-countries.vercel.app/",
+    // },
     {
       id: 9,
       icon: <AiOutlineForm className="commonIcons" />,
@@ -123,13 +123,13 @@ const Services = () => {
       text: "In this Project i created one Basic Expense Calculater Using Material UI",
       href: "https://expense-trracker.netlify.app/",
     },
-    {
-      id: 14,
-      icon: <AiOutlineForm className="commonIcons" />,
-      heading: "React-Formik",
-      text: "In this Project i Created 4 Registration Forms Using React Formik.",
-      href: "https://reactt-formik.netlify.app/",
-    },
+    // {
+    //   id: 14,
+    //   icon: <AiOutlineForm className="commonIcons" />,
+    //   heading: "React-Formik",
+    //   text: "In this Project i Created 4 Registration Forms Using React Formik.",
+    //   href: "https://reactt-formik.netlify.app/",
+    // },
     {
       id: 15,
       icon: <MdOutlineFoodBank className="commonIcons" />,
@@ -164,14 +164,7 @@ const Services = () => {
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
-    },
-    {
-      id: 20,
-      icon: <AiOutlineShoppingCart className="commonIcons" />,
-      heading: "Redux Shopping-Store",
-      text: "In this Project i created one fake shopping store using Redux and fake store API's.",
-      href: "https://redux-shopping-store.netlify.app/",
-    },
+    }
   ]);
   return (
     <>

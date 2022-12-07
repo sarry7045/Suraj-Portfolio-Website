@@ -83,7 +83,7 @@ const About = () => {
     {
       id: 4,
       title: "Address:",
-      text: "WeWork Raheja Platinum, Andheri (East) Mumbai 400059",
+      text: "Boston House, Western Express Highyway, Andheri (East) Mumbai 400093",
     },
   ]);
   return (
