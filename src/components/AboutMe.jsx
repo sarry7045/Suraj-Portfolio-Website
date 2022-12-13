@@ -16,7 +16,7 @@ const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
     text: "I am an innovative Front-End Developer With Multiple Years Of experience in Web Development, Software Development and SEO.",
-    textt: "Learning: React Native",
+    textt: "Also Learning: NodeJs, React Native",
     image: "/images/Avatar.png",
   });
 
