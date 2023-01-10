@@ -15,7 +15,7 @@ import Zoom from "react-reveal/Zoom";
 const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an innovative Front-End Developer With Multiple Years Of experience in Web Development, Software Development and SEO.",
+    text: "I am an Innovative Front-End Developer with more than 2 Year's of Experience in Web Development, Software Development and SEO.",
     textt: "Also Learning: NodeJs, React Native",
     image: "/images/Avatar.png",
   });

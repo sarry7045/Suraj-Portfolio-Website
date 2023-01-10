@@ -72,6 +72,8 @@ const About = () => {
         >
           www.wealthdesk.in
         </a>
+        
+        
       ),
     },
     { id: 2, title: "Role:", text: "Front-End Developer" },
@@ -159,23 +161,23 @@ const About = () => {
                       className="about__info-p1"
                       style={{ fontSize: "1rem" }}
                     >
-                      Develop and maintain pages to match client requirements.
+                      Managing UI using HTML, CSS, JavaScript, and ReactJs.
                     </div>
                     <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
-                      Working on Integrating API’s using Redux and all the
-                      Frontend part of M-TRANSACT (Online Payment Software).
+                      Worked on Integrating API’s using Redux and all the
+                      Frontend part of M-TRANSACT (Online Payment Software).
                     </div>{" "}
-                    <div
+                    {/* <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
                       Tools we are using: Redux, Material UI, React-Bootstrap,
                       Formik, Chart.js, Axios, i18 next, Babel, Webpack, GIT
                       etc.
-                    </div>
+                    </div> */}
                     <div className="info__contacts">
                       <div className="row">
                         {statee.map((infoo) => (
@@ -208,18 +210,18 @@ const About = () => {
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
-                      Working on Integrating API’s, Logics and all the Frontend
-                      part of WealthBasket's (ETF Portfolios from Experts) and
-                      EWG (Embedded WealthDesk Gateway) .
+                      Working on Integrating API’s and all the Frontend part of
+                      WealthBasket's (ETF Portfolios from Experts) and EWG
+                      (Embedded WealthDesk Gateway) .
                     </div>{" "}
-                    <div
+                    {/* <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
                       Tools we are using: Axios, Typescript, Crypto-JS, Material
                       UI, Sass, Formik, Chart.js, Babel, Webpack, GIT, BitBucket
                       etc.
-                    </div>
+                    </div> */}
                     <div className="info__contacts">
                       <div className="row">
                         {stateee.map((infoo) => (
