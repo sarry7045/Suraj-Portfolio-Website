@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Helmet from "react-helmet";
-import pdf from "../PDF/Suraj Resume.pdf";
+import pdf from "../PDF/SurajYadav.pdf";
 import Typewriter from "typewriter-effect";
 import Zoom from "react-reveal/Zoom";
 // import { motion } from "framer-motion";
@@ -126,7 +126,7 @@ const AboutMe = () => {
                               .pauseFor(500)
                               .start()
                               .deleteAll()
-                              .typeString("Suraj Anil Yadav");
+                              .typeString("Suraj Yadav");
                           }}
                         />
                       </h1>

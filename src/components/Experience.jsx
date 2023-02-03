@@ -123,15 +123,14 @@ const About = () => {
                       className="about__info-p1"
                       style={{ fontSize: "1rem" }}
                     >
-                      Worked as a Frontend Developer and build beautiful
+                      Worked as a Web Developer and build beautiful
                       Responsive Website using HTML, CSS, ReactJs, Material-UI etc.
                     </div>
                     <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
-                      Fixed bugs in existing website and also reduced the size of
-                      code and Improve website performance. Also Performed SEO
+                      Also Performed SEO
                       for Website, In order to Rank them on Google Search
                       Engine.
                     </div>
@@ -212,8 +211,14 @@ const About = () => {
                     >
                       Working on Integrating API’s and all the Frontend part of
                       WealthBasket's (ETF Portfolios from Experts) and EWG
-                      (Embedded WealthDesk Gateway) .
-                    </div>{" "}
+                      (Embedded WealthDesk Gateway).
+                    </div>
+                    <div
+                      className="about__info-p2"
+                      style={{ fontSize: "1rem" }}
+                    >
+                      Also Working on Page Optimization.
+                    </div>
                     {/* <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
