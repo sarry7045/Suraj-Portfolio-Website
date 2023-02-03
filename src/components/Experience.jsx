@@ -24,7 +24,7 @@ const About = () => {
     {
       id: 3,
       title: "Working Duration:",
-      text: "September-2020 - September 2021",
+      text: "Sep 2020 - Sep 2021",
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ const About = () => {
     {
       id: 3,
       title: "Working Duration:",
-      text: "September-2021 - September-2022",
+      text: "Sep 2021 - Sep 2022",
     },
     {
       id: 4,
@@ -81,7 +81,7 @@ const About = () => {
     {
       id: 3,
       title: "Working Duration:",
-      text: "September-2022 - Present",
+      text: "Sep 2022 - Present",
     },
     {
       id: 4,
@@ -123,15 +123,14 @@ const About = () => {
                       className="about__info-p1"
                       style={{ fontSize: "1rem" }}
                     >
-                      Worked as a Front-end Developer and build beautiful
-                      Responsive Website using HTML, CSS, ReactJs, Material-UI,
-                      Formik etc.
+                      Worked as a Frontend Developer and build beautiful
+                      Responsive Website using HTML, CSS, ReactJs, Material-UI etc.
                     </div>
                     <div
                       className="about__info-p2"
                       style={{ fontSize: "1rem" }}
                     >
-                      Fixed bug in existing website and also reduced the size of
+                      Fixed bugs in existing website and also reduced the size of
                       code and Improve website performance. Also Performed SEO
                       for Website, In order to Rank them on Google Search
                       Engine.
@@ -162,7 +161,7 @@ const About = () => {
                       className="about__info-p1"
                       style={{ fontSize: "1rem" }}
                     >
-                      Managing UI using HTML, CSS, JavaScript, and ReactJs.
+                      Managing UI using HTML, CSS, MaterialUI, JavaScript, and ReactJs.
                     </div>
                     <div
                       className="about__info-p2"
@@ -205,7 +204,7 @@ const About = () => {
                       className="about__info-p1"
                       style={{ fontSize: "1rem" }}
                     >
-                      Develop and maintain pages to match business requirements.
+                      Develop and maintain pages to match business Requirements.
                     </div>
                     <div
                       className="about__info-p2"

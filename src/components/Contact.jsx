@@ -65,7 +65,7 @@ const About = () => {
 
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Suraj Anil Yadav" },
-    { id: 2, title: "Email:", text: "sarry7045@gmail.com" },
+    { id: 2, title: "Email:", text: "surajyadav112820@gmail.com" },
     { id: 3, title: "Phone:", text: "91+ 7977368668" },
     { id: 4, title: "Address", text: "Amboli, Andheri(W), Mumbai 400058" },
   ]);
@@ -121,7 +121,7 @@ const About = () => {
                           href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                           target="_blank"
                           rel="noreferrer"
-                          title="Linkdin"
+                          title="LinkedIn"
                         >
                           <li>
                             <FaLinkedinIn

@@ -15,8 +15,8 @@ import Zoom from "react-reveal/Zoom";
 const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO.",
-    textt: "Also Learning: NodeJs, React Native",
+    text: "Frontend Developer with 2+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, React, TypeScript, Redux etc.",
+    textt: "Also Learning: React Native, NodeJs",
     image: "/images/Avatar.png",
   });
 
@@ -53,7 +53,7 @@ const AboutMe = () => {
                           href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                           target="_blank"
                           rel="noreferrer"
-                          title="Linkdin"
+                          title="LinkedIn"
                         >
                           <li>
                             <FaLinkedinIn
@@ -119,10 +119,10 @@ const AboutMe = () => {
                         <Typewriter
                           onInit={(typewriter) => {
                             typewriter
-                              .typeString("Suraj Anil Yadav")
+                              .typeString("Suraj Yadav")
                               .pauseFor(500)
                               .deleteAll()
-                              .typeString("Front-End Developer")
+                              .typeString("Frontend Developer")
                               .pauseFor(500)
                               .start()
                               .deleteAll()
