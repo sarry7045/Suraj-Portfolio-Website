@@ -15,7 +15,7 @@ import Zoom from "react-reveal/Zoom";
 const AboutMe = () => {
   const [state] = React.useState({
     title: "Suraj Anil Yadav",
-    text: "I am an Innovative Front-End Developer with more than 2 Year's of Experience in Web Development, Software Development and SEO.",
+    text: "I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO.",
     textt: "Also Learning: NodeJs, React Native",
     image: "/images/Avatar.png",
   });
@@ -27,11 +27,11 @@ const AboutMe = () => {
 
         <meta
           name="description"
-          content="I am an innovative Frontend-End Developer With Multiple Years Of experience in Web Development, Software Development and SEO."
+          content="I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO."
         />
         <meta
           name="keywords"
-          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+          content="suraj yadav, suraj yadav portfolio, software development, suraj yadav software developer, suraj yadav react developer, suraj yadav frontend developer, react developer, javascript developer, suraj yadav seo expert, seo expert, frontend developer, suraj yadav digital marketing"
         />
       </Helmet>
       <header className="">
@@ -53,6 +53,7 @@ const AboutMe = () => {
                           href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                           target="_blank"
                           rel="noreferrer"
+                          title="Linkdin"
                         >
                           <li>
                             <FaLinkedinIn
@@ -65,6 +66,7 @@ const AboutMe = () => {
                           href="https://github.com/sarry7045"
                           target="_blank"
                           rel="noreferrer"
+                          title="GitHub"
                         >
                           <li>
                             <FaGithub
@@ -77,6 +79,7 @@ const AboutMe = () => {
                           href="https://www.instagram.com/suraj.28_11/"
                           target="_blank"
                           rel="noreferrer"
+                          title="Instagram"
                         >
                           {" "}
                           <li>
@@ -90,6 +93,7 @@ const AboutMe = () => {
                           href="https://www.facebook.com/profile.php?id=100010635822203"
                           target="_blank"
                           rel="noreferrer"
+                          title="Facebook"
                         >
                           {" "}
                           <li>
@@ -100,7 +104,7 @@ const AboutMe = () => {
                           </li>
                         </a>
 
-                        <a href="mailto: sarry7045@gmail.com">
+                        <a href="mailto: sarry7045@gmail.com" title="Mail">
                           {" "}
                           <li>
                             <AiFillMail
@@ -142,6 +146,7 @@ const AboutMe = () => {
                           className="btn btn-outline"
                           target="_blank"
                           rel="noreferrer"
+                          title="Resume"
                         >
                           Download Resume
                         </a>
@@ -152,7 +157,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-6">
                   <div className="banner__img">
-                    <img src={state.image} alt="man" />
+                    <img src={state.image} alt="man" loading="lazy" />
                   </div>
                 </div>
                 {/* </motion.div> */}

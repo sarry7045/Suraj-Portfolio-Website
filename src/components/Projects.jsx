@@ -20,7 +20,7 @@ import { MdLocalMovies } from "react-icons/md";
 import { CgGym } from "react-icons/cg";
 import { MdQuiz } from "react-icons/md";
 import { AiFillMobile } from "react-icons/ai";
-import { FaShoppingCart } from "react-icons/fa";  
+import { FaShoppingCart } from "react-icons/fa";
 import apk from "../PDF/EduVert.apk";
 // import { motion } from "framer-motion";
 
@@ -164,7 +164,7 @@ const Services = () => {
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
-    }
+    },
   ]);
   return (
     <>
@@ -173,11 +173,11 @@ const Services = () => {
 
         <meta
           name="description"
-          content="My all Completed and Ongoing Projects"
+          content="I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO."
         />
         <meta
           name="keywords"
-          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+          content="suraj yadav, suraj yadav portfolio, software development, suraj yadav software developer, suraj yadav react developer, suraj yadav frontend developer, react developer, javascript developer, suraj yadav seo expert, seo expert, frontend developer, suraj yadav digital marketing"
         />
       </Helmet>
       <div className="services">
@@ -220,6 +220,7 @@ const Services = () => {
                       // target="_blank"
                       className="btn btn-outline"
                       rel="noreferrer"
+                      title="EduVert"
                     >
                       Download APK
                     </a>
@@ -253,6 +254,7 @@ const Services = () => {
                         target="_blank"
                         className="btn btn-outline"
                         rel="noreferrer"
+                        title="View Project"
                       >
                         View Project
                       </a>

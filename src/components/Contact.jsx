@@ -76,11 +76,11 @@ const About = () => {
 
         <meta
           name="description"
-          content="Contact Me For Website Development , Software Development, or Digital Marketing Like SEO, PCC, SMO etc."
+          content="Contact me for Website Development , Software Development, or Digital Marketing Like SEO, PCC, SMO etc."
         />
         <meta
           name="keywords"
-          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+          content="suraj yadav, suraj yadav portfolio, software development, suraj yadav software developer, suraj yadav react developer, suraj yadav frontend developer, react developer, javascript developer, suraj yadav seo expert, seo expert, frontend developer, suraj yadav digital marketing"
         />
       </Helmet>
       <div className="about">
@@ -95,7 +95,7 @@ const About = () => {
             <div className="row  h-650 alignCenter">
               <div className="col-6">
                 <div className="about__img">
-                  <img src="/images/Avatar.png" alt="man" />
+                  <img src="/images/Avatar.png" alt="man" loading="lazy" />
                 </div>
               </div>
               <div className="col-6">
@@ -121,6 +121,7 @@ const About = () => {
                           href="https://www.linkedin.com/in/suraj-yadav-01752b222/"
                           target="_blank"
                           rel="noreferrer"
+                          title="Linkdin"
                         >
                           <li>
                             <FaLinkedinIn
@@ -133,6 +134,7 @@ const About = () => {
                           href="https://github.com/sarry7045"
                           target="_blank"
                           rel="noreferrer"
+                          title="GitHub"
                         >
                           <li>
                             <FaGithub
@@ -145,6 +147,7 @@ const About = () => {
                           href="https://www.instagram.com/suraj.28_11/"
                           target="_blank"
                           rel="noreferrer"
+                          title="Instagram"
                         >
                           {" "}
                           <li>
@@ -158,6 +161,7 @@ const About = () => {
                           href="https://www.facebook.com/profile.php?id=100010635822203"
                           target="_blank"
                           rel="noreferrer"
+                          title="Facebook"
                         >
                           {" "}
                           <li>
@@ -167,7 +171,7 @@ const About = () => {
                             />
                           </li>
                         </a>
-                        <a href="mailto: sarry7045@gmail.com">
+                        <a href="mailto: sarry7045@gmail.com" title="Mail">
                           <li>
                             <AiFillMail
                               className="headerIcon"

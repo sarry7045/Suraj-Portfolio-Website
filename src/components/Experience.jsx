@@ -14,6 +14,7 @@ const About = () => {
           href="http://ixarrobotic.com/#/"
           target="_blank"
           rel="noreferrer"
+          title="IXAR Robotics"
         >
           www.ixarrobotic.com
         </a>
@@ -41,6 +42,7 @@ const About = () => {
           href="https://paymentz.com/"
           target="_blank"
           rel="noreferrer"
+          title="Paymentz"
         >
           www.paymentz.com
         </a>
@@ -69,11 +71,10 @@ const About = () => {
           href="https://wealthdesk.in/"
           target="_blank"
           rel="noreferrer"
+          title="WealthDesk"
         >
           www.wealthdesk.in
         </a>
-        
-        
       ),
     },
     { id: 2, title: "Role:", text: "Front-End Developer" },
@@ -96,7 +97,7 @@ const About = () => {
         <meta name="description" content="Working Experience" />
         <meta
           name="keywords"
-          content="suraj yadav, suraj yadav portfolio, suraj yadav react developer, web developer, software developer, seo expert, react, react developer, javascript, javascript developer, node developer, frontend developer, digital marketing, seo, ppc, suraj yadav digital marketing "
+          content="suraj yadav, suraj yadav portfolio, software development, suraj yadav software developer, suraj yadav react developer, suraj yadav frontend developer, react developer, javascript developer, suraj yadav seo expert, seo expert, frontend developer, suraj yadav digital marketing"
         />
       </Helmet>
       <div className="about">

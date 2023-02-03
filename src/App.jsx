@@ -33,6 +33,7 @@ function App() {
         <Route exact path="/experience">
           <Experience />
         </Route>
+        <Route path="*" element={<AboutMe />} />
       </Router>
     </div>
   );
