@@ -1,8 +1,28 @@
-import React, { Suspense } from "react";
-import ReactDOM from "react-dom";
+import React, { Suspense, Profiler } from "react";
+import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+function onRender(
+  id,
+  phase,
+  actualDuration,
+  baseDuration,
+  startTime,
+  commitTime
+) {
+  console.log({
+    id,
+    phase,
+    actualDuration,
+    baseDuration,
+    startTime,
+    commitTime,
+  });
+}
+
+root.render(
   <React.StrictMode>
     <Suspense
       fallback={
@@ -11,8 +31,9 @@ ReactDOM.render(
         </div>
       }
     >
-      <App />
+      <Profiler id="Portfolio" onRender={onRender}>
+        <App />
+      </Profiler>
     </Suspense>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );

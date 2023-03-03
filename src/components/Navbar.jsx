@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../components/css/Navbar.css";
 
 const Nav = () => {
@@ -6,30 +7,38 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <a href="/" className="logo" title="Suraj Yadav">
+        <Link to="/" className="logo" title="Suraj Yadav">
           {Portfolio}
-        </a>
+        </Link>
         <input type="checkbox" id="click" />
         <label for="click" className="menu-btn">
           <i className="fa fa-bars"></i>
         </label>
         <ul>
           <li>
-            <a className="active" title="About me" href="/">
+            <Link className="active" title="About me" to="/">
               About Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/skills" title="Skills">Skills</a>
+            <Link to="/skills" title="Skills">
+              Skills
+            </Link>
           </li>
           <li>
-            <a href="/projects" title="Projects">Projects</a>
+            <Link to="/projects" title="Projects">
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="/experience" title="Experience">Experiences</a>
+            <Link to="/experience" title="Experience">
+              Experiences
+            </Link>
           </li>
           <li>
-            <a href="/contact" title="Contact">Contact Me</a>
+            <Link to="/contact" title="Contact">
+              Contact Me
+            </Link>
           </li>
         </ul>
       </nav>

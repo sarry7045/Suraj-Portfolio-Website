@@ -1,20 +1,12 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import "../components/css/Skills.css";
 
 function Skills() {
-  const [header] = React.useState({
-    subHeading: "Programming Skills",
-  });
-  const [secondheader] = React.useState({
-    subHeading: "Digital Marketing Skills",
-  });
-
-  // const [thirdheader] = React.useState({
-  //   subHeading: "Computer Proficiency",
-  // });
+  // const programmingSkills = ["JavaScript, React.Js, Next.Js, TypeScript, React-Native, Redux, Rest-API's, Material-UI, Node.Js"]
+  // const digitalMarketingSkills = ["JavaScript, React.Js, Next.Js, TypeScript, React-Native, Redux, Rest-API's, Material-UI, Node.Js"]
 
   return (
     <>
@@ -34,64 +26,40 @@ function Skills() {
         <div className="skillscontainer">
           <div className="skillscontainer1">
             <div className="common">
-              <h1 className="mainHeader">{header.subHeading}</h1>
+              <h1 className="mainHeader">Programming Skills</h1>
               <div className="commonBorder"></div>
             </div>
-            <Zoom>
-              <div
-                // initial={{ opacity: 0 }}
-                // animate={{ opacity: 1 }}
-                // transition={{ delay: 0.5, duration: 1 }}
-                className="Skill-Container"
-              >
-                <ul>
-                  <li class="React">JavaScript</li>
-                  <li class="React">React.Js</li>
-                  <li class="Redux">Next.Js</li>
-                  <li class="Formik">TypeScript</li>
-                  <li class="Formik">React-Native</li>
-                  <li class="Formik">Redux</li>
-                  <li class="Nodejs">Rest-API's</li>
-                  <li class="API">Material-UI</li>
-                  <li class="MongoDB">Node.Js</li>
-                  {/* <li class="Tailwind">ECMA-Script</li>
-                  <li class="HTML">HTML, SCSS</li> */}
-                </ul>
-              </div>
-              <div className="common">
-                <h1 className="mainHeader">{secondheader.subHeading}</h1>
-                <div className="commonBorder"></div>
-              </div>
-            </Zoom>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.1, duration: 0.9 }}
+              className="Skill-Container"
+            >
+              <ul>
+                <li className="React">JavaScript</li>
+                <li className="React">React.Js</li>
+                <li className="Redux">Next.Js</li>
+                <li className="Formik">TypeScript</li>
+                <li className="Formik">React-Native</li>
+                <li className="Formik">Redux</li>
+                <li className="Nodejs">Rest-API's</li>
+                <li className="API">Material-UI</li>
+                <li className="MongoDB">Node.Js</li>
+              </ul>
+            </motion.div>
+            <div className="common">
+              <h1 className="mainHeader">Digital Marketing Skills</h1>
+              <div className="commonBorder"></div>
+            </div>
             <div className="Skill-Container">
               <Zoom>
                 <ul>
                   <li className="SEO">SEO</li>
                   <li className="SEM">SEM</li>
                   <li className="SMO">SMO</li>
-                  {/* <li className="SMM">PPC</li>
-                  <li className="Google">Google Adds</li> */}
                 </ul>
               </Zoom>
             </div>
-            {/* <div className="common">
-              <h1 className="mainHeader">{thirdheader.subHeading}</h1>
-              <div className="commonBorder"></div>
-            </div>
-            <div className="Skill-Container">
-              <Zoom>
-                <ul>
-                  <li className="Word">Microsoft Word (Certified)</li>
-                  <li className="Excel">Microsoft Excel (Certified)</li>
-                  <li className="Powerpoint">
-                    Microsoft Powerpoint (Certified)
-                  </li>
-                  <li className="Typing">Typing-40WPM (Certified)</li>
-                  <li className="Canva">Canva</li>
-                  <li className="Photoshop">Photoshop</li>
-                </ul>
-              </Zoom>
-            </div> */}
           </div>
         </div>
       </div>

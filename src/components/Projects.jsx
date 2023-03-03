@@ -22,12 +22,9 @@ import { MdQuiz } from "react-icons/md";
 import { AiFillMobile } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
 import apk from "../PDF/EduVert.apk";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Services = () => {
-  const [header] = React.useState({
-    subHeading: "Projects",
-  });
   const [state] = React.useState([
     {
       id: 1,
@@ -81,13 +78,6 @@ const Services = () => {
       text: "In this Project i Created one basic News Website for Programming things.",
       href: "https://programming-news.netlify.app/",
     },
-    // {
-    //   id: 8,
-    //   icon: <FaCity className="commonIcons" />,
-    //   heading: "All About All Countries",
-    //   text: "In this Project i Created Informative website like we can find all the  details about any countries.",
-    //   href: "https://all-about-all-countries.vercel.app/",
-    // },
     {
       id: 9,
       icon: <AiOutlineForm className="commonIcons" />,
@@ -123,13 +113,6 @@ const Services = () => {
       text: "In this Project i created one Basic Expense Calculater Using Material UI",
       href: "https://expense-trracker.netlify.app/",
     },
-    // {
-    //   id: 14,
-    //   icon: <AiOutlineForm className="commonIcons" />,
-    //   heading: "React-Formik",
-    //   text: "In this Project i Created 4 Registration Forms Using React Formik.",
-    //   href: "https://reactt-formik.netlify.app/",
-    // },
     {
       id: 15,
       icon: <MdOutlineFoodBank className="commonIcons" />,
@@ -184,16 +167,16 @@ const Services = () => {
         <div className="container">
           <div className="services__header">
             <div className="common">
-              <h1 className="mainHeader">{header.subHeading}</h1>
+              <h1 className="mainHeader">Projects</h1>
 
               <div className="commonBorder"></div>
             </div>
 
             <div className="row bgMain">
-              <div
-                // initial={{ opacity: 0 }}
-                // animate={{ opacity: 1 }}
-                // transition={{ delay: 0.5, duration: 1 }}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.1, duration: 0.9 }}
                 className="col-4 bgMain"
               >
                 <Zoom>
@@ -205,12 +188,12 @@ const Services = () => {
                       Programming Languages.{" "}
                     </div>
                   </div>
-                  <div
-                    // whileHover={{
-                    //   scale: 1.1,
-                    //   originX: 0,
-                    // }}
-                    // transition={{ type: "spring", stiffness: 1000 }}
+                  <motion.div
+                    whileHover={{
+                      scale: 1.1,
+                      originX: 0,
+                    }}
+                    transition={{ type: "spring", stiffness: 1000 }}
                     style={{ margin: "2.5rem 0 4rem 2rem" }}
                     className="header_buttons"
                   >
@@ -224,14 +207,14 @@ const Services = () => {
                     >
                       Download APK
                     </a>
-                  </div>
+                  </motion.div>
                 </Zoom>
-              </div>
+              </motion.div>
               {state.map((info) => (
-                <div
-                  // initial={{ opacity: 0 }}
-                  // animate={{ opacity: 1 }}
-                  // transition={{ delay: 0.5, duration: 1 }}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.1, duration: 0.9 }}
                   className="col-4 bgMain"
                 >
                   <Zoom>
@@ -240,12 +223,12 @@ const Services = () => {
                       <div className="services__box-header">{info.heading}</div>
                       <div className="">{info.text}</div>
                     </div>
-                    <div
-                      // whileHover={{
-                      //   scale: 1.1,
-                      //   originX: 0,
-                      // }}
-                      // transition={{ type: "spring", stiffness: 1000 }}
+                    <motion.div
+                      whileHover={{
+                        scale: 1.1,
+                        originX: 0,
+                      }}
+                      transition={{ type: "spring", stiffness: 1000 }}
                       style={{ margin: "2.5rem 0 4rem 2rem" }}
                       className="header_buttons"
                     >
@@ -258,9 +241,9 @@ const Services = () => {
                       >
                         View Project
                       </a>
-                    </div>
+                    </motion.div>
                   </Zoom>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
