@@ -7,9 +7,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.Website-link {
-  color: #fff;
-}
 
 .AboutMeBackground {
   background: #02060b;
@@ -25,9 +22,6 @@ body {
 }
 .alignCenter {
   align-items: center;
-}
-.justifyConter {
-  justify-content: center;
 }
 
 .row {
@@ -115,7 +109,7 @@ body {
 
 .banner__img {
   padding: 0 145px;
-  margin-top: 170px;
+  margin-top: 190px;
 }
 
 .services {
@@ -248,51 +242,6 @@ body {
 .contact__header__ul li:hover .headerIcon {
   color: #000;
 }
-.btn-area {
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 62px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-.box {
-  display: none;
-}
-
-.Feedback {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-.Feedback label {
-  position: relative;
-}
-.Feedback input[type="text"],
-input[placeholder="Give Feedback"] {
-  border: 2px solid #9da4c4;
-  width: 350px;
-  height: 48px;
-  padding: 0 15px;
-}
-.Feedback input[placeholder="Give Feedback"] {
-  font-size: 1.1rem;
-}
-
-.Feedback button {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background-color: #2d46b9;
-  color: white;
-  padding: 0 15px;
-  letter-spacing: 1.5px;
-  border: none;
-  cursor: pointer;
-}
 
 .wrapper {
   max-width: 650px;
@@ -329,10 +278,6 @@ input[placeholder="Give Feedback"] {
   border-radius: 4px;
 }
 
-.wrapper .form .inputfield .textarea {
-  height: 80px;
-}
-
 .wrapper .form .inputfield .btn {
   width: 100%;
   padding: 8px 10px;
@@ -344,10 +289,6 @@ input[placeholder="Give Feedback"] {
   text-transform: uppercase;
 }
 
-.wrapper .form .inputfield .btn:hover {
-  background: #3047ac;
-}
-
 @media (max-width: 765px) {
   .container {
     width: 100%;
@@ -356,15 +297,8 @@ input[placeholder="Give Feedback"] {
   .col-6 {
     width: 100%;
   }
-  .col-3 {
-    width: 100%;
-  }
   .col-4 {
     width: 100%;
-  }
-
-  .toggle {
-    display: flex;
   }
 
   .header__section h1 {
@@ -392,12 +326,6 @@ input[placeholder="Give Feedback"] {
   }
   .services__box {
     padding: 20px;
-  }
-  .box:checked ~ ul {
-    left: 0;
-  }
-  .btn-area {
-    display: block;
   }
   .about__info__Experience {
     margin: -4rem 0 0 0;

@@ -149,7 +149,7 @@ const Contact = () => {
           >
             <div className="col-6">
               <div className="about__img">
-                <img src="/Images/Avatar.png" alt="man" loading="lazy" />
+                <img src="/Images/Avatar.png" alt="man" />
               </div>
             </div>
             <div className="col-6">

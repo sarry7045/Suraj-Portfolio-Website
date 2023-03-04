@@ -1,4 +1,4 @@
-import React, { Suspense, Profiler } from "react";
+import React, { Profiler } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
@@ -24,16 +24,16 @@ function onRender(
 
 root.render(
   <React.StrictMode>
-    <Suspense
+    {/* <Suspense
       fallback={
         <div>
           <h4>Suraj Yadav...</h4>
         </div>
       }
-    >
-      <Profiler id="Portfolio" onRender={onRender}>
-        <App />
-      </Profiler>
-    </Suspense>
+    > */}
+    <Profiler id="Portfolio" onRender={onRender}>
+      <App />
+    </Profiler>
+    {/* </Suspense> */}
   </React.StrictMode>
 );

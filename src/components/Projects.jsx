@@ -16,13 +16,12 @@ import { FaRupeeSign } from "react-icons/fa";
 import { BsNewspaper } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdLocalMovies } from "react-icons/md";
-// import { FaCity } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { MdQuiz } from "react-icons/md";
 import { AiFillMobile } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
-import apk from "../PDF/EduVert.apk";
 import { motion } from "framer-motion";
+import apk from "../PDF/EduVert.apk";
 
 const Services = () => {
   const [state] = React.useState([
@@ -165,19 +164,18 @@ const Services = () => {
       </Helmet>
       <div className="services">
         <div className="container">
-          <div className="services__header">
             <div className="common">
               <h1 className="mainHeader">Projects</h1>
 
               <div className="commonBorder"></div>
             </div>
 
-            <div className="row bgMain">
+            <div className="row">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.1, duration: 0.9 }}
-                className="col-4 bgMain"
+                className="col-4"
               >
                 <Zoom>
                   <div className="services__box">
@@ -215,7 +213,7 @@ const Services = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.1, duration: 0.9 }}
-                  className="col-4 bgMain"
+                  className="col-4"
                 >
                   <Zoom>
                     <div className="services__box">
@@ -246,7 +244,6 @@ const Services = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
         </div>
       </div>
     </>
