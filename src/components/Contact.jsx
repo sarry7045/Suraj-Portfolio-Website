@@ -14,6 +14,7 @@ import * as yup from "yup";
 import Helmet from "react-helmet";
 import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
+import Avatar from "../PDF/Avatar.png";
 
 const Contact = () => {
   const initialValues = {
@@ -149,7 +150,7 @@ const Contact = () => {
           >
             <div className="col-6">
               <div className="about__img">
-                <img src="/Images/Avatar.png" alt="man" />
+                <img src={Avatar} alt="Avatar" />
               </div>
             </div>
             <div className="col-6">

@@ -11,13 +11,14 @@ import pdf from "../PDF/SurajYadav.pdf";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Zoom } from "react-reveal";
+import Avatar from "../PDF/Avatar.png";
 
 const AboutMe = () => {
   const [state] = useState({
     title: "Suraj Anil Yadav",
     text: "Frontend Developer with 2+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, React, TypeScript, Redux etc.",
     textt: "Also Learning: React Native, NodeJs",
-    image: "/Images/Avatar.png",
+    // image: "/Images/Avatar.png",
   });
   const fastState = useDeferredValue(state);
 
@@ -130,7 +131,7 @@ const AboutMe = () => {
             <Zoom>
               <div className="col-6">
                 <div className="banner__img">
-                  <img src={fastState.image} alt="Avatar" />
+                  <img src={Avatar} alt="Avatar" />
                 </div>
               </div>
             </Zoom>
