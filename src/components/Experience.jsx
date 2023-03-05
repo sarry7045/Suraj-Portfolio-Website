@@ -115,23 +115,26 @@ const About = () => {
                 className="col-6"
               >
                 <div className="about__info__Experience">
-                  <h1>IXAR Robotic Solutions</h1>
+                  <h1>PhonePe-WealthDesk</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Worked as a Web Developer and build beautiful Responsive
-                    Website using HTML, CSS, ReactJs, Material-UI etc.
+                    Develop and maintain pages to match business Requirements.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Also Performed SEO for Website, In order to Rank them on
-                    Google Search Engine.
+                    Working on Integrating API’s and all the Frontend part of
+                    WealthBasket's (ETF Portfolios from Experts) and EWG
+                    (Embedded WealthDesk Gateway).
                   </div>
-
+                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                    Also Working on Page Optimization.
+                  </div>
                   <div className="info__contacts">
                     <div className="row">
-                      {state.map((info) => (
+                      {stateee.map((infoo) => (
                         <div className="col-6">
-                          <strong>{info.title}</strong>
-                          <p>{info.text}</p>
+                          <strong>{infoo.title}</strong>
+
+                          <p>{infoo.text}</p>
                         </div>
                       ))}
                     </div>
@@ -171,26 +174,23 @@ const About = () => {
                 className="col-6"
               >
                 <div className="about__info__Experience">
-                  <h1>PhonePe-WealthDesk</h1>
+                  <h1>IXAR Robotic Solutions</h1>
                   <div className="commonBorderExp"></div>
                   <div className="about__info-p1" style={{ fontSize: "1rem" }}>
-                    Develop and maintain pages to match business Requirements.
+                    Worked as a Web Developer and build beautiful Responsive
+                    Website using HTML, CSS, ReactJs, Material-UI etc.
                   </div>
                   <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Working on Integrating API’s and all the Frontend part of
-                    WealthBasket's (ETF Portfolios from Experts) and EWG
-                    (Embedded WealthDesk Gateway).
+                    Also Performed SEO for Website, In order to Rank them on
+                    Google Search Engine.
                   </div>
-                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
-                    Also Working on Page Optimization.
-                  </div>
+
                   <div className="info__contacts">
                     <div className="row">
-                      {stateee.map((infoo) => (
+                      {state.map((info) => (
                         <div className="col-6">
-                          <strong>{infoo.title}</strong>
-
-                          <p>{infoo.text}</p>
+                          <strong>{info.title}</strong>
+                          <p>{info.text}</p>
                         </div>
                       ))}
                     </div>

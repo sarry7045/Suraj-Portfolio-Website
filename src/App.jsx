@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../src/components/css/App.css";
-import Projects from "./components/Projects.jsx"
-import AboutMe from "./components/AboutMe.jsx"
-import Contact from "./components/Contact.jsx"
-import Skills from "./components/Skills.jsx"
-import Experience from "./components/Experience.jsx"
-import Navbar from "./components/Navbar.jsx"
+import Projects from "./components/Projects.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import Contact from "./components/Contact.jsx";
+import Skills from "./components/Skills.jsx";
+import Experience from "./components/Experience.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 // const Projects = React.lazy(() => import("./components/Projects.jsx"));
 // const AboutMe = React.lazy(() => import("./components/AboutMe.jsx"));
@@ -22,15 +22,15 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route exact path="/" element={<AboutMe />}></Route>
+          <Route path="/" element={<AboutMe />}></Route>
 
-          <Route exact path="/projects" element={<Projects />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
 
-          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
 
-          <Route exact path="/skills" element={<Skills />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
 
-          <Route exact path="/experience" element={<Experience />}></Route>
+          <Route path="/experience" element={<Experience />}></Route>
 
           <Route path="*" element={<AboutMe />} />
         </Routes>

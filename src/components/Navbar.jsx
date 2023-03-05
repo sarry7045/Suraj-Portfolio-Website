@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../components/css/Navbar.css";
 
 const Nav = () => {
@@ -7,38 +7,38 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <Link to="/" className="logo" title="Suraj Yadav">
+        <NavLink to="/" className="logo" title="Suraj Yadav">
           {Portfolio}
-        </Link>
+        </NavLink>
         <input type="checkbox" id="click" />
         <label for="click" className="menu-btn">
           <i className="fa fa-bars"></i>
         </label>
         <ul>
           <li>
-            <Link className="active" title="About me" to="/">
+            <NavLink className="active" title="About me" to="/">
               About Me
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/skills" title="Skills">
+            <NavLink to="/skills" title="Skills">
               Skills
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/projects" title="Projects">
+            <NavLink to="/projects" title="Projects">
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/experience" title="Experience">
+            <NavLink to="/experience" title="Experience">
               Experiences
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" title="Contact">
+            <NavLink to="/contact" title="Contact">
               Contact Me
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
