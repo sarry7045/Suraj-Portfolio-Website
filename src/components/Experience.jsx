@@ -215,7 +215,7 @@ const Experience = () => {
                     style={{ fontSize: "1rem" }}
                   >
                     Also Performed SEO for Website, In order to Rank them on
-                    Google Search Engine.
+                    Google Search Engine..
                   </div>
 
                   <div className="info__contacts">
