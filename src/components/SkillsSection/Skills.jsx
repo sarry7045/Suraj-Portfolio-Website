@@ -5,7 +5,7 @@ import SkillsComponent from "./SkilsComponent";
 import Helmet from "react-helmet";
 import ReactNative from "../../Assets/ReactNative.svg";
 import FramerMotion from "../../Assets/FramerMotion.svg";
-import "../../Components/CSS/Skill.css";
+import "../CSS/Skill.css";
 import { Zoom } from "react-reveal";
 
 const Skils = () => {

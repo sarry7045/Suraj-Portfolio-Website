@@ -16,9 +16,9 @@ import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
 import apk from "../Assets/EduVert.apk";
-import "../Components/CSS/Projects.css";
+import "./CSS/Projects.css";
 
-const Services = () => {
+const Projects = () => {
   const [state] = React.useState([
     {
       id: 1,
@@ -226,4 +226,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Projects;

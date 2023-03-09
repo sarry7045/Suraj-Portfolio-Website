@@ -10,7 +10,7 @@ import Helmet from "react-helmet";
 import { motion } from "framer-motion";
 import Avatar from "../Assets/Avatar.png";
 // import "../Components/CSS/Contact.css"
-import "../../src/Components/CSS/Contact.css";
+import "./CSS/Contact.css";
 
 const Contact = () => {
   const [state] = React.useState([

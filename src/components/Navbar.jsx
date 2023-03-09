@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./CSS/Navbar.css";
 
-const Nav = () => {
+const Navbar = () => {
   const Portfolio = "<PortFolio/>";
   return (
     <>
@@ -46,4 +46,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;
