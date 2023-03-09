@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd7ae62d.css",
-    "main.js": "/static/js/main.eb9c0251.js",
+    "main.js": "/static/js/main.6be08883.js",
     "static/media/EduVert.apk": "/static/media/EduVert.c64192d02d9fee9e74f5.apk",
     "static/media/Avatar.png": "/static/media/Avatar.3e17d79db71bd1aa0104.png",
     "static/media/SurajYadav.pdf": "/static/media/SurajYadav.1316b263144f8f42aa41.pdf",
@@ -9,10 +9,10 @@
     "index.html": "/index.html",
     "static/media/FramerMotion.svg": "/static/media/FramerMotion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
     "main.cd7ae62d.css.map": "/static/css/main.cd7ae62d.css.map",
-    "main.eb9c0251.js.map": "/static/js/main.eb9c0251.js.map"
+    "main.6be08883.js.map": "/static/js/main.6be08883.js.map"
   },
   "entrypoints": [
     "static/css/main.cd7ae62d.css",
-    "static/js/main.eb9c0251.js"
+    "static/js/main.6be08883.js"
   ]
 }

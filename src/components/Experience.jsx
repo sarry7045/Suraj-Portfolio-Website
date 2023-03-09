@@ -126,7 +126,7 @@ const About = () => {
                 style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
                 className="col-6"
               >
-                <div className="about__info__Experience">
+                <div className="Experience_info">
                   <h1>PhonePe-WealthDesk</h1>
                   <div className="Experience-commonBorder"></div>
                   <div
@@ -166,9 +166,9 @@ const About = () => {
                 style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
                 className="col-6"
               >
-                <div className="about__info__Experience">
+                <div className="Experience_info">
                   <h1>Payments Gateway Solutions</h1>
-                  <div className="commonBorderExp"></div>
+                  <div className="Experience-commonBorder"></div>
                   <div
                     className="Experience__info"
                     style={{ fontSize: "1rem" }}
@@ -200,9 +200,9 @@ const About = () => {
                 style={{ padding: "1rem 3rem 0 0", margin: "5rem 0 0 0" }}
                 className="col-6"
               >
-                <div className="about__info__Experience">
+                <div className="Experience_info">
                   <h1>IXAR Robotic Solutions</h1>
-                  <div className="commonBorderExp"></div>
+                  <div className="Experience-commonBorder"></div>
                   <div
                     className="Experience__info"
                     style={{ fontSize: "1rem" }}
