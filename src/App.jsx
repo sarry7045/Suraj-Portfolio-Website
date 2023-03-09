@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Skills from "./components/SkillsSection/Skills";
-import "./components/CSS/App.css";
+import "./components/css/App.css";
 
 // const Projects = React.lazy(() => import("./components/Projects"));
 // const AboutMe = React.lazy(() => import("./components/AboutMe"));

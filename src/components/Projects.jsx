@@ -16,7 +16,7 @@ import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
 import apk from "../Assets/EduVert.apk";
-import "./CSS/Projects.css";
+import "./css/Projects.css";
 
 const Projects = () => {
   const [state] = React.useState([
