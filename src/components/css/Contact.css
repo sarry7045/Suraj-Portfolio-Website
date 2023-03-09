@@ -1,0 +1,45 @@
+.contact__header__ul {
+  list-style-type: none;
+  display: flex;
+  margin: 40px 10rem 0 0;
+  color: #fff;
+}
+.contact__header__ul li {
+  width: 50px;
+  height: 50px;
+  border: 2.5px solid #2d46b9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contact__header__ul li:hover {
+  background: #2d46b9;
+  border: 3px solid transparent;
+  transition: all 0.3s linear;
+}
+.contact__header__ul li:hover .headerIcon {
+  color: #000;
+}
+
+.contact__info {
+  color: #fff;
+  margin: 0 0 5rem 0;
+}
+
+.contact__info h1 {
+  margin-bottom: 30px;
+}
+.contact_img {
+  padding: 30px;
+  margin: 0 0 8rem 0;
+}
+
+@media (max-width: 765px) {
+  .contact_img {
+    display: none;
+  }
+}

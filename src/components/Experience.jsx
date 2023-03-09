@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
-
+import "../Components/CSS/Experience.css";
 const About = () => {
   const [state] = React.useState([
     {
@@ -65,6 +65,17 @@ const About = () => {
       id: 1,
       title: "Company Website:",
       text: (
+        <>
+        <a
+          style={{ color: "white", textDecoration: "none" }}
+          href="https://www.phonepe.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="PhonePe"
+        >
+          www.phonepe.com
+          </a>
+          <br/>
         <a
           style={{ color: "white", textDecoration: "none" }}
           href="https://wealthdesk.in/"
@@ -73,7 +84,8 @@ const About = () => {
           title="WealthDesk"
         >
           www.wealthdesk.in
-        </a>
+          </a>
+          </>
       ),
     },
     { id: 2, title: "Role:", text: "Front-End Developer" },
@@ -107,7 +119,7 @@ const About = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.1, duration: 0.9 }}
-              className="row  h-650 alignCenter"
+              className="row h-650 alignCenter"
             >
               {" "}
               <div
@@ -116,16 +128,25 @@ const About = () => {
               >
                 <div className="about__info__Experience">
                   <h1>PhonePe-WealthDesk</h1>
-                  <div className="commonBorderExp"></div>
-                  <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                  <div className="Experience-commonBorder"></div>
+                  <div
+                    className="Experience__info"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Develop and maintain pages to match business Requirements.
                   </div>
-                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info2"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Working on Integrating API’s and all the Frontend part of
                     WealthBasket's (ETF Portfolios from Experts) and EWG
                     (Embedded WealthDesk Gateway).
                   </div>
-                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info2"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Also Working on Page Optimization.
                   </div>
                   <div className="info__contacts">
@@ -148,11 +169,17 @@ const About = () => {
                 <div className="about__info__Experience">
                   <h1>Payments Gateway Solutions</h1>
                   <div className="commonBorderExp"></div>
-                  <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Managing UI using HTML, CSS, MaterialUI, JavaScript, and
                     ReactJs.
                   </div>
-                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info2"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Worked on Integrating API’s using Redux and all the Frontend
                     part of M-TRANSACT (Online Payment Software).
                   </div>
@@ -176,11 +203,17 @@ const About = () => {
                 <div className="about__info__Experience">
                   <h1>IXAR Robotic Solutions</h1>
                   <div className="commonBorderExp"></div>
-                  <div className="about__info-p1" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Worked as a Web Developer and build beautiful Responsive
                     Website using HTML, CSS, ReactJs, Material-UI etc.
                   </div>
-                  <div className="about__info-p2" style={{ fontSize: "1rem" }}>
+                  <div
+                    className="Experience__info2"
+                    style={{ fontSize: "1rem" }}
+                  >
                     Also Performed SEO for Website, In order to Rank them on
                     Google Search Engine.
                   </div>

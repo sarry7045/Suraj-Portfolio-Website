@@ -1,5 +1,4 @@
 import React from "react";
-import emailjs from "emailjs-com";
 import {
   FaFacebookF,
   FaInstagram,
@@ -7,63 +6,13 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
-import Zoom from "react-reveal/Zoom";
-import { ToastContainer, toast } from "react-toastify";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as yup from "yup";
 import Helmet from "react-helmet";
-import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
-import Avatar from "../PDF/Avatar.png";
+import Avatar from "../Assets/Avatar.png";
+// import "../Components/CSS/Contact.css"
+import "../../src/Components/CSS/Contact.css";
 
 const Contact = () => {
-  const initialValues = {
-    fullname: "",
-    email: "",
-    phone: "",
-    feedback: "",
-  };
-
-  const validationSchema = yup.object().shape({
-    fullname: yup.string().required("Name is Required!"),
-    email: yup
-      .string()
-      .required("Email is Required!")
-      .email("Please Enter Valid Email"),
-    phone: yup.number().required("Phone is Required!"),
-    feedback: yup.string().required("Feedback is Required!").min(15).max(100),
-  });
-
-  const handleSubmit = (values) => {
-    console.log("Values", values);
-  };
-
-  const notify = () => {
-    toast.success("Message Sent!", {
-      position: toast.POSITION.TOP_CENTER,
-    });
-  };
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_5jq6l6i",
-        "template_axubwul",
-        e.target,
-        "user_ppSiiPMQXzcx5D7p3Hj6D"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Suraj Anil Yadav" },
     { id: 2, title: "Email:", text: "surajyadav112820@gmail.com" },
@@ -104,28 +53,9 @@ const Contact = () => {
     },
   ];
 
-  const formikObj = [
-    {
-      id: 1,
-      label: "Full Name:",
-      name: "fullname",
-    },
-    {
-      id: 2,
-      label: "Email Address:",
-      name: "email",
-    },
-    {
-      id: 3,
-      label: "Phone Number:",
-      name: "phone",
-    },
-    {
-      id: 4,
-      label: "Message:",
-      name: "feedback",
-    },
-  ];
+  const windowWidth = window.innerWidth;
+  console.log("windowHeight", windowWidth);
+
   return (
     <>
       <Helmet>
@@ -149,12 +79,12 @@ const Contact = () => {
             className="row  h-650 alignCenter"
           >
             <div className="col-6">
-              <div className="about__img">
-                <img src={Avatar} alt="Avatar" />
+              <div className="contact_img">
+                {windowWidth > 765 ? <img src={Avatar} alt="Avatar" /> : null}
               </div>
             </div>
             <div className="col-6">
-              <div className="about__info">
+              <div className="contact__info">
                 <h1>Empowering your web identity</h1>
 
                 <div className="info__contacts">
@@ -186,50 +116,6 @@ const Contact = () => {
               </div>
             </div>
           </motion.div>
-
-          <div className="wrapper">
-            <Zoom>
-              <div className="title">Let's Connect</div>
-              <Formik
-                initialValues={initialValues}
-                validationSchema={validationSchema}
-                onSubmit={(values) => handleSubmit(values)}
-              >
-                <Form onSubmit={sendEmail}>
-                  <div className="form">
-                    {formikObj.map((item) => {
-                      return (
-                        <>
-                          <div className="inputfield">
-                            <label>{item.label}</label>
-                            <Field
-                              type="text"
-                              name={item.name}
-                              className="input"
-                            />
-                            <br />
-                            <p style={{ color: "red" }}>
-                              <ErrorMessage name={item.name} />
-                            </p>
-                          </div>
-                        </>
-                      );
-                    })}
-
-                    <div className="inputfield">
-                      <input
-                        onClick={notify}
-                        type="submit"
-                        value="Send Details"
-                        className="btn"
-                      />
-                    </div>
-                    <ToastContainer />
-                  </div>
-                </Form>
-              </Formik>
-            </Zoom>
-          </div>
         </div>
       </div>
     </>

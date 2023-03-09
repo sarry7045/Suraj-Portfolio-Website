@@ -1,0 +1,9 @@
+.skillscontainer1 {
+  width: 1300px;
+  margin: 20px auto;
+  height: 100vh;
+}
+.skillscontainer {
+  background: #02060b;
+  display: flex;
+}

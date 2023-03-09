@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "../src/components/css/App.css";
-import Projects from "./components/Projects.jsx";
-import AboutMe from "./components/AboutMe.jsx";
-import Contact from "./components/Contact.jsx";
-import Skills from "./components/Skills.jsx";
-import Experience from "./components/Experience.jsx";
-import Navbar from "./components/Navbar.jsx";
+import Projects from "./Components/Projects.jsx";
+import AboutMe from "./Components/AboutMe.jsx";
+import Contact from "./Components/Contact.jsx";
+import Experience from "./Components/Experience.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import Skills from "./Components/SkillsSection/Skills";
+import "./Components/CSS/App.css";
 
 // const Projects = React.lazy(() => import("./components/Projects.jsx"));
 // const AboutMe = React.lazy(() => import("./components/AboutMe.jsx"));

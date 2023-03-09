@@ -7,18 +7,18 @@ import {
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Helmet from "react-helmet";
-import pdf from "../PDF/SurajYadav.pdf";
+import pdf from "../Assets/SurajYadav.pdf";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Zoom } from "react-reveal";
-import Avatar from "../PDF/Avatar.png";
+import Avatar from "../Assets/Avatar.png";
+import "../Components/CSS/AboutMe.css"
 
 const AboutMe = () => {
   const [state] = useState({
     title: "Suraj Anil Yadav",
     text: "Frontend Developer with 2+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, React, TypeScript, Redux etc.",
     textt: "Also Learning: React Native, NodeJs",
-    // image: "/Images/Avatar.png",
   });
   const fastState = useDeferredValue(state);
 
@@ -114,13 +114,14 @@ const AboutMe = () => {
                   </h1>
                   <p>{fastState.text}</p>
                   <p style={{ paddingBottom: "20px" }}>{fastState.textt}</p>
-                  <div className="header_buttons">
+                  <div className="mainbuttons">
                     <a
                       href={pdf}
                       className="btn btn-outline"
                       target="_blank"
                       rel="noreferrer"
                       title="Resume"
+                      style={{ }}
                     >
                       Download Resume
                     </a>

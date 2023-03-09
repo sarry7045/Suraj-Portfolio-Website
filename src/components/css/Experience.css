@@ -1,0 +1,29 @@
+.Experience_info {
+  color: #fff;
+  margin: 0 0 2rem 0;
+}
+
+.Experience-commonBorder {
+  background: #2d46b9;
+  height: 3px;
+  width: 120px;
+  margin: 40px auto;
+}
+
+.Experience__info {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.Experience__info2 {
+  font-size: 14px;
+}
+
+@media (max-width: 765px) {
+  .experienceHeight {
+    height: 350vh;
+    background: #02060b;
+  }
+  .Experience_info {
+    margin: -4rem 0 0 0;
+  }
+}

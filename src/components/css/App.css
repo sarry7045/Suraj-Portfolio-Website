@@ -8,10 +8,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.AboutMeBackground {
-  background: #02060b;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -34,65 +30,10 @@ body {
   margin: 1rem 0 0 0;
 }
 
-.col-4 {
-  width: 33.33333333333333%;
-}
-
-.header__content {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  color: #fff;
-}
-.header__ul {
-  list-style-type: none;
-  display: flex;
-  margin-bottom: 20px;
-  color: #fff;
-}
-.header__ul li {
-  width: 50px;
-  height: 50px;
-  border: 2.5px solid #2d46b9;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-.header__ul li:hover {
-  background: #2d46b9;
-  border: 3px solid transparent;
-  transition: all 0.3s linear;
-}
-.header__ul li:hover .headerIcon {
-  color: #000;
-}
-.header__ul li:hover .headerIconGit {
-  color: #000;
-}
-
-.header_buttons a:hover {
+.mainbuttons a:hover {
   color: #fff;
   background-color: #2d46b9;
   transition: all 0.3s linear;
-}
-.header__ul li:first-child {
-  margin-left: 0;
-}
-.header__section h1 {
-  font-size: 57px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.header__section p {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 40px;
-  margin-bottom: 40px;
 }
 
 .btn {
@@ -107,100 +48,11 @@ body {
   padding: 13px 40px;
 }
 
-.banner__img {
-  padding: 0 145px;
-  margin-top: 190px;
-}
-
-.services {
-  background: #02060b;
-  padding: 100px 0;
-  color: #fff;
-}
-
-.common {
-  width: 33.33333333333333%;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.heading {
-  margin-bottom: 20px;
-  font-weight: 500;
-  color: #2d46b9;
-  font-size: 16px;
-}
-.mainHeader {
-  font-size: 29px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.commonBorder {
-  background: #2d46b9;
-  height: 3px;
-  width: 100px;
-  margin: 30px auto;
-}
-.commonBorderExp {
-  background: #2d46b9;
-  height: 3px;
-  width: 120px;
-  margin: 40px auto;
-}
-
-.services__box {
-  padding: 40px;
-  background: #050d16;
-  color: #fff;
-  margin: 20px;
-  transition: all 0.5s linear;
-}
-.services__box:hover {
-  background: #2d46b9;
-}
-.commonIcons {
-  font-size: 40px;
-  color: #2d46b9;
-  margin-bottom: 15px;
-}
-.services__box:hover .commonIcons {
-  color: #fff;
-}
-.services__box-header {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
 .about {
   width: 100%;
   background: #02060b;
   padding: 100px 0;
-  height: 180vh;
-}
-.about__img {
-  padding: 30px;
-  margin: 0 0 8rem 0;
-}
-
-.about__info {
-  color: #fff;
-  margin: 0 0 5rem 0;
-}
-.about__info__Experience {
-  color: #fff;
-  margin: 0 0 2rem 0;
-}
-.about__info h1 {
-  margin-bottom: 30px;
-}
-.about__info-p1 {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-.about__info-p2 {
-  font-size: 14px;
+  height: 120vh;
 }
 
 .info__contacts {
@@ -216,79 +68,6 @@ body {
   margin: 10px 0;
 }
 
-.contact__header__ul {
-  list-style-type: none;
-  display: flex;
-  margin: 40px 10rem 0 0;
-  color: #fff;
-}
-.contact__header__ul li {
-  width: 50px;
-  height: 50px;
-  border: 2.5px solid #2d46b9;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-.contact__header__ul li:hover {
-  background: #2d46b9;
-  border: 3px solid transparent;
-  transition: all 0.3s linear;
-}
-.contact__header__ul li:hover .headerIcon {
-  color: #000;
-}
-
-.wrapper {
-  max-width: 650px;
-  background: #02060b;
-  margin: 10px auto;
-  padding: 20px;
-}
-
-.wrapper .title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  color: #2d46b9;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.wrapper .form .inputfield {
-  margin-bottom: 25px;
-}
-
-.wrapper .form .inputfield label {
-  color: #fff;
-  font-size: 15px;
-}
-
-.wrapper .form .inputfield .input,
-.wrapper .form .inputfield .textarea {
-  width: 100%;
-  outline: none;
-  border: 1px solid #d5dbd9;
-  font-size: 15px;
-  padding: 8px 10px;
-  border-radius: 4px;
-}
-
-.wrapper .form .inputfield .btn {
-  width: 100%;
-  padding: 8px 10px;
-  font-size: 15px;
-  background: #2d46b9;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
 @media (max-width: 765px) {
   .container {
     width: 100%;
@@ -297,41 +76,8 @@ body {
   .col-6 {
     width: 100%;
   }
-  .col-4 {
-    width: 100%;
-  }
 
-  .header__section h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .header__section p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 35px;
-  }
-  .common {
-    width: 100%;
-  }
   .h-650 {
     height: auto;
-  }
-  .banner__img {
-    display: none;
-  }
-  .about__img {
-    display: none;
-  }
-  .services__box {
-    padding: 20px;
-  }
-  .about__info__Experience {
-    margin: -4rem 0 0 0;
-  }
-  .experienceHeight {
-    height: 350vh;
-    background: #02060b;
   }
 }
