@@ -26,6 +26,7 @@ const Projects = () => {
       heading: "Shop-Mart",
       text: "In this Project i created one E-Commerce App, with almost all e-commerce app functionality.",
       href: "https://shopp-mart.netlify.app/",
+      github: "https://github.com/sarry7045/E-Commerce-Web",
     },
     {
       id: 2,
@@ -33,6 +34,7 @@ const Projects = () => {
       heading: "Rental Next-App",
       text: "Rental Homes for everyone, we can search and find easily the information about any Hotels.",
       href: "https://rentall.vercel.app/",
+      github: "https://github.com/sarry7045/Rental",
     },
     {
       id: 3,
@@ -40,6 +42,7 @@ const Projects = () => {
       heading: "Gym-Holic",
       text: "We can search any types of workouts with some good quality videos.",
       href: "https://gymholic.netlify.app/",
+      github: "https://github.com/sarry7045/Gymholic",
     },
 
     {
@@ -48,6 +51,7 @@ const Projects = () => {
       heading: "Login Registration Form",
       text: "In this Project i created one basic Registraion and Login Form (Only Frontend Part Done).",
       href: "https://mern-client-side.netlify.app/",
+      github: "https://github.com/sarry7045/MERN-Client-Side",
     },
 
     {
@@ -56,6 +60,7 @@ const Projects = () => {
       heading: "Quiz-App",
       text: "Multiple Choice Questions, we have to choose right answers, and at the end it will show final Results.",
       href: "https://quizzzzzz-app.netlify.app/",
+      github: "https://github.com/sarry7045/Quiz-App",
     },
     {
       id: 6,
@@ -63,6 +68,7 @@ const Projects = () => {
       heading: "Multi-Step Form",
       text: "In this Project i Created Multistep Form Using Formik and Some Functionality.",
       href: "https://multistepp-form.netlify.app/",
+      github: "https://github.com/sarry7045/Multi-Step-Form",
     },
     {
       id: 7,
@@ -70,6 +76,7 @@ const Projects = () => {
       heading: "Video Chat App",
       text: "In this Project i created one Video Chat app using Socket.IO and Material-UI.",
       href: "https://videeo-chatt-app.netlify.app/",
+      github: "https://github.com/sarry7045/Video-Chat-App",
     },
 
     {
@@ -78,6 +85,7 @@ const Projects = () => {
       heading: "Expense Tracker",
       text: "In this Project i created one Basic Expense Calculater Using Material UI",
       href: "https://expense-trracker.netlify.app/",
+      github: "https://github.com/sarry7045/Expense-Tracker",
     },
     {
       id: 9,
@@ -85,6 +93,7 @@ const Projects = () => {
       heading: "React Add-To-Cart",
       text: "In this Project i created one Add to Cart aap With Some Funcationality.",
       href: "https://shoppingg-caart.netlify.app/",
+      github: "https://github.com/sarry7045/Shopping-Cart",
     },
     {
       id: 10,
@@ -92,6 +101,7 @@ const Projects = () => {
       heading: "Weather App",
       text: "In this Project i created one Weather Checking app using Weather API.",
       href: "https://react-weatther-app.netlify.app/",
+      github: "https://github.com/sarry7045/Weather-App",
     },
 
     {
@@ -100,6 +110,7 @@ const Projects = () => {
       heading: "Programing News",
       text: "In this Project i Created one basic News Website for Programming things.",
       href: "https://programming-news.netlify.app/",
+      github: "https://github.com/sarry7045/ReactJs-News-Blog",
     },
     {
       id: 12,
@@ -107,6 +118,7 @@ const Projects = () => {
       heading: "Text Converter",
       text: "In this Project i developed one text converter with some functionality using Javascript Logic.",
       href: "https://textz-converter.netlify.app/",
+      github: "https://github.com/sarry7045/Text-Transform",
     },
     {
       id: 13,
@@ -114,6 +126,7 @@ const Projects = () => {
       heading: "React Todo-List",
       text: "In this Project i created one basic Todo-List using Bootstrap and Some Javascript Logic.",
       href: "https://basic-reactt-todo-list.netlify.app/",
+      github: "https://github.com/sarry7045/React-Todo-List",
     },
 
     {
@@ -122,8 +135,12 @@ const Projects = () => {
       heading: "React Restaurant Web",
       text: "In this Project i created one Restaurant type Website with some categories.",
       href: "https://surajreactrestaurant.netlify.app/",
+      github: "https://github.com/sarry7045/Suraj-React-Resturant",
     },
   ]);
+
+  const windowWidth = window.innerWidth;
+
   return (
     <>
       <Helmet>
@@ -162,11 +179,7 @@ const Projects = () => {
                     Programming Languages.{" "}
                   </div>
                 </div>
-                <motion.div
-                  whileHover={{
-                    scale: 1.1,
-                    originX: 0,
-                  }}
+                <div
                   transition={{ type: "spring", stiffness: 1000 }}
                   style={{ margin: "2.5rem 0 4rem 2rem" }}
                   className="mainbuttons"
@@ -175,13 +188,26 @@ const Projects = () => {
                     href={apk}
                     download="EduVert"
                     // target="_blank"
-                    className="btn btn-outline"
+                    className="btn project-btn-outline"
                     rel="noreferrer"
                     title="EduVert"
                   >
                     Download APK
                   </a>
-                </motion.div>
+
+                  {windowWidth > 765 ? (
+                    <a
+                      href="https://github.com/sarry7045/Educational-App"
+                      target="_blank"
+                      className="btn project-btn-outline"
+                      rel="noreferrer"
+                      title="View Project"
+                      style={{ marginLeft: "1rem" }}
+                    >
+                      View GitHub
+                    </a>
+                  ) : null}
+                </div>
               </Zoom>
             </motion.div>
             {state.map((info) => (
@@ -197,11 +223,7 @@ const Projects = () => {
                     <div className="projects__box-header">{info.heading}</div>
                     <div>{info.text}</div>
                   </div>
-                  <motion.div
-                    whileHover={{
-                      scale: 1.1,
-                      originX: 0,
-                    }}
+                  <div
                     transition={{ type: "spring", stiffness: 1000 }}
                     style={{ margin: "2.5rem 0 4rem 2rem" }}
                     className="mainbuttons"
@@ -209,13 +231,25 @@ const Projects = () => {
                     <a
                       href={info.href}
                       target="_blank"
-                      className="btn btn-outline"
+                      className="btn project-btn-outline"
                       rel="noreferrer"
                       title="View Project"
                     >
                       View Project
                     </a>
-                  </motion.div>
+                    {windowWidth > 765 ? (
+                      <a
+                        href={info.github}
+                        target="_blank"
+                        className="btn project-btn-outline"
+                        rel="noreferrer"
+                        title="View Project"
+                        style={{ marginLeft: "1rem" }}
+                      >
+                        View GitHub
+                      </a>
+                    ) : null}
+                  </div>
                 </Zoom>
               </motion.div>
             ))}
