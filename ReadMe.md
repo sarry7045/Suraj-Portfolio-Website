@@ -16,7 +16,7 @@ Key feature of my Portfolio Website include:
 - **About me** <br>
   <img src="/public/Images/Home.png" width="45%" alt="Home"> <br> <br>
 - **Skills** <br>
-  <img src="/public/Images/Skills.png" width="45%" alt="Skills"> <br> <br>
+  <img src="/public/Images/Skils.png" width="45%" alt="Skills"> <br> <br>
 - **Projects** <br>
   <img src="/public/Images/Projects.png" width="45%" alt="Projects"> <br> <br>
 - **Experience** <br>
