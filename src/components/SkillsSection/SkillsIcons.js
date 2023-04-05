@@ -7,27 +7,16 @@ export const Icons = [
 
   {
     id: 2,
-    name: "TypeScript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  },
-
-  {
-    id: 3,
-    name: "React",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-
-  {
-    id: 4,
     name: "Redux",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
   },
 
   {
-    id: 5,
-    name: "NodeJS",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    id: 3,
+    name: "ReactJs",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
+
   {
     id: 6,
     name: "MUI",
@@ -35,9 +24,21 @@ export const Icons = [
   },
 
   {
-    id: 7,
-    name: "SASS",
+    id: 5,
+    name: "NextJs",
+    src: "https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp",
+  },
+
+  {
+    id: 2,
+    name: "Sass",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+  },
+
+  {
+    id: 7,
+    name: "TypeScript",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
 
   {
