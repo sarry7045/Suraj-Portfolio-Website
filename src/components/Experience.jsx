@@ -66,7 +66,7 @@ const Experience = () => {
       title: "Company Website:",
       text: (
         <>
-        <a
+        {/* <a
           style={{ color: "white", textDecoration: "none" }}
           href="https://www.phonepe.com/"
           target="_blank"
@@ -75,7 +75,7 @@ const Experience = () => {
         >
           www.phonepe.com
           </a>
-          <br/>
+          <br/> */}
         <a
           style={{ color: "white", textDecoration: "none" }}
           href="https://wealthdesk.in/"
@@ -127,7 +127,7 @@ const Experience = () => {
                 className="col-6"
               >
                 <div className="Experience_info">
-                  <h1>PhonePe-WealthDesk</h1>
+                  <h1>WealthDesk</h1>
                   <div className="Experience-commonBorder"></div>
                   <div
                     className="Experience__info"
