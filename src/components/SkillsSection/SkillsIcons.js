@@ -43,8 +43,8 @@ export const Icons = [
 
   {
     id: 8,
-    name: "Bootstrap",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    name: "NodeJs",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
 
   {

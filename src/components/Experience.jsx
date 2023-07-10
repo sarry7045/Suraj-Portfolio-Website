@@ -66,7 +66,7 @@ const Experience = () => {
       title: "Company Website:",
       text: (
         <>
-        {/* <a
+          {/* <a
           style={{ color: "white", textDecoration: "none" }}
           href="https://www.phonepe.com/"
           target="_blank"
@@ -76,16 +76,16 @@ const Experience = () => {
           www.phonepe.com
           </a>
           <br/> */}
-        <a
-          style={{ color: "white", textDecoration: "none" }}
-          href="https://wealthdesk.in/"
-          target="_blank"
-          rel="noreferrer"
-          title="WealthDesk"
-        >
-          www.wealthdesk.in
+          <a
+            style={{ color: "white", textDecoration: "none" }}
+            href="https://wealthdesk.in/"
+            target="_blank"
+            rel="noreferrer"
+            title="WealthDesk"
+          >
+            www.wealthdesk.in
           </a>
-          </>
+        </>
       ),
     },
     { id: 2, title: "Role:", text: "Front-End Developer" },
@@ -139,9 +139,8 @@ const Experience = () => {
                     className="Experience__info2"
                     style={{ fontSize: "1rem" }}
                   >
-                    Working on Integrating API’s and all the Frontend part of
-                    WealthBasket's (ETF Portfolios from Experts) and EWG
-                    (Embedded WealthDesk Gateway).
+                    Working on EWG (Embedded WealthDesk Gateway) Broker Auth
+                    Integration , Broker Order Placement, Customer Queries.
                   </div>
                   <div
                     className="Experience__info2"

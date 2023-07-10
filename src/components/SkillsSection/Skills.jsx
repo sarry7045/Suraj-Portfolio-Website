@@ -4,7 +4,7 @@ import { Icons } from "./SkillsIcons";
 import SkillsComponent from "./SkilsComponent";
 import Helmet from "react-helmet";
 import ReactNative from "../../Assets/ReactNative.svg";
-import FramerMotion from "../../Assets/FramerMotion.svg";
+import TestingLibrary from "../../Assets/testing-library.svg";
 import "../css/Skill.css";
 import { Zoom } from "react-reveal";
 
@@ -163,7 +163,7 @@ const Skils = () => {
                       name={"Native"}
                       src={ReactNative}
                     />
-                    <SkillsComponent key={12} name={"FM"} src={FramerMotion} />
+                    <SkillsComponent key={12} name={"Testing"} src={TestingLibrary} />
                   </Box>
                 </StackBox>
               </CustomBox>

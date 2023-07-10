@@ -49,7 +49,7 @@ const AboutMe = () => {
     },
     {
       id: 5,
-      link: "mailto: sarry7045@gmail.com",
+      link: "mailto: surajyadav112820@gmail.com",
       title: "Mail",
       icon: <AiFillMail className="headerIcon" style={{ color: "#FFF" }} />,
     },
