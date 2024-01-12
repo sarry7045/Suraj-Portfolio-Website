@@ -163,7 +163,7 @@ const Skils = () => {
                       name={"Native"}
                       src={ReactNative}
                     />
-                    <SkillsComponent key={12} name={"Testing"} src={TestingLibrary} />
+                    <SkillsComponent key={12} name={"Docker"} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
                   </Box>
                 </StackBox>
               </CustomBox>
