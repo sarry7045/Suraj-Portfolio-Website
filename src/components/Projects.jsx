@@ -15,7 +15,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
-import apk from "../Components/Assets//EduVert.apk";
+import apk from "../components/Assets//EduVert.apk";
 import "./CSS/Projects.css";
 
 const Projects = () => {

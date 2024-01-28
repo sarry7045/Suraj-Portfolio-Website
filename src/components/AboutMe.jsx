@@ -7,11 +7,11 @@ import {
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Helmet from "react-helmet";
-import pdf from "../Components/Assets/SurajYadav.pdf";
+import pdf from "../components/Assets/SurajYadav.pdf";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Zoom } from "react-reveal";
-import Avatar from "../Components/Assets/Avatar.png";
+import Avatar from "../components/Assets/Avatar.png";
 import "./CSS/AboutMe.css"
 
 const AboutMe = () => {

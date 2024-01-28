@@ -8,7 +8,7 @@ import {
 import { AiFillMail } from "react-icons/ai";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
-import Avatar from "../Components/Assets/Avatar.png";
+import Avatar from "../components/Assets/Avatar.png";
 import "./CSS/Contact.css";
 
 const Contact = () => {

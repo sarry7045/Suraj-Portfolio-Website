@@ -2,7 +2,7 @@ import React from "react";
 import { styled, Box, Typography } from "@mui/material";
 import SkillsComponent from "./SkilsComponent";
 import Helmet from "react-helmet";
-import ReactNative from "../Components/Assets/ReactNative.svg";
+import ReactNative from "../components/Assets/ReactNative.svg";
 import { Zoom } from "react-reveal";
 import "./CSS/Skill.css"
 
