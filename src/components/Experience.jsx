@@ -1,7 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
-import "./css/Experience.css";
+import "./CSS/Experience.css";
+
 const Experience = () => {
   const [state] = React.useState([
     {
@@ -66,16 +67,6 @@ const Experience = () => {
       title: "Company Website:",
       text: (
         <>
-          {/* <a
-          style={{ color: "white", textDecoration: "none" }}
-          href="https://www.phonepe.com/"
-          target="_blank"
-          rel="noreferrer"
-          title="PhonePe"
-        >
-          www.phonepe.com
-          </a>
-          <br/> */}
           <a
             style={{ color: "white", textDecoration: "none" }}
             href="https://wealthdesk.in/"

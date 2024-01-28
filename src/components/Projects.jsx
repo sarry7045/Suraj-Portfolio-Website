@@ -15,10 +15,11 @@ import { FaShoppingCart } from "react-icons/fa";
 import Zoom from "react-reveal/Zoom";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
-import apk from "../Assets/EduVert.apk";
-import "./css/Projects.css";
+import apk from "../Components/Assets//EduVert.apk";
+import "./CSS/Projects.css";
 
 const Projects = () => {
+
   const [state] = React.useState([
     {
       id: 1,
