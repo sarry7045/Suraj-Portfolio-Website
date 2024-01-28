@@ -9,7 +9,7 @@ import { AiFillMail } from "react-icons/ai";
 import Helmet from "react-helmet";
 import { motion } from "framer-motion";
 import Avatar from "../components/Assets/Avatar.png";
-import "./CSS/Contact.css";
+import "./css/Contact.css";
 
 const Contact = () => {
   const [state] = React.useState([

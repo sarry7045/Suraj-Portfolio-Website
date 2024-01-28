@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import "./components/CSS/App.css";
+import "./components/css/App.css";
 
 function App() {
   return (

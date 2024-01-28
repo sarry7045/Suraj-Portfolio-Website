@@ -4,7 +4,7 @@ import SkillsComponent from "./SkilsComponent";
 import Helmet from "react-helmet";
 import ReactNative from "../components/Assets/ReactNative.svg";
 import { Zoom } from "react-reveal";
-import "./CSS/Skill.css"
+import "./css/Skill.css"
 
 const Icons = [
   {

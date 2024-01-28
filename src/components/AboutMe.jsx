@@ -12,7 +12,7 @@ import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Zoom } from "react-reveal";
 import Avatar from "../components/Assets/Avatar.png";
-import "./CSS/AboutMe.css"
+import "./css/AboutMe.css"
 
 const AboutMe = () => {
   const [state] = useState({
