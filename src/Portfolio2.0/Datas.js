@@ -16,7 +16,7 @@ export const Bio = {
     "Frontend Developer with 3+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc. I am dedicated to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
-    "https://drive.google.com/file/d/1htq0uAy1Cpv5bDZsoK4B8JD7ZTHuTib9/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Uvx5nSHyb1ir5HzoiAQ_EdRX-z3to4cd/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suraj-yadav-01752b222/",
   insta: "https://www.instagram.com/suraj.28_11/",
   facebook: "https://www.facebook.com/profile.php?id=100010635822203",

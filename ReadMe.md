@@ -13,19 +13,18 @@ Key feature of my Portfolio Website include:
 ## Screenshots 🖼
 
 - **About me** <br>
-  <img src="/public/ReadMeImages/Home.png" width="45%" alt="Home"> <br> <br>
+  <img src="/public/ReadMeImages/P2Home.PNG" width="45%" alt="Home"> <br> <br>
 - **Skills** <br>
-  <img src="/public/ReadMeImages/Skils.png" width="45%" alt="Skills"> <br> <br>
+  <img src="/public/ReadMeImages/P2Skills.PNG" width="45%" alt="Skills"> <br> <br>
 - **Projects** <br>
-  <img src="/public/ReadMeImages/Projects.png" width="45%" alt="Projects"> <br> <br>
+  <img src="/public/ReadMeImages/P2Projects.PNG" width="45%" alt="Projects"> <br> <br>
 - **Experience** <br>
-  <img src="/public/ReadMeImages/Experience.png" width="45%" alt="Experience"> <br> <br>
+  <img src="/public/ReadMeImages/P2Experiences.PNG" width="45%" alt="Experience"> <br> <br>
+  - **Achievements** <br>
+  <img src="/public/ReadMeImages/P2Achievements.PNG" width="45%" alt="Experience"> <br> <br>
 - **Contact** <br>
-  <img src="/public/ReadMeImages/Contact.png" width="45%" alt="Contact"> <br> <br>
+  <img src="/public/ReadMeImages/P2Contact.PNG" width="45%" alt="Contact"> <br> <br>
 
-## ToDo
-
-- [ ] Working on Navbar and Experience Section UI Improvement.
 
 ## Acknowledgements 🙏
 
