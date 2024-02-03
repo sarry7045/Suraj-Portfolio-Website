@@ -53,7 +53,6 @@ const Contact = () => {
   ];
 
   const windowWidth = window.innerWidth;
-  console.log("windowHeight", windowWidth);
 
   return (
     <>
