@@ -16,7 +16,7 @@ export const Bio = {
     "Frontend Developer with 3+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc. I am dedicated to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
-    "https://drive.google.com/file/d/1Uvx5nSHyb1ir5HzoiAQ_EdRX-z3to4cd/view?usp=drive_link",
+    "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suraj-yadav-01752b222/",
   insta: "https://www.instagram.com/suraj.28_11/",
   facebook: "https://www.facebook.com/profile.php?id=100010635822203",
@@ -54,6 +54,11 @@ export const skills = [
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
+        name: "React Testing Library",
+        image:
+          "https://res.cloudinary.com/dg3gyk0gu/image/upload/v1700500148/tags/testing-library.png",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -76,6 +81,11 @@ export const skills = [
         name: "Tailwind CSS",
         image:
           "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
+      },
+      {
+        name: "ANTD",
+        image:
+          "https://camo.githubusercontent.com/70ec62b59182d7ecbc34f6cfe6f043d6ca17b133c398871ef1cdab0fa4d1e424/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f7a6f732f726d73706f7274616c2f4b4470677667754d704766716148506a6963524b2e737667",
       },
       {
         name: "React i18Next",
@@ -163,6 +173,11 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "BitBucket",
+        image:
+          "https://w7.pngwing.com/pngs/404/31/png-transparent-bitbucket-icon-hd-logo.png",
+      },
+      {
         name: "Stripe",
         image:
           "https://a.slack-edge.com/2a8628a/img/plugins/stripe/service_512.png",
@@ -194,7 +209,7 @@ export const skills = [
       {
         name: "Adobe XD",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://w7.pngwing.com/pngs/403/458/png-transparent-adobe-xd-hd-logo.png",
       },
       {
         name: "Figma",
