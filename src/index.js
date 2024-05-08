@@ -1,7 +1,7 @@
 import React, { Profiler } from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App";
-import Portfolio2 from "./Portfolio2.0/Portfolio2.0.js";
+import Portfolio2 from "./Portfolio2.0/Portfolio2.0";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
