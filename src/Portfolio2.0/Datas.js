@@ -1,5 +1,6 @@
 import ShiningStar from "./Assets/ShiningStar.jpeg";
 import Appreciation from "./Assets/Appreciation.jpg";
+import GenerativeAI from "./Assets/Generative-AI.jpg";
 import Shopmart from "./Assets/ShopMart.png";
 import Rental from "./Assets/Rental.png";
 import GymHolic from "./Assets/GymHolic.png";
@@ -455,7 +456,7 @@ export const achievements = [
     id: 1,
     title: "Appreciation Letter (NUIT Solution)",
     description:
-      "Introducing 'WeatherNow,' a simple and reliable weather application designed to provide users with real-time weather updates and forecasts at their fingertips. WeatherNow is a user-friendly solution that makes staying informed about the weather conditions effortless and enjoyable.",
+      "",
     image: Appreciation,
     webapp: "https://drive.google.com/file/d/157L_ejvhV85tyc9IqikIh8qlh6k7z3gO/view?usp=drive_link",
   },
@@ -463,8 +464,17 @@ export const achievements = [
     id: 2,
     title: "Shining Star (Saama)",
     description:
-      "Introducing 'WeatherNow,' a simple and reliable weather application designed to provide users with real-time weather updates and forecasts at their fingertips. WeatherNow is a user-friendly solution that makes staying informed about the weather conditions effortless and enjoyable.",
+      "",
     image: ShiningStar,
     webapp: "https://drive.google.com/file/d/1rlrofKTW0dxcqy8P_JWHRxK7y6LnDD-e/view?usp=drive_link",
   },
+  {
+    id: 3,
+    title: "Generative AI (Saama)",
+    description:
+      "",
+    image: GenerativeAI,
+    webapp: "https://drive.google.com/file/d/1y3Wi6BC6iG143v63gPdcaw5_GO_Q-Rkt/view?usp=drive_link",
+  },
+  
 ];

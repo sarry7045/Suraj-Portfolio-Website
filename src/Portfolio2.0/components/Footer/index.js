@@ -115,7 +115,7 @@ function Footer() {
             <FacebookIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Suraj Yadav. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Suraj Yadav. All Rights Reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
