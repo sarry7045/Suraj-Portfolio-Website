@@ -1,6 +1,7 @@
 import ShiningStar from "./Assets/ShiningStar.jpeg";
 import Appreciation from "./Assets/Appreciation.jpg";
 import GenerativeAI from "./Assets/Generative-AI.jpg";
+import Hackathon from "./Assets/Hackathon.jpeg";
 import Shopmart from "./Assets/ShopMart.png";
 import Rental from "./Assets/Rental.png";
 import GymHolic from "./Assets/GymHolic.png";
@@ -475,6 +476,14 @@ export const achievements = [
       "",
     image: GenerativeAI,
     webapp: "https://drive.google.com/file/d/1y3Wi6BC6iG143v63gPdcaw5_GO_Q-Rkt/view?usp=drive_link",
+  },
+  {
+    id: 4,
+    title: "Hackathon 2024",
+    description:
+      "",
+    image: Hackathon,
+    webapp: "https://drive.google.com/file/d/1z0q_5ifPMIiQd3-WCO4oz-wlYEomnMc2/view?usp=drive_link",
   },
   
 ];
