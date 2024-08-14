@@ -15,7 +15,7 @@ export const Bio = {
   name: "Suraj Yadav",
   roles: ["Full Stack Developer", "Android Developer", "SEO Expert"],
   description:
-    "Frontend Developer with 3+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc. I am dedicated to delivering high-quality results and make a meaningful contribution and achieve great things.",
+    "Software Engineer with 3+ Years of Professional Experience in Software Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc.. I am dedicated to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
     "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=drive_link",

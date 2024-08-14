@@ -17,7 +17,7 @@ import "./css/AboutMe.css"
 const AboutMe = () => {
   const [state] = useState({
     title: "Suraj Anil Yadav",
-    text: "Frontend Developer with 3+ Years of Professional Experience in User Interface Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc.",
+    text: "Software Engineer with 3+ Years of Professional Experience in Software Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc.",
     textt: "Also Learning: React Native, NodeJs",
   });
   const fastState = useDeferredValue(state);
