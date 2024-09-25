@@ -2,6 +2,7 @@ import ShiningStar from "./Assets/ShiningStar.jpeg";
 import Appreciation from "./Assets/Appreciation.jpg";
 import GenerativeAI from "./Assets/Generative-AI.jpg";
 import Hackathon from "./Assets/Hackathon.jpeg";
+import Clothifyy from "./Assets/Clothify.jpg";
 import Shopmart from "./Assets/ShopMart.png";
 import Rental from "./Assets/Rental.png";
 import GymHolic from "./Assets/GymHolic.png";
@@ -10,12 +11,13 @@ import ExpenseMate from "./Assets/ExpenseMate.png";
 import Quizy from "./Assets/Quizy.png";
 import ConnectNow from "./Assets/ConnectNow.png";
 import WeatherNow from "./Assets/WeatherNow.png";
+import Clothify from "./Assets/Clothify.png";
 
 export const Bio = {
   name: "Suraj Yadav",
   roles: ["Full Stack Developer", "Android Developer", "SEO Expert"],
   description:
-    "Software Engineer with 3+ Years of Professional Experience in Software Development with hands on Experience in JavaScript, TypeScript, React, NextJs, Redux etc.. I am dedicated to delivering high-quality results and make a meaningful contribution and achieve great things.",
+    "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript, TypeScript, ReactJs, NextJs, Redux etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
     "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=drive_link",
@@ -87,7 +89,7 @@ export const skills = [
       {
         name: "ANTD",
         image:
-          "https://camo.githubusercontent.com/70ec62b59182d7ecbc34f6cfe6f043d6ca17b133c398871ef1cdab0fa4d1e424/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f7a6f732f726d73706f7274616c2f4b4470677667754d704766716148506a6963524b2e737667",
+          "https://static-00.iconduck.com/assets.00/ant-design-icon-2048x2046-dl3neb73.png",
       },
       {
         name: "React i18Next",
@@ -133,6 +135,10 @@ export const skills = [
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "GraphQL",
+        image: "https://p7.hiclipart.com/preview/292/912/891/graphql-query-language-representational-state-transfer-application-programming-interface-github.jpg",
       },
     ],
   },
@@ -371,6 +377,26 @@ export const projects = [
     webapp: "https://gymholic.netlify.app/",
   },
   {
+    id: 5,
+    title: "Clothify",
+    date: "",
+    description:
+      "Introducing 'Clothify,' a dynamic and user-friendly shopping web application designed to the online shopping experience. Clothify seamlessly blends cutting-edge technology with an intuitive interface to offer users a personalized and efficient way to discover, explore, and purchase and pay their favorite products.",
+    image: Clothify,
+    tags: [
+      "JavaScript",
+      "React Js",
+      "Context API",
+      "HTML, CSS",
+      "GraphQL",
+      "Stripe",
+      "FireBase",
+    ],
+    category: "web app",
+    github: "https://github.com/sarry7045/Clothify",
+    webapp: "https://clothifyshopping.netlify.app/",
+  },
+  {
     id: 1,
     title: "LearnHub",
     date: "",
@@ -463,6 +489,14 @@ export const achievements = [
   },
   {
     id: 2,
+    title: "Hackathon 2024",
+    description:
+      "",
+    image: Hackathon,
+    webapp: "https://drive.google.com/file/d/1z0q_5ifPMIiQd3-WCO4oz-wlYEomnMc2/view?usp=drive_link",
+  },
+  {
+    id: 3,
     title: "Shining Star (Saama)",
     description:
       "",
@@ -470,20 +504,21 @@ export const achievements = [
     webapp: "https://drive.google.com/file/d/1rlrofKTW0dxcqy8P_JWHRxK7y6LnDD-e/view?usp=drive_link",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Advance ReactJs (Udemy)",
+    description:
+      "",
+    image: Clothifyy,
+    webapp: "https://drive.google.com/file/d/1tIVobJGNrLt1cUCGmCsWB4VvGJ5-bour/view?usp=drive_link",
+  },
+  {
+    id: 5,
     title: "Generative AI (Saama)",
     description:
       "",
     image: GenerativeAI,
     webapp: "https://drive.google.com/file/d/1y3Wi6BC6iG143v63gPdcaw5_GO_Q-Rkt/view?usp=drive_link",
   },
-  {
-    id: 4,
-    title: "Hackathon 2024",
-    description:
-      "",
-    image: Hackathon,
-    webapp: "https://drive.google.com/file/d/1z0q_5ifPMIiQd3-WCO4oz-wlYEomnMc2/view?usp=drive_link",
-  },
   
+
 ];
