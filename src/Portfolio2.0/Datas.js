@@ -1,4 +1,5 @@
 import ShiningStar from "./Assets/ShiningStar.jpeg";
+import SaamaOneYear from "./Assets/One_Year_Saama.jpeg";
 import Appreciation from "./Assets/Appreciation.jpg";
 import GenerativeAI from "./Assets/Generative-AI.jpg";
 import Hackathon from "./Assets/Hackathon.jpeg";
@@ -141,6 +142,16 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "SQL",
+        image:
+          "https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png",
+      },
+      {
+        name: "Snowflake",
+        image:
+          "https://p.kindpng.com/picc/s/191-1912861_snowflake-data-warehouse-icon-hd-png-download.png",
       },
       {
         name: "Firebase",
@@ -532,20 +543,12 @@ export const achievements = [
     webapp: "https://drive.google.com/file/d/1z0q_5ifPMIiQd3-WCO4oz-wlYEomnMc2/view?usp=drive_link",
   },
   {
-    id: 2,
+    id: 3,
     title: "Python Bootcamp (100 Days)",
     description:
       "",
     image: Python,
     webapp: "https://drive.google.com/file/d/1iNvMYBhDJp5BcGXWM6s7heKydp8WzDVI/view?usp=sharing",
-  },
-  {
-    id: 3,
-    title: "Shining Star (Saama)",
-    description:
-      "",
-    image: ShiningStar,
-    webapp: "https://drive.google.com/file/d/1rlrofKTW0dxcqy8P_JWHRxK7y6LnDD-e/view?usp=drive_link",
   },
   {
     id: 4,
@@ -563,6 +566,20 @@ export const achievements = [
     image: GenerativeAI,
     webapp: "https://drive.google.com/file/d/1y3Wi6BC6iG143v63gPdcaw5_GO_Q-Rkt/view?usp=drive_link",
   },
-  
-
+  {
+    id: 6,
+    title: "Shining Star (Saama)",
+    description:
+      "",
+    image: ShiningStar,
+    webapp: "https://drive.google.com/file/d/1rlrofKTW0dxcqy8P_JWHRxK7y6LnDD-e/view?usp=drive_link",
+  },
+  {
+    id: 7,
+    title: "Saama One Year Appreciation",
+    description:
+      "",
+    image: SaamaOneYear,
+    webapp: "https://drive.google.com/file/d/1qCoiRvKqGZTvDnY_x3FDekxmm4eUWsH2/view?usp=sharing",
+  },
 ];
