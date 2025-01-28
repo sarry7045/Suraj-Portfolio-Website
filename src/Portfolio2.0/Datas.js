@@ -14,15 +14,16 @@ import ConnectNow from "./Assets/ConnectNow.png";
 import WeatherNow from "./Assets/WeatherNow.png";
 import Clothify from "./Assets/Clothify.png";
 import Python from "./Assets/PythonCertificate.jpg";
+import Snowflake from "./Assets/Snowflake.jpg";
 
 export const Bio = {
   name: "Suraj Yadav",
   roles: ["Full Stack Developer", "Android Developer", "SEO Expert"],
   description:
-    "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript, TypeScript, ReactJs, NextJs, Redux, NodeJs, Python, AWS, etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
+    "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript with TypeScript, ReactJs, NextJs, Redux, NodeJs, Python, AWS, SQL, Snowflake etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
-    "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=drive_link",
+    "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/suraj-yadav-01752b222/",
   insta: "https://www.instagram.com/suraj.28_11/",
   facebook: "https://www.facebook.com/profile.php?id=100010635822203",
@@ -549,6 +550,14 @@ export const achievements = [
       "",
     image: Python,
     webapp: "https://drive.google.com/file/d/1iNvMYBhDJp5BcGXWM6s7heKydp8WzDVI/view?usp=sharing",
+  },
+  {
+    id: 8,
+    title: "Snowflake",
+    description:
+      "",
+    image: Snowflake,
+    webapp: "https://drive.google.com/file/d/1b6KRpAjm0oBbS8v8ntthPrsi9YhlSvQH/view?usp=sharing",
   },
   {
     id: 4,

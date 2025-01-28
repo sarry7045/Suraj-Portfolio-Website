@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92bd2708.chunk.css",
+    "main.js": "/static/js/main.ba08dbf7.chunk.js",
+    "main.js.map": "/static/js/main.ba08dbf7.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.c22e6394.chunk.js": "/static/js/2.c22e6394.chunk.js",
+    "static/js/2.c22e6394.chunk.js.map": "/static/js/2.c22e6394.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c531c21dfd9b9dd1deb6c637abab6bdd.js": "/precache-manifest.c531c21dfd9b9dd1deb6c637abab6bdd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.92bd2708.chunk.css.map": "/static/css/main.92bd2708.chunk.css.map",
+    "static/media/Appreciation.jpg": "/static/media/Appreciation.f5118cbe.jpg",
+    "static/media/Avatar.png": "/static/media/Avatar.f7be0c4b.png",
+    "static/media/Clothify.jpg": "/static/media/Clothify.056e4b2e.jpg",
+    "static/media/Clothify.png": "/static/media/Clothify.34186d6c.png",
+    "static/media/ConnectNow.png": "/static/media/ConnectNow.48c5a4f3.png",
+    "static/media/ExpenseMate.png": "/static/media/ExpenseMate.9732000b.png",
+    "static/media/Generative-AI.jpg": "/static/media/Generative-AI.689b2277.jpg",
+    "static/media/GymHolic.png": "/static/media/GymHolic.c8499bc0.png",
+    "static/media/Hackathon.jpeg": "/static/media/Hackathon.0f94dd5f.jpeg",
+    "static/media/LearnHub.jpeg": "/static/media/LearnHub.f164945d.jpeg",
+    "static/media/One_Year_Saama.jpeg": "/static/media/One_Year_Saama.583f1fee.jpeg",
+    "static/media/PythonCertificate.jpg": "/static/media/PythonCertificate.d6b66e5c.jpg",
+    "static/media/Quizy.png": "/static/media/Quizy.5310ecfb.png",
+    "static/media/Rental.png": "/static/media/Rental.4659b465.png",
+    "static/media/ShiningStar.jpeg": "/static/media/ShiningStar.f62ad714.jpeg",
+    "static/media/ShopMart.png": "/static/media/ShopMart.44bf521c.png",
+    "static/media/Snowflake.jpg": "/static/media/Snowflake.dc72d2f5.jpg",
+    "static/media/WeatherNow.png": "/static/media/WeatherNow.beaa9b66.png"
+  }
+}
