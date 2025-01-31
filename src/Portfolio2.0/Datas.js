@@ -18,7 +18,7 @@ import Snowflake from "./Assets/Snowflake.jpg";
 
 export const Bio = {
   name: "Suraj Yadav",
-  roles: ["Full Stack Developer", "Android Developer", "SEO Expert"],
+  roles: ["Software Engineer", "Android Developer"],
   description:
     "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript with TypeScript, ReactJs, NextJs, Redux, NodeJs, Python, AWS, SQL, Snowflake etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
