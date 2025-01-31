@@ -20,7 +20,7 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="projects">
       <Helmet>
-        <title>Suraj Yadav | Software Development | SEO Expert</title>
+        <title>Suraj Yadav | Fullstack Software Engineer</title>
 
         <meta
           name="description"

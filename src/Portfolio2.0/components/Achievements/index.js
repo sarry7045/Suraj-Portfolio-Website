@@ -26,7 +26,7 @@ const Achievements = () => {
   return (
     <Container id="achievements">
       <Helmet>
-        <title>Suraj Yadav | Software Development | SEO Expert</title>
+        <title>Suraj Yadav | Fullstack Software Engineer</title>
         <meta name="description" content="Achievements" />
         <meta
           name="keywords"
