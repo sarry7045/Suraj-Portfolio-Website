@@ -15,6 +15,7 @@ import WeatherNow from "./Assets/WeatherNow.png";
 import Clothify from "./Assets/Clothify.png";
 import Python from "./Assets/PythonCertificate.jpg";
 import Snowflake from "./Assets/Snowflake.jpg";
+import TechBoy from "./Assets/TechBoy.png";
 
 export const Bio = {
   name: "Suraj Yadav",
@@ -157,6 +158,14 @@ export const skills = [
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "NGINX",
+        image: "https://www.svgrepo.com/show/373924/nginx.svg",
+      },
+      {
+        name: "Web Socket",
+        image: "https://iotbytes.wordpress.com/wp-content/uploads/2017/01/websocket-logo.png",
       },
       // {
       //   name: "GraphQL",
@@ -369,6 +378,25 @@ export const experiences = [
 // ];
 
 export const projects = [
+  {
+    id: 6,
+    title: "TechBoy",
+    date: "",
+    description:
+      "Introducing 'TechBoy,' Uncover the secrets of coding, tech innovations, and industry breakthroughs. Stay curious, stay ahead—dive into the future of technology with us!.",
+    image: TechBoy,
+    tags: [
+      "TypeScript",
+      "React Js",
+      "Redux",
+      "Framer Motion",
+      "TailWind",
+      "NodeJS",
+    ],
+    category: "web app",
+    github: "https://github.com/sarry7045/Tech-Boy",
+    webapp: "https://dev.techboy.in/",
+  },
   {
     id: 11,
     title: "ShopMart",
