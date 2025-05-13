@@ -22,7 +22,7 @@ const HeroSection = () => {
   return (
     <div id="about">
       <Helmet>
-        <title>Suraj Yadav | Fullstack Software Engineer</title>
+        <title>Suraj Yadav | Fullstack Software Engineer | AI Engineer</title>
         <meta
           name="description"
           content="I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO."

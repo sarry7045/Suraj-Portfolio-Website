@@ -16,12 +16,13 @@ import Clothify from "./Assets/Clothify.png";
 import Python from "./Assets/PythonCertificate.jpg";
 import Snowflake from "./Assets/Snowflake.jpg";
 import TechBoy from "./Assets/TechBoy.png";
+import GenAI from "./Assets/GenAI_Cohort.png";
 
 export const Bio = {
   name: "Suraj Yadav",
-  roles: ["Software Engineer", "Android Developer"],
+  roles: ["Software Engineer", "AI Engineer"],
   description:
-    "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript with TypeScript, ReactJs, NextJs, Redux, NodeJs, Python, AWS, SQL, Snowflake etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
+    "Software Engineer with over 4 Years of Professional Experience in Software Development, Specializing in JavaScript with TypeScript, ReactJs, NextJs, Redux, NodeJs, Python, AWS, SQL, Snowflake, GenAI etc. Committed to delivering high-quality results and make a meaningful contribution and achieve great things.",
   github: "https://github.com/sarry7045",
   resume:
     "https://drive.google.com/file/d/1lTGhu6ZxyN6HkE2OnKQSztQtrOwpHUqc/view?usp=sharing",
@@ -141,6 +142,10 @@ export const skills = [
         image: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
       },
       {
+        name: "FastAPI",
+        image: "https://avatars.githubusercontent.com/u/156354296?s=280&v=4",
+      },
+      {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
@@ -171,9 +176,60 @@ export const skills = [
       //   name: "GraphQL",
       //   image: "https://p7.hiclipart.com/preview/292/912/891/graphql-query-language-representational-state-transfer-application-programming-interface-github.jpg",
       // },
+      // {
+      //   name: "Gen AI",
+      //   image: "https://img.freepik.com/premium-vector/black-white-ai-app-icon_1015334-244.jpg",
+      // },
+      
+    ],
+  },
+  {
+    title: "GenAI",
+    skills: [
       {
-        name: "Gen AI",
-        image: "https://img.freepik.com/premium-vector/black-white-ai-app-icon_1015334-244.jpg",
+        name: "LLM's",
+        image:
+          "https://twimlai.com/wp-content/uploads/llms_800x800.png",
+      },
+      {
+        name: "MCP Server's",
+        image:
+          "https://cdn.prod.website-files.com/647618f73e4f16d380e8eed9/67e414f6be9648cb1ca8d8e4_mcp.png",
+      },
+      {
+        name: "LangChain",
+        image:
+          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png",
+      },
+      {
+        name: "LangGraph",
+        image:
+          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png",
+      },
+{
+        name: "LangSmith",
+        image:
+          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langsmith-color.png",
+      },
+      {
+        name: "A2A",
+        image:
+          "https://companieslogo.com/img/orig/A2A.MI-ea3e20d3.png?t=1730097905",
+      },
+      {
+        name: "Qdrant",
+        image:
+          "https://avatars.githubusercontent.com/u/73504361?v=4",
+      },
+      {
+        name: "Neo4J",
+        image:
+          "https://static-00.iconduck.com/assets.00/neo4j-icon-1808x2048-22lbowan.png",
+      },
+    {
+        name: "Mem0",
+        image:
+          "https://media.licdn.com/dms/image/v2/D560BAQEKCL-NcwJ59g/company-logo_200_200/company-logo_200_200/0/1720819731793/mem0_logo?e=2147483647&v=beta&t=Fseh27rIEmtK5XbU3yOlbxOO-ufWJGqqlH-WDhMVLjU",
       },
     ],
   },
@@ -565,6 +621,14 @@ export const achievements = [
   },
   {
     id: 2,
+    title: "30 Hours GenAI Cohort",
+    description:
+      "",
+    image: GenAI,
+    webapp: "https://drive.google.com/file/d/12EElLj3vfG789YgIlKGpUaWuGQsqilBu/view?usp=sharing",
+  },
+  {
+    id: 9,
     title: "Hackathon 2024",
     description:
       "",

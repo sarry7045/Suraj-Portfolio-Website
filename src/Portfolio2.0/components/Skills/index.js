@@ -121,7 +121,7 @@ const Skills = () => {
   return (
     <Container id="skills">
       <Helmet>
-        <title>Suraj Yadav | Fullstack Software Engineer</title>
+        <title>Suraj Yadav | Fullstack Software Engineer | AI Engineer</title>
 
         <meta
           name="description"

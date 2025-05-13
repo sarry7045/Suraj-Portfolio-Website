@@ -58,7 +58,7 @@ const AboutMe = () => {
   return (
     <>
       <Helmet>
-        <title>Suraj Yadav | Fullstack Software Engineer</title>
+        <title>Suraj Yadav | Fullstack Software Engineer | AI Engineer</title>
 
         <meta
           name="description"
