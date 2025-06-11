@@ -15,6 +15,7 @@ import WeatherNow from "./Assets/WeatherNow.png";
 import Clothify from "./Assets/Clothify.png";
 import Python from "./Assets/PythonCertificate.jpg";
 import Snowflake from "./Assets/Snowflake.jpg";
+import SQL from "./Assets/SQL-Certificate.jpg";
 import TechBoy from "./Assets/TechBoy.png";
 import GenAI from "./Assets/GenAI_Cohort.png";
 
@@ -650,6 +651,14 @@ export const achievements = [
       "",
     image: Snowflake,
     webapp: "https://drive.google.com/file/d/1b6KRpAjm0oBbS8v8ntthPrsi9YhlSvQH/view?usp=sharing",
+  },
+  {
+    id: 8,
+    title: "SQL Bootcamp",
+    description:
+      "",
+    image: SQL,
+    webapp: "https://drive.google.com/file/d/1ULT1MIUCI9Pb7L2IcfNT2d7FIdlK_pH8/view?usp=sharing",
   },
   {
     id: 4,
