@@ -111,9 +111,9 @@ function Footer() {
           <SocialMediaIcon href={Bio?.insta} target="display">
             <InstagramIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio?.facebook} target="display">
+          {/* <SocialMediaIcon href={Bio?.facebook} target="display">
             <FacebookIcon />
-          </SocialMediaIcon>
+          </SocialMediaIcon> */}
         </SocialMediaIcons>
         <Copyright>&copy; 2025 Suraj Yadav. All Rights Reserved.</Copyright>
       </FooterWrapper>
