@@ -88,10 +88,10 @@ const AchievementsCards = ({ values }) => {
         style={{ textDecoration: "none" }}
       >
         <Card>
-          <Image src={values?.image} />
+          <Image src={values.image} />
           <Details>
-            <Title>{values?.title}</Title>
-            <Description>{values?.description}</Description>
+            <Title>{values.title}</Title>
+            <Description>{values.description}</Description>
           </Details>
         </Card>
       </a>

@@ -200,32 +200,32 @@ const index = ({ openModal, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
-          <Image src={project?.image} />
-          <Title>{project?.title}</Title>
-          <Date>{project?.date}</Date>
+          <Image src={project.image} />
+          <Title>{project.title}</Title>
+          <Date>{project.date}</Date>
           <Tags>
-            {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+            {project.tags && project.tags.map((tag) => (
+              <Tag key={tag}>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{project?.description}</Desc>
-          {project?.member && (
+          <Desc>{project.description}</Desc>
+          {project.member && (
             <>
               <Label>Members</Label>
               <Members>
-                {project?.member.map((member) => (
-                  <Member>
-                    <MemberImage src={member?.img} />
-                    <MemberName>{member?.name}</MemberName>
+                {project.member.map((member) => (
+                  <Member key={member.name}>
+                    <MemberImage src={member.img} />
+                    <MemberName>{member.name}</MemberName>
                     <a
-                      href={member?.github}
+                      href={member.github}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
-                      href={member?.linkedin}
+                      href={member.linkedin}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
@@ -237,10 +237,10 @@ const index = ({ openModal, setOpenModal }) => {
             </>
           )}
           <ButtonGroup>
-            <Button dull href={project?.github} target="_blank">
+            <Button dull href={project.github} target="_blank">
               View Code
             </Button>
-            <Button href={project?.webapp} target="_blank">
+            <Button href={project.webapp} target="_blank">
               View Live App
             </Button>
           </ButtonGroup>
