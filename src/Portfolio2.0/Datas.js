@@ -25,7 +25,7 @@ export const Bio = {
   name: "Suraj Yadav",
   roles: ["Software Engineer", "AI Engineer"],
   description:
-    "Software Engineer with 5 years of professional experience in developing scalable web applications and backend services. Specialized in JavaScript with Typescript, Python, React.js, Next.js, FastAPI, Node.js and Snowflake with hands-on experience in AWS, SQL and emerging technologies such as Generative AI. Driven by continuous learning and collaboration to foster innovation.",
+    "Senior Software Engineer with 6 years of experience building scalable web applications, backend services, and AI-powered solutions. Proficient in JavaScript, TypeScript, Python, FastAPI, React.js, and Node.js, with hands-on experience in AWS. Experienced in developing Generative AI solutions using LLMs, LangChain, Tool Calling, and vector databases, with a strong focus on performance and scalability.",
   github: "https://github.com/sarry7045",
   resume:
     "https://drive.google.com/file/d/1-CCUvdQ6d1PcP9Vs7O4XGeBn60YFyOPB/view?usp=sharing",
@@ -42,7 +42,7 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         name: "TypeScript",
@@ -102,7 +102,7 @@ export const skills = [
       {
         name: "ShadCN",
         image:
-          "https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png",
+          "https://avatars.githubusercontent.com/u/139895814?s=280&v=4",
       },
       // {
       //   name: "React i18Next",
@@ -342,14 +342,14 @@ export const experiences = [
     role: "Senior Software Engineer",
     company: "Saama Technologies",
     date: "July 2023 - Present",
-    desc: `● Designed and implemented multiple POCs on Retrieval-Augmented Generation (RAG) leveraging LangChain,
-vector databases, and LLMs to enhance trial data insights and knowledge retrieval.
-● Developed and deployed scalable backend APIs using FastAPI, enabling efficient data processing and seamless
-integration with ML/AI models.
-● Built and optimized frontend components with React.js and ensured smooth API integration with Node.js,
-improving user experience and system reliability.
-● Collaborated cross-functionally with stakeholders to deliver secure, compliant, and high-performance solutions for
-pharma study specifications and trial data analysis.`,
+    desc: `● Designed and developed Generative AI proof-of-concepts using Retrieval-Augmented Generation (RAG),
+LangChain, LLMs, and vector databases to improve knowledge retrieval and clinical trial data analysis.
+● Developed and deployed scalable REST APIs using Python and FastAPI, enabling efficient data processing and
+integration with AI/ML models.
+● Built and optimized responsive frontend components using React.js, integrating backend services through
+Node.js to support application performance and reliability.
+● Collaborated with cross-functional teams to develop secure, compliant, and scalable solutions for pharmaceutical
+study specifications and clinical trial workflows.`,
     skills: [
       "JavaScript",
       "TypeScript",
@@ -372,7 +372,8 @@ pharma study specifications and trial data analysis.`,
     role: "Frontend Engineer",
     company: "WealthDesk",
     date: "Aug 2022 - Jul 2023",
-    desc: "• Develop and maintain pages to match business Requirements. Worked on EWG (Embedded WealthDesk Gateway) Broker Auth Integration, Broker Order Placement, Customer Queries. Reduced API calls by 20%. Dockerized for monitoring. Also Worked on Page Optimization. ",
+    desc: `● Developed features for Embedded WealthDesk Gateway (EWG), including broker authentication, order placement, and customer query workflows.
+● Optimized API integrations, reducing API calls by 20%, and contributed to application performance improvements and Docker-based containerization.`,
     skills: [
       "JavaScript",
       "TypeScript",
@@ -406,11 +407,12 @@ pharma study specifications and trial data analysis.`,
   },
   {
     id: 3,
-    img: "https://media.licdn.com/dms/image/C510BAQGEWm0Vu9Ye7w/company-logo_200_200/0/1630613156150?e=2147483647&v=beta&t=FYD6GM8BBqkC7aH5xvoD0eQt7f5DmtYr_De2n9ywgvY",
+    img: "https://media.licdn.com/dms/image/v2/C510BAQGEWm0Vu9Ye7w/company-logo_200_200/company-logo_200_200/0/1630613156150?e=2147483647&v=beta&t=dpibKLt9hNDxQYaFHRV3oM1vdgOqtNdqZR9j5Ng7q5U",
     role: "Web Developer",
     company: "IXAR",
     date: "Sep 2020 - Sep 2021",
-    desc: "Worked as a Web Developer and build beautiful Responsive Website using HTML, CSS, ReactJs, Material-UI etc. Also Performed SEO for Website, In order to Rank them on Google Search Engine.",
+    desc: `● Developed responsive websites using HTML, CSS, React.js, and Material UI, implementing SEO improvements
+to enhance search engine visibility.`,
     skills: [
       "ReactJS",
       "HTML",
