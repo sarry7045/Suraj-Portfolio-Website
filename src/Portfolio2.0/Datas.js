@@ -25,7 +25,7 @@ export const Bio = {
   name: "Suraj Yadav",
   roles: ["Software Engineer", "AI Engineer"],
   description:
-    "Senior Software Engineer with 6 years of experience building scalable web applications, backend services, and AI-powered solutions. Proficient in JavaScript, TypeScript, Python, FastAPI, React.js, and Node.js, with hands-on experience in AWS. Experienced in developing Generative AI solutions using LLMs, LangChain, Tool Calling, and vector databases, with a strong focus on performance and scalability.",
+    "Senior Software Engineer with 6+ years of experience building scalable web applications, backend services, and AI-powered solutions. Proficient in JavaScript, TypeScript, Python, FastAPI, React.js, and Node.js, with hands-on experience in AWS. Experienced in developing Generative AI solutions using LLMs, LangChain, Tool Calling, and vector databases, with a strong focus on performance and scalability.",
   github: "https://github.com/sarry7045",
   resume:
     "https://drive.google.com/file/d/1-CCUvdQ6d1PcP9Vs7O4XGeBn60YFyOPB/view?usp=sharing",
@@ -59,6 +59,11 @@ export const skills = [
         name: "Next Js",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+      },
+      {
+        name: "TanStack",
+        image:
+          "https://tanstack.com/images/logos/splash-light.png",
       },
       {
         name: "Redux",
@@ -149,13 +154,13 @@ export const skills = [
         name: "FastAPI",
         image: "https://avatars.githubusercontent.com/u/156354296?s=280&v=4",
       },
+      // {
+      //   name: "MongoDB",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      // },
       {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "SQL",
+        name: "PostGres",
         image:
           "https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png",
       },
@@ -173,10 +178,22 @@ export const skills = [
         image: "https://www.svgrepo.com/show/373924/nginx.svg",
       },
       {
-        name: "Web Socket",
-        image:
-          "https://iotbytes.wordpress.com/wp-content/uploads/2017/01/websocket-logo.png",
+        name: "Pydantic",
+        image: "https://pydantic.dev/favicon/favicon.ico",
       },
+      {
+        name: "NumPy",
+        image: "https://img.icons8.com/color/1200/numpy.jpg",
+      },
+      {
+        name: "Pandas",
+        image: "https://img.icons8.com/color/512/pandas.png",
+      },
+      // {
+      //   name: "Web Socket",
+      //   image:
+      //     "https://iotbytes.wordpress.com/wp-content/uploads/2017/01/websocket-logo.png",
+      // },
       {
         name: "Kafka",
         image:
@@ -210,9 +227,9 @@ export const skills = [
           "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png",
       },
       {
-        name: "LangSmith",
+        name: "BedRock",
         image:
-          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langsmith-color.png",
+          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/bedrock-color.png",
       },
 
       {
